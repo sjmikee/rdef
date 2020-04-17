@@ -91,16 +91,10 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
             #resp = requests_session.get(resources_instance.url_blocked_file())
             # resp.status_code
             # resp.text
-            s = TestSession()
-            s.mount('http://github.com/about/',
-                    TestAdapter(b'github.com/about'))
-            r = s.get('http://github.com/about/')
-            r.text
-            self.send_response(r.status_code)
             # self.send_response(resp.status_code)
             # self.send_resp_headers(r)
             # self.send_resp_headers(resp)
-            self.wfile.write(r.content)
+            # self.wfile.write(r.content)
             self.finish
         except Exception as e:
             print(e)
