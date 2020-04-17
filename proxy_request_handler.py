@@ -18,10 +18,12 @@ __config__file__ = 'config.rdef'
 __working__directory__ = os.getcwd()
 resources_instance = resources.resources()
 
+
 class ProxyRequestHandler(BaseHTTPRequestHandler):
     logger_instance = logger.logger()
     config_instance = main_config.MainConfig()
-    api_url, api_key = config_instance.read_configuration(__working__directory__, __config__file__)
+    api_url, api_key = config_instance.read_configuration(
+        __working__directory__, __config__file__)
     vt_response_parser_instance = vt_response_parser.vt_response_parser()
     protocol_version = 'HTTP/1.1'
     scraper = cfscrape.create_scraper()

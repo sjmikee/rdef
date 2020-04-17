@@ -49,7 +49,8 @@ def healthcheck(link, wait_for_completion=False):
             logger_instance.write_log(31, 1)
             responseData = json.loads(response.text)
             # Virus total alive
-            harmless, malicious, suspicious, timeout, undetected = vt_response_parser_instance.last_analysis_stats(responseData)
+            harmless, malicious, suspicious, timeout, undetected = vt_response_parser_instance.last_analysis_stats(
+                responseData)
             if (isinstance(harmless, int)):
                 logger_instance.write_log(32, 1)
             else:
@@ -65,7 +66,8 @@ def parse_args(self, argv=sys.argv[1:]):
     # Parsing arguments
     parser = argparse.ArgumentParser(
         description='Real time VirusTotal defender By Kobi Binner and Mike Korenskiy')
-    parser.add_argument('--port', dest='port', type=int, default=9999, help='serve server on specified port (default: 9999)')
+    parser.add_argument('--port', dest='port', type=int, default=9999,
+                        help='serve server on specified port (default: 9999)')
     args = parser.parse_args(argv)
     return args
 
@@ -82,14 +84,16 @@ def main(argv=sys.argv[1:]):
         global api_key
         try:
             # Trying to read configuration VT credentials
-            api_url, api_key = config.read_configuration(__working__directory__, __config__file__)
-            if ((api_url and api_key) == False):                                   # Double check
+            api_url, api_key = config.read_configuration(
+                __working__directory__, __config__file__)
+            if ((api_url and api_key) == False):  # Double check
                 print("There has been a problem setting VT credentials.")
                 logger_instance.write_log(130, 0, '')
                 from ctypes import windll
                 # Gui ctypes
-                windll.user32.MessageBoxW(0, "Please check API credentials", "Error reading VirusTotal credentials", 1)
-                exit()                                                             # Exit
+                windll.user32.MessageBoxW(
+                    0, "Please check API credentials", "Error reading VirusTotal credentials", 1)
+                exit()  # Exit
             else:
                 # -> Virustotal_healthcheck for first request
                 healthcheck('http://www.google.co.il')
@@ -99,7 +103,7 @@ def main(argv=sys.argv[1:]):
         # Error no windows exit()
         logger_instance.write_log(0, 0)
 
-    #Creating proxy instance
+    # Creating proxy instance
     proxy_server = proxy.Proxy()
     proxy_server.start_proxy(args.port, api_url, api_key)
 

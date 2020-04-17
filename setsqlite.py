@@ -12,7 +12,7 @@ logger_instance.create_logger()
 resources_instance = resources.resources()
 __resources__path__ = resources_instance.resources_path()
 
-#Db path
+# Db path
 __database__path__ = os.path.join(__resources__path__, 'realdefdb.db')
 
 
@@ -28,10 +28,10 @@ def get_connection():
         except Exception as e:
             logger_instance.write_log(146, 0, e)
         logger_instance.write_log(42, 1)  # Launch test methods
-        if (testDb(conn)): #Testing and repairing
-            logger_instance.write_log(47, 1) #DB test    
-            logger_instance.write_log(69, 1) #DB repair       
-        else:            
+        if (testDb(conn)):  # Testing and repairing
+            logger_instance.write_log(47, 1)  # DB test
+            logger_instance.write_log(69, 1)  # DB repair
+        else:
             logger_instance.write_log(147, 0, '')
             logger_instance.write_log(169, 0, '')
     else:
@@ -48,7 +48,7 @@ def get_connection():
 
 
 def initsqlite(conn):
-    '''Following function will initialize DB infrastructure''' #TODO swith to each query from different place
+    '''Following function will initialize DB infrastructure'''  # TODO swith to each query from different place
     try:
         c = conn.cursor()
         c.execute('''CREATE TABLE urls (date, url, user, time, type, protocol)''')
@@ -56,7 +56,7 @@ def initsqlite(conn):
         c.execute('''CREATE TABLE blacklist (url, ip)''')
         conn.commit()
     except Exception as e:
-        logger_instance.write_log(140, 0, e)                    #Initialization failed
+        logger_instance.write_log(140, 0, e)  # Initialization failed
     return
 
 
@@ -70,17 +70,18 @@ def repair_db(c):
         print(query_response)
         if(query_response == None):
             logger_instance.write_log(61, 1)
-            c.execute('''CREATE TABLE urls (date, url, user, time, type, protocol)''')
+            c.execute(
+                '''CREATE TABLE urls (date, url, user, time, type, protocol)''')
     except Exception as e:
         logger_instance.write_log(169, 0, 'urls {}'.format(e))
         flag = False
 
-    try:      
+    try:
         c.execute('''SELECT * FROM sqlite_master where name = 'whitelist' ''')
         query_response = c.fetchone()
         if(query_response == None):
             logger_instance.write_log(62, 1)
-            c.execute('''CREATE TABLE whitelist (url, ip)''')            
+            c.execute('''CREATE TABLE whitelist (url, ip)''')
     except Exception as e:
         logger_instance.write_log(169, 0, 'whitelist {} '.format(e))
         flag = False
@@ -95,18 +96,19 @@ def repair_db(c):
         logger_instance.write_log(169, 0, 'blacklist {}'.format(e))
         flag = False
 
-    return False if flag==False else True
+    return False if flag == False else True
 
 
-def testDb(conn):    
-    c = conn.cursor() 
-    c.execute('''SELECT count(*) FROM sqlite_master where name in ("urls", "whitelist", "blacklist")''')
+def testDb(conn):
+    c = conn.cursor()
+    c.execute(
+        '''SELECT count(*) FROM sqlite_master where name in ("urls", "whitelist", "blacklist")''')
     flag = True
     if (c.fetchone()[-1] < 3):
-       if(not repair_db(c)):
-            flag= False
+        if(not repair_db(c)):
+            flag = False
     conn.commit()
-    return False if flag==False else True     #Amount of db queries.
+    return False if flag == False else True  # Amount of db queries.
 
 
 def insert_list_type(conn, url, ip, list_type):
@@ -149,4 +151,4 @@ def isurlindb(conn, urltocheck):
         print(e)
         return False
 
-#SELECT sql FROM sqlite_master WHERE name = 'urls' 
+# SELECT sql FROM sqlite_master WHERE name = 'urls'

@@ -5,7 +5,6 @@ import os
 
 class LocalFileAdapter(requests.adapters.HTTPAdapter):
 
-
     def build_response_from_file(self, request):
         file_path = request.url[7:]
         with open(file_path, 'rb') as file:
@@ -15,7 +14,6 @@ class LocalFileAdapter(requests.adapters.HTTPAdapter):
             r = self.build_response(request, resp)
 
             return r
-
 
     def send(self, request, stream=False, timeout=None,
              verify=True, cert=None, proxies=None):
