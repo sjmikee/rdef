@@ -12,7 +12,7 @@ import config.resources as resources
 from server.local_file_adapter import LocalFileAdapter
 import server.vt_response_parser as vt_response_parser
 import logger.logger as logger
-
+import requests_testadapter
 
 __config__file__ = 'config.rdef'
 __working__directory__ = os.getcwd()
@@ -52,39 +52,58 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
         return 1
 
     def do_GET(self):
+        '''Function handles Http requests and calls checkUrl in order to detect risk
+           In case the checkurl returns there is no risk (True), and record doesnt exist
+           in the db, will insert to the whitelist database table, if (False) Will load Error page
+           Blocked URL and will insert to DB'''
         (scm, netloc, path, params, query, fragment) = urlparse(self.path, 'http')
-        if scm != 'http' or fragment or not netloc:
+        if scm != 'http' or fragment or not netloc:  # Link Validity
             self.send_error(400, "bad url %s" % self.path)
             return
-        print(scm, netloc, path)
         url = scm + '://' + netloc
+        # If function returns CHECK, we will check the link
         link_Status = isurlindb(self.conn, url)
         if(link_Status == 'CHECK'):
             if(self.checkUrl(url)):
                 print("[*] Harmless url forwarding")
                 self.socket_connection(netloc, path, params, query)
-                inserturl(self.conn, self.path, 0, 0, 0, 0, 0)
+                inserturl(self.conn, self.path, 0, 0, 0,
+                          0, 0)  # Insert to DB whitelist
                 insert_list_type(self.conn, url, 0, 'whitelist')
-            else:
-                self.load_blocked_page()
-                # Insert checked and malicious link to blacklist
+            else:  # Malicious, inserting to DB
                 print("[!] Malicious url blocked")
+                # Insert checked and malicious link to blacklist
                 insert_list_type(self.conn, url, 0, 'blacklist')
-        elif(link_Status == 'WL'):
+                self.load_blocked_page()
+        elif(link_Status == 'WL'):  # Whitelist, forwarding connection
             print("[*] Whitelisted url forwarding")
             self.socket_connection(netloc, path, params, query)
         else:
+            # Blacklist, Loading error page
             print("[!] Blacklisted url blocked")
             self.load_blocked_page()
 
     def load_blocked_page(self):
-        requests_session = requests.session()
-        requests_session.mount('file://', LocalFileAdapter)
-        resp = requests_session.get(resources_instance.url_blocked_file())
-        self.send_response(resp.status_code)
-        self.send_resp_headers(resp)
-        self.wfile.write(resp.content)
-        self.finish
+        try:
+            #requests_session = requests.session()
+            #requests_session.mount('file:///', LocalFileAdapter)
+            # print(resources_instance.url_blocked_file())
+            #resp = requests_session.get(resources_instance.url_blocked_file())
+            # resp.status_code
+            # resp.text
+            s = TestSession()
+            s.mount('http://github.com/about/',
+                    TestAdapter(b'github.com/about'))
+            r = s.get('http://github.com/about/')
+            r.text
+            self.send_response(r.status_code)
+            # self.send_response(resp.status_code)
+            # self.send_resp_headers(r)
+            # self.send_resp_headers(resp)
+            self.wfile.write(r.content)
+            self.finish
+        except Exception as e:
+            print(e)
 
     def socket_connection(self, netloc, path, params, query):
         soc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -148,7 +167,10 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
             url = "https://" + url
         link_Status = isurlindb(self.conn, url)
         if(link_Status == 'CHECK'):
-            if(self.checkUrl(url)):
+            status = self.checkUrl(url)
+            print(status)
+
+            if(status):
                 inserturl(self.conn, url, 0, 0, 0, 0, 0)
                 insert_list_type(self.conn, url, 0, 'whitelist')
                 print("[*] Harmless url forwarding")
@@ -177,8 +199,11 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
                             break
                         other.sendall(data)
             else:
-                # TODO: Malicious link handling
-                pass
+                print("Malicious")
+                print("[!] Malicious url blocked")
+                # Insert checked and malicious link to blacklist
+                insert_list_type(self.conn, url, 0, 'blacklist')
+                self.load_blocked_page()
 
         elif(link_Status == 'WL'):
             print("[*] Whitelisted url forwarding")
@@ -230,10 +255,11 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
             harmless, malicious, suspicious, timeout, undetected = self.vt_response_parser_instance.last_analysis_stats(
                 responseData)
             if (malicious > 0):
+                # Writing to log that malicious site detected
                 self.logger_instance.write_log(90, 2)
                 return False
             else:
-                return True
+                return False
         else:
             print("hi")
             return False

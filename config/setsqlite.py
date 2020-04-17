@@ -112,16 +112,24 @@ def testDb(conn):
 
 
 def insert_list_type(conn, url, ip, list_type):
+    print(url, list_type)
     c = conn.cursor()
-    c.execute("insert into {} values (?, ?)".format(list_type), (url, ip))
-    conn.commit()
+    try:
+        c.execute("insert into {} values (?, ?)".format(list_type), (url, ip))
+        conn.commit()
+    except Exception as e:
+        logger_instance.write_log(
+            149, 0, "DB table: {} {}".format(list_type, e))
 
 
 def inserturl(conn, date=0, url=0, user=0, time=0, typerequest=1, protocol=2):
     c = conn.cursor()
-    c.execute("insert into urls values (?, ?, ?, ?, ?, ?)",
-              (date, url, user, time, typerequest, protocol))
-    conn.commit()
+    try:
+        c.execute("insert into urls values (?, ?, ?, ?, ?, ?)",
+                  (date, url, user, time, typerequest, protocol))
+        conn.commit()
+    except Exception as e:
+        logger_instance.write_log(149, 0, e)
 
 
 def isurlindb(conn, urltocheck):
@@ -150,5 +158,3 @@ def isurlindb(conn, urltocheck):
     except Exception as e:
         print(e)
         return False
-
-# SELECT sql FROM sqlite_master WHERE name = 'urls'

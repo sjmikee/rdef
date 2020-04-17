@@ -61,6 +61,7 @@ class messages_handling():
             144: "[SQL] Error creating DB file.",
             146: "[SQL] DB connection failed.",
             147: "[SQL] Test DB failed, creating repairDB.",
+            149: "[SQL] Error inserting DB record.",
             150: "[SERVER] Server failed to start.",
             169: "[SQL Repair] DB repair failed."
         }
