@@ -8,7 +8,7 @@ import os
 import logger
 import json
 import argparse
-import proxy
+import server.proxy
 import vt_response_parser
 import main_config
 
@@ -104,7 +104,7 @@ def main(argv=sys.argv[1:]):
         logger_instance.write_log(0, 0)
 
     # Creating proxy instance
-    proxy_server = proxy.Proxy()
+    proxy_server = server.proxy.Proxy()
     proxy_server.start_proxy(args.port, api_url, api_key)
 
 
