@@ -12,7 +12,8 @@ import config.resources as resources
 from server.local_file_adapter import LocalFileAdapter
 import server.vt_response_parser as vt_response_parser
 import logger.logger as logger
-import requests_testadapter
+
+from requests_testadapter import TestAdapter, TestSession
 
 __config__file__ = 'config.rdef'
 __working__directory__ = os.getcwd()
@@ -85,24 +86,50 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
 
     def load_blocked_page(self):
         try:
+            print("Loading stuff")
             #requests_session = requests.session()
             #requests_session.mount('file:///', LocalFileAdapter)
             # print(resources_instance.url_blocked_file())
             #resp = requests_session.get(resources_instance.url_blocked_file())
-            # resp.status_code
-            # resp.text
-            s = TestSession()
-            s.mount('http://github.com/about/',
-                    TestAdapter(b'github.com/about'))
-            r = s.get('http://github.com/about/')
-            r.text
-            self.send_response(r.status_code)
-            # self.send_response(resp.status_code)
-            # self.send_resp_headers(r)
-            # self.send_resp_headers(resp)
-            self.wfile.write(r.content)
+            #resp.status_code
+            #resp.text
+            #s = TestSession()
+            #s.mount('http://github.com/about/', TestAdapter(b'github.com/about'))
+            #r = s.get('http://github.com/about/')
+            #print(r.text)
+            #r.text
+            #self.send_response(r.status_code)
+          
+          
+            #requests_session = requests.session()
+            #requests_session.mount('file://', LocalFileAdapter())
+            #resp = requests_session.get('file://C:/Users/Kobi/Desktop/Dev/rdef/resources/url_blocked.html')
+            #print(resp)
+            resp = '''<html>
+<head>
+    <title>MALICIOUS URL BLOCKED</title>
+</head>
+<body>
+    <center>
+        <h1>********* BLOCKED *********<br></h1>
+        <h3>Realtime VirusTotal defender has blocked a malicious url<br>You are safe</h3>
+    </center>
+</body>
+</html>'''
+            self.send_response(200)
+            self.send_header("Content-type", "text/html")
+            self.end_headers() 
+            print("test")
+            #self.send_response(200)
+            #self.send_resp_headers(r)
+            #self.send_resp_headers(''.encode())
+            #self._read_write(resp)
+            self.wfile.write(resp.encode())
+            print("test")
             self.finish
+            print("test")
         except Exception as e:
+            print("testasasdadasdadadasd")
             print(e)
 
     def socket_connection(self, netloc, path, params, query):
@@ -234,6 +261,7 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
         else:
             # TODO: Blacklisted url handling
             print("[!] Blacklisted url blocked")
+            self.load_blocked_page()
 
     def send_resp_headers(self, resp):
         respheaders = resp.headers
