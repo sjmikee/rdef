@@ -1,7 +1,7 @@
 from datetime import datetime
 from socket import gethostname, gethostbyname
 import os
-import messages
+import logger.messages
 
 # Globals
 __logger__dir__ = 'logs'
@@ -12,7 +12,7 @@ __working__directory__ = os.getcwd()
 
 class logger():
     '''The following class will create logger and insert releavant data to any event happened in the runtime'''
-    message_instance = messages.messages_handling()
+    message_instance = logger.messages.messages_handling()
     timestamp = datetime.now().strftime("%Y-%m-%d")
     logger_file_today = timestamp + '.' + __logger__file__
     loggerfullpath = os.path.join(

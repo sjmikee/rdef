@@ -1,0 +1,66 @@
+######################
+Logger File was created successfully by Hostname: sjmike,
+Version: 0.1,
+on: 2020-04-17
+######################
+[2020-04-17 12:10:52] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-04-17 12:10:52] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-04-17 12:10:52] [30 ][OK ][VT] credentials successfully read.
+[2020-04-17 12:10:52] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-04-17 12:10:52] [41 ][OK ][SQL] DB file exists.
+[2020-04-17 12:10:52] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-04-17 12:10:52] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-04-17 12:10:52] [42 ][OK ][SQL] Started DB Tests.
+[2020-04-17 12:10:52] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-04-17 12:10:52] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-04-17 12:11:11] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-04-17 12:11:11] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-04-17 12:11:11] [30 ][OK ][VT] credentials successfully read.
+[2020-04-17 12:11:11] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-04-17 12:11:11] [41 ][OK ][SQL] DB file exists.
+[2020-04-17 12:11:11] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-04-17 12:11:11] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-04-17 12:11:11] [42 ][OK ][SQL] Started DB Tests.
+[2020-04-17 12:11:11] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-04-17 12:11:11] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-04-17 12:11:11] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-04-17 12:11:51] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-04-17 12:11:51] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-04-17 12:11:51] [30 ][OK ][VT] credentials successfully read.
+[2020-04-17 12:11:51] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-04-17 12:11:51] [41 ][OK ][SQL] DB file exists.
+[2020-04-17 12:11:51] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-04-17 12:11:51] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-04-17 12:11:51] [42 ][OK ][SQL] Started DB Tests.
+[2020-04-17 12:11:51] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-04-17 12:11:51] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-04-17 12:11:51] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-04-17 12:11:51] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-04-17 12:11:51] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-04-17 12:11:51] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-04-17 12:11:51] [30 ][OK ][VT] credentials successfully read.
+[2020-04-17 12:11:51] [33 ][OK ][VT] set http request.
+[2020-04-17 12:11:53] [34 ][OK ][VT] get http response succeeded.
+[2020-04-17 12:11:53] [31 ][OK ][VT] website and API are alive.
+[2020-04-17 12:11:53] [32 ][OK ][VT] healthcheck success.
+[2020-04-17 12:11:53] [50 ][OK ][SERVER] Server started successfully.
+[2020-04-17 12:20:12] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-04-17 12:20:12] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-04-17 12:20:12] [30 ][OK ][VT] credentials successfully read.
+[2020-04-17 12:20:12] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-04-17 12:20:12] [41 ][OK ][SQL] DB file exists.
+[2020-04-17 12:20:12] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-04-17 12:20:12] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-04-17 12:20:12] [42 ][OK ][SQL] Started DB Tests.
+[2020-04-17 12:20:12] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-04-17 12:20:12] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-04-17 12:20:12] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-04-17 12:20:12] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-04-17 12:20:12] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-04-17 12:20:12] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-04-17 12:20:12] [30 ][OK ][VT] credentials successfully read.
+[2020-04-17 12:20:12] [33 ][OK ][VT] set http request.
+[2020-04-17 12:20:13] [34 ][OK ][VT] get http response succeeded.
+[2020-04-17 12:20:13] [31 ][OK ][VT] website and API are alive.
+[2020-04-17 12:20:13] [32 ][OK ][VT] healthcheck success.
+[2020-04-17 12:20:13] [50 ][OK ][SERVER] Server started successfully.

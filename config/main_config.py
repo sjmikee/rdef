@@ -5,7 +5,7 @@ from uuid import getnode
 from socket import gethostname, gethostbyname
 from platform import platform, architecture, processor
 import configparser
-import logger
+import logger.logger as logger
 
 
 class MainConfig():

@@ -5,12 +5,12 @@ import requests
 import base64
 import configparser
 import os
-import logger
+import logger.logger as logger
 import json
 import argparse
 import server.proxy
-import vt_response_parser
-import main_config
+import server.vt_response_parser
+import config.main_config as main_config
 
 
 ###########################################
@@ -29,7 +29,7 @@ api_key = ''
 logger_instance = logger.logger()
 logger_instance.create_logger()
 # -> Vt response parser instance
-vt_response_parser_instance = vt_response_parser.vt_response_parser()
+vt_response_parser_instance = server.vt_response_parser.vt_response_parser()
 # -> Proxy instance
 
 

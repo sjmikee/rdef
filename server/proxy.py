@@ -1,7 +1,7 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
-import proxy_request_handler as handler
-import threading_http_server as server
-import logger
+import server.proxy_request_handler as handler
+import server.threading_http_server as server
+import logger.logger as logger
 
 
 class Proxy():

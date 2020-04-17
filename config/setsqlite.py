@@ -1,7 +1,7 @@
 import sqlite3
 import os
-import logger
-import resources
+import logger.logger as logger
+import config.resources as resources
 from main import __working__directory__
 
 # Logger instance

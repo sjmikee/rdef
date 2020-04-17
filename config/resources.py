@@ -1,6 +1,6 @@
 from main import __working__directory__
 import os
-import logger
+import logger.logger as logger
 
 # Logger instance
 logger_instance = logger.logger()

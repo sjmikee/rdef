@@ -1,18 +1,18 @@
-from setsqlite import get_connection, isurlindb, insert_list_type, inserturl
-from http.server import BaseHTTPRequestHandler
-from local_file_adapter import LocalFileAdapter
-import cfscrape
 import socket
 import select
 import requests
-import logger
 import json
-import main_config
-import vt_response_parser
 import base64
 import os
-import resources
 from urllib.parse import urlparse, urlunparse
+from http.server import BaseHTTPRequestHandler
+from config.setsqlite import get_connection, isurlindb, insert_list_type, inserturl
+import config.main_config as main_config
+import config.resources as resources
+from server.local_file_adapter import LocalFileAdapter
+import server.vt_response_parser as vt_response_parser
+import logger.logger as logger
+
 
 __config__file__ = 'config.rdef'
 __working__directory__ = os.getcwd()
@@ -26,7 +26,6 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
         __working__directory__, __config__file__)
     vt_response_parser_instance = vt_response_parser.vt_response_parser()
     protocol_version = 'HTTP/1.1'
-    scraper = cfscrape.create_scraper()
     # Var
     conn = get_connection()  # Setting the SQL
 
