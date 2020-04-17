@@ -7,6 +7,7 @@ import logger.logger as logger
 class Proxy():
     '''Class to make our proxy mechanism'''
     logger_instance = logger.logger()
+    logger_instance.create_logger()
 
     def start_proxy(self, port=9999, protocol="HTTP/1.1", api_url='', api_key=''):
         try:

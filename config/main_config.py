@@ -1,17 +1,18 @@
-import os
 from datetime import datetime
 from re import findall
 from uuid import getnode
 from socket import gethostname, gethostbyname
 from platform import platform, architecture, processor
+import os
 import configparser
 import logger.logger as logger
 
 
 class MainConfig():
     logger_instance = logger.logger()
-
+    logger_instance.create_logger()
     # Join paths to getcwd working environment
+
     def is_file_exist(self, file_name, __working__directory__):
         '''Following function will check whther file exists in working directory
         Can handle list or Str '''

@@ -3,14 +3,13 @@ from platform import architecture
 import sys
 import requests
 import base64
-import configparser
 import os
-import logger.logger as logger
 import json
 import argparse
-import server.proxy
-import server.vt_response_parser
+import server.proxy as proxy
+import server.vt_response_parser as vt_response_parser
 import config.main_config as main_config
+import logger.logger as logger
 
 
 ###########################################
@@ -29,7 +28,7 @@ api_key = ''
 logger_instance = logger.logger()
 logger_instance.create_logger()
 # -> Vt response parser instance
-vt_response_parser_instance = server.vt_response_parser.vt_response_parser()
+vt_response_parser_instance = vt_response_parser.vt_response_parser()
 # -> Proxy instance
 
 
@@ -104,7 +103,7 @@ def main(argv=sys.argv[1:]):
         logger_instance.write_log(0, 0)
 
     # Creating proxy instance
-    proxy_server = server.proxy.Proxy()
+    proxy_server = proxy.Proxy()
     proxy_server.start_proxy(args.port, api_url, api_key)
 
 

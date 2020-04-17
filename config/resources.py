@@ -4,6 +4,7 @@ import logger.logger as logger
 
 # Logger instance
 logger_instance = logger.logger()
+logger_instance.create_logger()
 
 
 class resources():

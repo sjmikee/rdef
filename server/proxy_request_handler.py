@@ -21,6 +21,7 @@ resources_instance = resources.resources()
 
 class ProxyRequestHandler(BaseHTTPRequestHandler):
     logger_instance = logger.logger()
+    logger_instance.create_logger()
     config_instance = main_config.MainConfig()
     api_url, api_key = config_instance.read_configuration(
         __working__directory__, __config__file__)
@@ -132,7 +133,7 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
                 break
 
     def do_POST(self, body=True):
-        return 0
+        self.do_GET()
 
     def do_CONNECT(self):
         address = self.path.split(':', 1)
