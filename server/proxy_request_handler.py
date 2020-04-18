@@ -65,7 +65,7 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
         # If function returns CHECK, we will check the link
         link_Status = isurlindb(self.conn, url)
         if(link_Status == 'CHECK'):
-            if(self.checkUrl(url)): #
+            if(self.checkUrl(url)):
                 print("[*] Harmless url forwarding")
                 self.socket_connection(netloc, path, params, query)
                 inserturl(self.conn, self.path, 0, 0, 0,
@@ -84,8 +84,6 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
             print("[!] Blacklisted url blocked")
             self.load_blocked_page()
 
-
-
     def load_blocked_page(self):
         try:
             print("Loading stuff")
@@ -93,21 +91,19 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
             #requests_session.mount('file:///', LocalFileAdapter)
             # print(resources_instance.url_blocked_file())
             #resp = requests_session.get(resources_instance.url_blocked_file())
-<<<<<<< HEAD
-            #resp.status_code
-            #resp.text
+            # resp.status_code
+            # resp.text
             #s = TestSession()
             #s.mount('http://github.com/about/', TestAdapter(b'github.com/about'))
             #r = s.get('http://github.com/about/')
-            #print(r.text)
-            #r.text
-            #self.send_response(r.status_code)
-          
-          
+            # print(r.text)
+            # r.text
+            # self.send_response(r.status_code)
+
             #requests_session = requests.session()
             #requests_session.mount('file://', LocalFileAdapter())
             #resp = requests_session.get('file://C:/Users/Kobi/Desktop/Dev/rdef/resources/url_blocked.html')
-            #print(resp)
+            # print(resp)
             resppp = '''<html>
 <head>
     <title>MALICIOUS URL BLOCKED</title>
@@ -120,26 +116,24 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
 </body>
 </html>'''
             resppp = resppp.encode()
-            #self.send_response(200)
+            # self.send_response(200)
             #self.send_header("Content-type", "text/html")
-            #self.end_headers() 
+            # self.end_headers()
             self.send_response(301)
             self.send_header('Location', 'http://www.google.com')
             self.end_headers()
-
-
-            #self.send_response(200)
-            #self.send_resp_headers(r)
-            #self.send_resp_headers(''.encode())
-            #self._read_write(resp)
-            #self.wfile.write(resppp)
+            # self.send_response(200)
+            # self.send_resp_headers(r)
+            # self.send_resp_headers(''.encode())
+            # self._read_write(resp)
+            # self.wfile.write(resppp)
             opper = "<p>You accessed path:</p>"
             opper = opper.encode()
-            #self.wfile.write(resppp)             #YOU Can change to resppp to get what you wanted, the issue is that it kinda detects 
-                                                #a new connect_to request while handling this one, and raise basehttp handle_http_one request flush on a closed file
-            
-            self.wfile.flush()            
-            #self.finish
+            # self.wfile.write(resppp)             #YOU Can change to resppp to get what you wanted, the issue is that it kinda detects
+            # a new connect_to request while handling this one, and raise basehttp handle_http_one request flush on a closed file
+
+            self.wfile.flush()
+            # self.finish
         except Exception as e:
             print(e)
 
@@ -206,7 +200,7 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
         link_Status = isurlindb(self.conn, url)
         if(link_Status == 'CHECK'):
             status = self.checkUrl(url)
-            
+
             if(status):
                 inserturl(self.conn, url, 0, 0, 0, 0, 0)
                 insert_list_type(self.conn, url, 0, 'whitelist')
@@ -302,4 +296,3 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
         else:
             print("hi")
             return True
-    
