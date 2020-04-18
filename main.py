@@ -96,6 +96,7 @@ def main(argv=sys.argv[1:]):
             else:
                 # -> Virustotal_healthcheck for first request
                 healthcheck('http://www.google.co.il')
+                print("moshe afa")
         except Exception as e:
             logger_instance.write_log(122, 0, e)
     else:  # Linux/Mac load different program
@@ -104,7 +105,7 @@ def main(argv=sys.argv[1:]):
 
     # Creating proxy instance
     proxy_server = proxy.Proxy()
-    proxy_server.start_proxy(args.port, api_url, api_key)
+    proxy_server.start_proxy(args.port)
 
 
 if __name__ == "__main__":

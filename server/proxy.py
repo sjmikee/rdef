@@ -9,7 +9,7 @@ class Proxy():
     logger_instance = logger.logger()
     logger_instance.create_logger()
 
-    def start_proxy(self, port=9999, protocol="HTTP/1.1", api_url='', api_key=''):
+    def start_proxy(self, port=9999, protocol="HTTP/1.1"):
         try:
             print("[*] Realtime VirusTotal server started on port: {}".format(port))
             server_address = ('localhost', port)
