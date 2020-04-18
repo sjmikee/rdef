@@ -138,20 +138,8 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
             #self.wfile.write(resppp)             #YOU Can change to resppp to get what you wanted, the issue is that it kinda detects 
                                                 #a new connect_to request while handling this one, and raise basehttp handle_http_one request flush on a closed file
             
-            self.wfile.flush()
-            
-            #self.wfile.close()
-            
+            self.wfile.flush()            
             #self.finish
-=======
-            # resp.status_code
-            # resp.text
-            # self.send_response(resp.status_code)
-            # self.send_resp_headers(r)
-            # self.send_resp_headers(resp)
-            # self.wfile.write(r.content)
-            self.finish
->>>>>>> f908d43660e744fd0e53b52b05dd789b344d66f6
         except Exception as e:
             print(e)
 
