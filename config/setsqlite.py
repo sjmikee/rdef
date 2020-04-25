@@ -156,5 +156,5 @@ def isurlindb(conn, urltocheck):
                 return 'CHECK'
 
     except Exception as e:
-        print(e)
+        logger_instance.write_log(146, 1, e)
         return False

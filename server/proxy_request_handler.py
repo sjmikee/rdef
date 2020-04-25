@@ -154,7 +154,7 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
                 soc.send("\r\n".encode())
                 self._read_write(soc)
         except Exception as e:
-            print(e)
+            self.logger_instance.write_log(172, 1, e)
         finally:
             soc.close()
             self.connection.close()
@@ -179,7 +179,7 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
                         try:
                             data = i.recv(8192)
                         except Exception as e:
-                            print(e)
+                            self.logger_instance.write_log(170, 1, e)
                         if data:
                             out.send(data)
                             count = 0
@@ -188,7 +188,7 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
                 if count == max_idling:
                     break
         except Exception as e:
-            print(e)
+            self.logger_instance.write_log(171, 1, e)
 
     def do_POST(self, body=True):
         self.do_GET()
@@ -235,7 +235,7 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
                         try:
                             data = r.recv(8192)
                         except Exception as e:
-                            print(e)
+                            self.logger_instance.write_log(170, 1, e)
                         if not data:
                             self.close_connection = 1
                             break
@@ -272,7 +272,7 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
                     try:
                         data = r.recv(8192)
                     except Exception as e:
-                        print(e)
+                        self.logger_instance.write_log(170, 1, e)
                     if not data:
                         self.close_connection = 1
                         break
@@ -291,7 +291,7 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
             self.send_header('Content-Length', len(resp.content))
             self.end_headers()
         except Exception as e:
-            print(e)
+            self.logger_instance.write_log(173, 1, e)
 
     def checkUrl(self, url):
         # Creating a web request to VirusTotal API

@@ -96,7 +96,6 @@ def main(argv=sys.argv[1:]):
             else:
                 # -> Virustotal_healthcheck for first request
                 healthcheck('http://www.google.co.il')
-                print("moshe afa")
         except Exception as e:
             logger_instance.write_log(122, 0, e)
     else:  # Linux/Mac load different program
