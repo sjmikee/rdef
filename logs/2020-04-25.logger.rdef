@@ -1,0 +1,170 @@
+######################
+Logger File was created successfully by Hostname: sjmike,
+Version: 0.1,
+on: 2020-04-25
+######################
+[2020-04-25 13:27:19] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-04-25 13:27:19] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-04-25 13:27:19] [30 ][OK ][VT] credentials successfully read.
+[2020-04-25 13:27:19] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-04-25 13:27:19] [41 ][OK ][SQL] DB file exists.
+[2020-04-25 13:27:19] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-04-25 13:27:19] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-04-25 13:27:19] [42 ][OK ][SQL] Started DB Tests.
+[2020-04-25 13:27:19] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-04-25 13:27:19] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-04-25 13:27:19] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-04-25 13:27:19] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-04-25 13:27:19] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-04-25 13:27:19] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-04-25 13:27:19] [30 ][OK ][VT] credentials successfully read.
+[2020-04-25 13:27:19] [33 ][OK ][VT] set http request.
+[2020-04-25 13:27:20] [34 ][OK ][VT] get http response succeeded.
+[2020-04-25 13:27:20] [31 ][OK ][VT] website and API are alive.
+[2020-04-25 13:27:20] [32 ][OK ][VT] healthcheck success.
+[2020-04-25 13:27:20] [50 ][OK ][SERVER] Server started successfully.
+[2020-04-25 13:28:27] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot commit - no transaction is active.
+[2020-04-25 13:28:28] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist cannot commit - no transaction is active.
+[2020-04-25 13:28:29] [149][ERR][SQL] Error inserting DB record. [Exception data]: not an error.
+[2020-04-25 13:28:29] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot commit - no transaction is active.
+[2020-04-25 13:28:29] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist cannot start a transaction within a transaction.
+[2020-04-25 13:28:33] [149][ERR][SQL] Error inserting DB record. [Exception data]: not an error.
+[2020-04-25 13:28:37] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot commit - no transaction is active.
+[2020-04-25 13:28:37] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot commit - no transaction is active.
+[2020-04-25 13:28:37] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist not an error.
+[2020-04-25 13:28:44] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-04-25 13:28:44] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot start a transaction within a transaction.
+[2020-04-25 13:28:44] [149][ERR][SQL] Error inserting DB record. [Exception data]: not an error.
+[2020-04-25 13:28:44] [149][ERR][SQL] Error inserting DB record. [Exception data]: not an error.
+[2020-04-25 13:28:44] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist cannot start a transaction within a transaction.
+[2020-04-25 13:28:45] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot commit - no transaction is active.
+[2020-04-25 13:29:15] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist not an error.
+[2020-04-25 13:29:15] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist cannot start a transaction within a transaction.
+[2020-04-25 13:51:24] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-04-25 13:51:24] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-04-25 13:51:24] [30 ][OK ][VT] credentials successfully read.
+[2020-04-25 13:51:24] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-04-25 13:51:24] [41 ][OK ][SQL] DB file exists.
+[2020-04-25 13:51:24] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-04-25 13:51:24] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-04-25 13:51:24] [42 ][OK ][SQL] Started DB Tests.
+[2020-04-25 13:51:24] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-04-25 13:51:24] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-04-25 13:51:24] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-04-25 13:51:24] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-04-25 13:51:24] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-04-25 13:51:24] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-04-25 13:51:24] [30 ][OK ][VT] credentials successfully read.
+[2020-04-25 13:51:24] [33 ][OK ][VT] set http request.
+[2020-04-25 13:51:25] [34 ][OK ][VT] get http response succeeded.
+[2020-04-25 13:51:25] [31 ][OK ][VT] website and API are alive.
+[2020-04-25 13:51:25] [32 ][OK ][VT] healthcheck success.
+[2020-04-25 13:51:25] [50 ][OK ][SERVER] Server started successfully.
+[2020-04-25 14:05:20] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-04-25 14:05:20] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-04-25 14:05:20] [30 ][OK ][VT] credentials successfully read.
+[2020-04-25 14:05:20] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-04-25 14:05:20] [41 ][OK ][SQL] DB file exists.
+[2020-04-25 14:05:20] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-04-25 14:05:20] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-04-25 14:05:20] [42 ][OK ][SQL] Started DB Tests.
+[2020-04-25 14:05:20] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-04-25 14:05:20] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-04-25 14:05:20] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-04-25 14:05:20] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-04-25 14:05:20] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-04-25 14:05:20] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-04-25 14:05:20] [30 ][OK ][VT] credentials successfully read.
+[2020-04-25 14:05:20] [33 ][OK ][VT] set http request.
+[2020-04-25 14:05:22] [34 ][OK ][VT] get http response succeeded.
+[2020-04-25 14:05:22] [31 ][OK ][VT] website and API are alive.
+[2020-04-25 14:05:22] [32 ][OK ][VT] healthcheck success.
+[2020-04-25 14:05:22] [50 ][OK ][SERVER] Server started successfully.
+[2020-04-25 14:53:48] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-04-25 14:53:48] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-04-25 14:53:48] [30 ][OK ][VT] credentials successfully read.
+[2020-04-25 14:53:48] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-04-25 14:53:48] [41 ][OK ][SQL] DB file exists.
+[2020-04-25 14:53:48] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-04-25 14:53:48] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-04-25 14:53:48] [42 ][OK ][SQL] Started DB Tests.
+[2020-04-25 14:53:48] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-04-25 14:53:48] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-04-25 14:53:48] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-04-25 14:53:48] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-04-25 14:53:48] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-04-25 14:53:48] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-04-25 14:53:48] [30 ][OK ][VT] credentials successfully read.
+[2020-04-25 14:53:48] [33 ][OK ][VT] set http request.
+[2020-04-25 14:53:49] [34 ][OK ][VT] get http response succeeded.
+[2020-04-25 14:53:49] [31 ][OK ][VT] website and API are alive.
+[2020-04-25 14:53:49] [32 ][OK ][VT] healthcheck success.
+[2020-04-25 14:53:49] [50 ][OK ][SERVER] Server started successfully.
+[2020-04-25 14:54:18] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-04-25 15:48:54] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-04-25 15:48:54] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-04-25 15:48:54] [30 ][OK ][VT] credentials successfully read.
+[2020-04-25 15:48:54] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-04-25 15:48:54] [41 ][OK ][SQL] DB file exists.
+[2020-04-25 15:48:54] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-04-25 15:48:54] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-04-25 15:48:54] [42 ][OK ][SQL] Started DB Tests.
+[2020-04-25 15:48:54] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-04-25 15:48:54] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-04-25 15:48:54] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-04-25 15:48:54] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-04-25 15:48:54] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-04-25 15:48:54] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-04-25 15:48:54] [30 ][OK ][VT] credentials successfully read.
+[2020-04-25 15:48:54] [33 ][OK ][VT] set http request.
+[2020-04-25 15:48:55] [34 ][OK ][VT] get http response succeeded.
+[2020-04-25 15:48:55] [31 ][OK ][VT] website and API are alive.
+[2020-04-25 15:48:55] [32 ][OK ][VT] healthcheck success.
+[2020-04-25 15:48:55] [50 ][OK ][SERVER] Server started successfully.
+[2020-04-25 15:49:54] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist cannot commit - no transaction is active.
+[2020-04-25 15:49:54] [149][ERR][SQL] Error inserting DB record. [Exception data]: no more rows available.
+[2020-04-25 15:49:56] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot start a transaction within a transaction.
+[2020-04-25 15:51:21] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-04-25 15:55:43] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-04-25 15:55:43] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-04-25 15:55:43] [30 ][OK ][VT] credentials successfully read.
+[2020-04-25 15:55:43] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-04-25 15:55:43] [41 ][OK ][SQL] DB file exists.
+[2020-04-25 15:55:43] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-04-25 15:55:43] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-04-25 15:55:43] [42 ][OK ][SQL] Started DB Tests.
+[2020-04-25 15:55:43] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-04-25 15:55:43] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-04-25 15:55:43] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-04-25 15:55:43] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-04-25 15:55:43] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-04-25 15:55:43] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-04-25 15:55:43] [30 ][OK ][VT] credentials successfully read.
+[2020-04-25 15:55:43] [33 ][OK ][VT] set http request.
+[2020-04-25 15:55:44] [34 ][OK ][VT] get http response succeeded.
+[2020-04-25 15:55:45] [31 ][OK ][VT] website and API are alive.
+[2020-04-25 15:55:45] [32 ][OK ][VT] healthcheck success.
+[2020-04-25 15:55:45] [50 ][OK ][SERVER] Server started successfully.
+[2020-04-25 16:00:37] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist cannot start a transaction within a transaction.
+[2020-04-25 16:45:21] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-04-25 16:45:21] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-04-25 16:45:21] [30 ][OK ][VT] credentials successfully read.
+[2020-04-25 16:45:21] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-04-25 16:45:21] [41 ][OK ][SQL] DB file exists.
+[2020-04-25 16:45:21] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-04-25 16:45:21] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-04-25 16:45:21] [42 ][OK ][SQL] Started DB Tests.
+[2020-04-25 16:45:21] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-04-25 16:45:21] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-04-25 16:45:21] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-04-25 16:45:21] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-04-25 16:45:21] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-04-25 16:45:21] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-04-25 16:45:21] [30 ][OK ][VT] credentials successfully read.
+[2020-04-25 16:45:21] [33 ][OK ][VT] set http request.
+[2020-04-25 16:45:22] [34 ][OK ][VT] get http response succeeded.
+[2020-04-25 16:45:22] [31 ][OK ][VT] website and API are alive.
+[2020-04-25 16:45:22] [32 ][OK ][VT] healthcheck success.
+[2020-04-25 16:45:22] [50 ][OK ][SERVER] Server started successfully.
+[2020-04-25 16:54:21] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist cannot commit - no transaction is active.
+[2020-04-25 16:55:38] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot commit - no transaction is active.

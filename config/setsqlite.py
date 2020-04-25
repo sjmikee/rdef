@@ -67,7 +67,7 @@ def repair_db(c):
     try:
         c.execute('''SELECT * FROM sqlite_master where name = 'urls' ''')
         query_response = c.fetchone()
-        print(query_response)
+        # print(query_response)
         if(query_response == None):
             logger_instance.write_log(61, 1)
             c.execute(
@@ -112,7 +112,7 @@ def testDb(conn):
 
 
 def insert_list_type(conn, url, ip, list_type):
-    print(url, list_type)
+    #print(url, list_type)
     c = conn.cursor()
     try:
         c.execute("insert into {} values (?, ?)".format(list_type), (url, ip))
@@ -134,14 +134,14 @@ def inserturl(conn, date=0, url=0, user=0, time=0, typerequest=1, protocol=2):
 
 def isurlindb(conn, urltocheck):
     try:
-        print(urltocheck)
+        # print(urltocheck)
         c = conn.cursor()
         urltocheck = urltocheck.split('/')[2]
         c.execute(
             "SELECT count(url) FROM whitelist WHERE url LIKE '%{}%'".format(urltocheck))
         if((c.fetchone()[0]) != 0):
             #already in db
-            print("sqlite says url exists")
+            print("\n[*] Sqlite says url exists")
             conn.commit()
             return 'WL'
         else:
@@ -149,7 +149,7 @@ def isurlindb(conn, urltocheck):
                 "SELECT count(url) FROM blacklist WHERE url LIKE '%{}%'".format(urltocheck))
             if((c.fetchone()[0]) != 0):
                 #aalready in db
-                print("sqlite says url exists")
+                print("\n[*] Sqlite says url exists")
                 conn.commit()
                 return 'BL'
             else:

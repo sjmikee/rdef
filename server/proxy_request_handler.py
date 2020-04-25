@@ -40,7 +40,6 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
             host_port = netloc[:i], int(netloc[i+1:])
         else:
             host_port = netloc, 80
-        print("\t" "connect to %s:%d" % host_port)
         try:
             soc.connect(host_port)
         except socket.error as e:
@@ -66,22 +65,22 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
         link_Status = isurlindb(self.conn, url)
         if(link_Status == 'CHECK'):
             if(self.checkUrl(url)):
-                print("[*] Harmless url forwarding")
+                print("\n[*] Harmless url forwarding")
                 self.socket_connection(netloc, path, params, query)
                 inserturl(self.conn, self.path, 0, 0, 0,
                           0, 0)  # Insert to DB whitelist
                 insert_list_type(self.conn, url, 0, 'whitelist')
             else:  # Malicious, inserting to DB
-                print("[!] Malicious url blocked")
+                print("\n[!] Malicious url blocked")
                 # Insert checked and malicious link to blacklist
                 insert_list_type(self.conn, url, 0, 'blacklist')
                 self.load_blocked_page()
         elif(link_Status == 'WL'):  # Whitelist, forwarding connection
-            print("[*] Whitelisted url forwarding")
+            print("\n[*] Whitelisted url forwarding")
             self.socket_connection(netloc, path, params, query)
         else:
             # Blacklist, Loading error page
-            print("[!] Blacklisted url blocked")
+            print("\n[!] Blacklisted url blocked")
             self.load_blocked_page()
 
     def load_blocked_page(self):
@@ -154,34 +153,42 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
                     soc.send(text.encode())
                 soc.send("\r\n".encode())
                 self._read_write(soc)
+        except Exception as e:
+            print(e)
         finally:
-            print("\t" "bye")
             soc.close()
             self.connection.close()
 
-    def _read_write(self, soc, max_idling=20):
-        iw = [self.connection, soc]
-        ow = []
-        count = 0
-        while 1:
-            count += 1
-            (ins, _, exs) = select.select(iw, ow, iw, 3)
-            if exs:
-                break
-            if ins:
-                for i in ins:
-                    if i is soc:
-                        out = self.connection
-                    else:
-                        out = soc
-                    data = i.recv(8192)
-                    if data:
-                        out.send(data)
-                        count = 0
-            else:
-                print("\t" "idle", count)
-            if count == max_idling:
-                break
+    def _read_write(self, soc, max_idling=50):
+        try:
+            iw = [self.connection, soc]
+            ow = []
+            count = 0
+            while 1:
+                count += 1
+                (ins, _, exs) = select.select(iw, ow, iw, 3)
+                if exs:
+                    break
+                if ins:
+                    for i in ins:
+                        if i is soc:
+                            out = self.connection
+                        else:
+                            out = soc
+                        data = None
+                        try:
+                            data = i.recv(8192)
+                        except Exception as e:
+                            print(e)
+                        if data:
+                            out.send(data)
+                            count = 0
+                else:
+                    pass
+                if count == max_idling:
+                    break
+        except Exception as e:
+            print(e)
 
     def do_POST(self, body=True):
         self.do_GET()
@@ -191,7 +198,7 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
         url = ''
         if(address[0] == 'http'):
             address = [self.path.split('://')[1], 80]
-            print(address)
+            # print(address)
             url = 'http://' + address[0]
         else:
             address[1] = int(address[1]) or 443
@@ -204,10 +211,10 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
             if(status):
                 inserturl(self.conn, url, 0, 0, 0, 0, 0)
                 insert_list_type(self.conn, url, 0, 'whitelist')
-                print("[*] Harmless url forwarding")
+                print("\n[*] Harmless url forwarding")
                 try:
                     s = socket.create_connection(address, timeout=self.timeout)
-                    print("socket created")
+                    print("\n[*] Socket created")
                 except Exception as e:
                     self.send_error(502)
                     print(e)
@@ -224,23 +231,27 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
                         break
                     for r in rlist:
                         other = conns[1] if r is conns[0] else conns[0]
-                        data = r.recv(8192)
+                        data = None
+                        try:
+                            data = r.recv(8192)
+                        except Exception as e:
+                            print(e)
                         if not data:
                             self.close_connection = 1
                             break
                         other.sendall(data)
             else:
-                print("Malicious")
-                print("[!] Malicious url blocked")
+                # print("Malicious")
+                print("\n[!] Malicious url blocked")
                 # Insert checked and malicious link to blacklist
                 insert_list_type(self.conn, url, 0, 'blacklist')
                 self.load_blocked_page()
 
         elif(link_Status == 'WL'):
-            print("[*] Whitelisted url forwarding")
+            print("\n[*] Whitelisted url forwarding")
             try:
                 s = socket.create_connection(address, timeout=self.timeout)
-                print("socket created")
+                print("\n[*] Socket created")
             except Exception as e:
                 self.send_error(502)
                 print(e)
@@ -257,23 +268,30 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
                     break
                 for r in rlist:
                     other = conns[1] if r is conns[0] else conns[0]
-                    data = r.recv(8192)
+                    data = None
+                    try:
+                        data = r.recv(8192)
+                    except Exception as e:
+                        print(e)
                     if not data:
                         self.close_connection = 1
                         break
                     other.sendall(data)
         else:
             # TODO: Blacklisted url handling
-            print("[!] Blacklisted url blocked")
+            print("\n[!] Blacklisted url blocked")
             self.load_blocked_page()
 
     def send_resp_headers(self, resp):
-        respheaders = resp.headers
-        for key in respheaders:
-            if key not in ['Content-Encoding', 'Transfer-Encoding', 'content-encoding', 'transfer-encoding', 'content-length', 'Content-Length']:
-                self.send_header(key, respheaders[key])
-        self.send_header('Content-Length', len(resp.content))
-        self.end_headers()
+        try:
+            respheaders = resp.headers
+            for key in respheaders:
+                if key not in ['Content-Encoding', 'Transfer-Encoding', 'content-encoding', 'transfer-encoding', 'content-length', 'Content-Length']:
+                    self.send_header(key, respheaders[key])
+            self.send_header('Content-Length', len(resp.content))
+            self.end_headers()
+        except Exception as e:
+            print(e)
 
     def checkUrl(self, url):
         # Creating a web request to VirusTotal API
@@ -289,10 +307,11 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
             #malicious = 5
             if (malicious > 0):
                 # Writing to log that malicious site detected
+                print('[!] {} Agents found this url malicious'.format(malicious))
                 self.logger_instance.write_log(90, 2)
                 return False
             else:
                 return True
         else:
-            print("hi")
+            print('[!] Bad VT request\n')
             return True
