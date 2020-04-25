@@ -31,8 +31,10 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
     # Var
     conn = get_connection()  # Setting the SQL
 
+
     def do_HEAD(self):
         self.do_GET(body=False)
+
 
     def _connect_to(self, netloc, soc):
         i = netloc.find(':')
@@ -52,6 +54,25 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
             return 0
         return 1
 
+
+    def load_blocked_page(self):
+        try:
+            #print("hey")
+            response = requests.get('https://www.google.com')
+            print(response.text)
+
+            self.send_response(301)
+            self.send_header('Location', 'https://www.google.com')
+            self.end_headers()
+            self.do_GET()
+            #self.do_CONNECT()
+            respi = response.text.encode()
+            self.wfile.write(respi)            
+            #return
+        except Exception as e:
+            print(e)
+
+
     def do_GET(self):
         '''Function handles Http requests and calls checkUrl in order to detect risk
            In case the checkurl returns there is no risk (True), and record doesnt exist
@@ -65,7 +86,8 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
         # If function returns CHECK, we will check the link
         link_Status = isurlindb(self.conn, url)
         if(link_Status == 'CHECK'):
-            if(self.checkUrl(url)):
+            status = self.checkUrl(url)
+            if(status):
                 print("[*] Harmless url forwarding")
                 self.socket_connection(netloc, path, params, query)
                 inserturl(self.conn, self.path, 0, 0, 0,
@@ -80,62 +102,12 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
             print("[*] Whitelisted url forwarding")
             self.socket_connection(netloc, path, params, query)
         else:
-            # Blacklist, Loading error page
+            # Blacklist, Loading error page, returned error from DB that we BL
             print("[!] Blacklisted url blocked")
             self.load_blocked_page()
 
-    def load_blocked_page(self):
-        try:
-            print("Loading stuff")
-            #requests_session = requests.session()
-            #requests_session.mount('file:///', LocalFileAdapter)
-            # print(resources_instance.url_blocked_file())
-            #resp = requests_session.get(resources_instance.url_blocked_file())
-            # resp.status_code
-            # resp.text
-            #s = TestSession()
-            #s.mount('http://github.com/about/', TestAdapter(b'github.com/about'))
-            #r = s.get('http://github.com/about/')
-            # print(r.text)
-            # r.text
-            # self.send_response(r.status_code)
 
-            #requests_session = requests.session()
-            #requests_session.mount('file://', LocalFileAdapter())
-            #resp = requests_session.get('file://C:/Users/Kobi/Desktop/Dev/rdef/resources/url_blocked.html')
-            # print(resp)
-            resppp = '''<html>
-<head>
-    <title>MALICIOUS URL BLOCKED</title>
-</head>
-<body>
-    <center>
-        <h1>********* BLOCKED *********<br></h1>
-        <h3>Realtime VirusTotal defender has blocked a malicious url<br>You are safe</h3>
-    </center>
-</body>
-</html>'''
-            resppp = resppp.encode()
-            # self.send_response(200)
-            #self.send_header("Content-type", "text/html")
-            # self.end_headers()
-            self.send_response(301)
-            self.send_header('Location', 'http://www.google.com')
-            self.end_headers()
-            # self.send_response(200)
-            # self.send_resp_headers(r)
-            # self.send_resp_headers(''.encode())
-            # self._read_write(resp)
-            # self.wfile.write(resppp)
-            opper = "<p>You accessed path:</p>"
-            opper = opper.encode()
-            # self.wfile.write(resppp)             #YOU Can change to resppp to get what you wanted, the issue is that it kinda detects
-            # a new connect_to request while handling this one, and raise basehttp handle_http_one request flush on a closed file
 
-            self.wfile.flush()
-            # self.finish
-        except Exception as e:
-            print(e)
 
     def socket_connection(self, netloc, path, params, query):
         soc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -155,9 +127,10 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
                 soc.send("\r\n".encode())
                 self._read_write(soc)
         finally:
-            print("\t" "bye")
+            #print("\t" "bye")
             soc.close()
             self.connection.close()
+
 
     def _read_write(self, soc, max_idling=20):
         iw = [self.connection, soc]
@@ -183,8 +156,10 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
             if count == max_idling:
                 break
 
+
     def do_POST(self, body=True):
         self.do_GET()
+
 
     def do_CONNECT(self):
         address = self.path.split(':', 1)
@@ -207,10 +182,10 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
                 print("[*] Harmless url forwarding")
                 try:
                     s = socket.create_connection(address, timeout=self.timeout)
-                    print("socket created")
+                    #print("socket created")
                 except Exception as e:
                     self.send_error(502)
-                    print(e)
+                    #print(e)
                     return
                 self.send_response(200, 'Connection Established')
                 self.end_headers()
@@ -243,7 +218,7 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
                 print("socket created")
             except Exception as e:
                 self.send_error(502)
-                print(e)
+                #print(e)
                 return
             self.send_response(200, 'Connection Established')
             self.end_headers()
@@ -263,9 +238,10 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
                         break
                     other.sendall(data)
         else:
-            # TODO: Blacklisted url handling
+            # No need to enter to DB cause we got BL, means already in blacklist.
             print("[!] Blacklisted url blocked")
             self.load_blocked_page()
+
 
     def send_resp_headers(self, resp):
         respheaders = resp.headers
@@ -275,24 +251,35 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
         self.send_header('Content-Length', len(resp.content))
         self.end_headers()
 
+
     def checkUrl(self, url):
         # Creating a web request to VirusTotal API
+        print("we are making url ceck via virus total")
+        rawurl = url
         url = base64.urlsafe_b64encode(url.encode()).decode().strip("=")
         vt_full_url = self.api_url + "urls/{}".format(url)
         parameters = {"x-apikey": self.api_key}
         response = requests.get(vt_full_url, headers=parameters)
+        print(response)
+        print(response.status_code)
         if(response.status_code == 200):
             # VT successfull request
             responseData = json.loads(response.text)
             harmless, malicious, suspicious, timeout, undetected = self.vt_response_parser_instance.last_analysis_stats(
                 responseData)
-            #malicious = 5
+            print(malicious)
+            print("we entered malicious section")
+            print(rawurl)
+            if ("cern" in rawurl):
+                print("test test test",url)
+                malicious = 6 #blocking cern
+
             if (malicious > 0):
-                # Writing to log that malicious site detected
+                # Writing to log that malicious site detected malicious returns false
                 self.logger_instance.write_log(90, 2)
                 return False
             else:
                 return True
         else:
-            print("hi")
             return True
+
