@@ -168,3 +168,171 @@ on: 2020-04-25
 [2020-04-25 16:45:22] [50 ][OK ][SERVER] Server started successfully.
 [2020-04-25 16:54:21] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist cannot commit - no transaction is active.
 [2020-04-25 16:55:38] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot commit - no transaction is active.
+[2020-04-25 19:05:52] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-04-25 19:05:52] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-04-25 19:05:52] [30 ][OK ][VT] credentials successfully read.
+[2020-04-25 19:05:52] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-04-25 19:05:52] [41 ][OK ][SQL] DB file exists.
+[2020-04-25 19:05:52] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-04-25 19:05:52] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-04-25 19:05:52] [42 ][OK ][SQL] Started DB Tests.
+[2020-04-25 19:05:52] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-04-25 19:05:52] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-04-25 19:05:52] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-04-25 19:05:52] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-04-25 19:05:52] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-04-25 19:05:52] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-04-25 19:05:52] [30 ][OK ][VT] credentials successfully read.
+[2020-04-25 19:05:52] [33 ][OK ][VT] set http request.
+[2020-04-25 19:05:53] [34 ][OK ][VT] get http response succeeded.
+[2020-04-25 19:05:53] [31 ][OK ][VT] website and API are alive.
+[2020-04-25 19:05:53] [32 ][OK ][VT] healthcheck success.
+[2020-04-25 19:05:53] [50 ][OK ][SERVER] Server started successfully.
+[2020-04-25 19:07:28] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:30] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:31] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:33] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:41] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:42] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:42] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:42] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:43] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:23] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot start a transaction within a transaction.
+[2020-04-25 19:08:25] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].
+[2020-04-25 19:08:27] [170][OK ]No success code Exists for code: [170].

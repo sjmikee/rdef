@@ -118,20 +118,21 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
             # self.send_response(200)
             #self.send_header("Content-type", "text/html")
             # self.end_headers()
-            self.send_response(301)
-            self.send_header('Location', 'http://www.google.com')
+            self.send_response(302)
+            self.send_header(
+                'Location', 'https://www.google.com/logos/doodles/2020/thank-you-coronavirus-helpers-april-25-26-6753651837108777-s.png')
             self.end_headers()
             # self.send_response(200)
             # self.send_resp_headers(r)
             # self.send_resp_headers(''.encode())
             # self._read_write(resp)
             # self.wfile.write(resppp)
-            opper = "<p>You accessed path:</p>"
-            opper = opper.encode()
             # self.wfile.write(resppp)             #YOU Can change to resppp to get what you wanted, the issue is that it kinda detects
             # a new connect_to request while handling this one, and raise basehttp handle_http_one request flush on a closed file
 
-            self.wfile.flush()
+            self.flush_headers()
+            self.close_connection = 1
+            self.connection.sendall(''.encode())
             # self.finish
         except Exception as e:
             print(e)
