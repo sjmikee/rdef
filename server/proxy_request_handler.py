@@ -115,8 +115,64 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
 >>>>>>> 2a8bfbd6826e635d4354e8878723cb5feeb0629e
             self.load_blocked_page()
 
+<<<<<<< HEAD
 
 
+=======
+    def load_blocked_page(self):
+        try:
+            print("Loading stuff")
+            #requests_session = requests.session()
+            #requests_session.mount('file:///', LocalFileAdapter)
+            # print(resources_instance.url_blocked_file())
+            #resp = requests_session.get(resources_instance.url_blocked_file())
+            # resp.status_code
+            # resp.text
+            #s = TestSession()
+            #s.mount('http://github.com/about/', TestAdapter(b'github.com/about'))
+            #r = s.get('http://github.com/about/')
+            # print(r.text)
+            # r.text
+            # self.send_response(r.status_code)
+
+            #requests_session = requests.session()
+            #requests_session.mount('file://', LocalFileAdapter())
+            #resp = requests_session.get('file://C:/Users/Kobi/Desktop/Dev/rdef/resources/url_blocked.html')
+            # print(resp)
+            resppp = '''<html>
+<head>
+    <title>MALICIOUS URL BLOCKED</title>
+</head>
+<body>
+    <center>
+        <h1>********* BLOCKED *********<br></h1>
+        <h3>Realtime VirusTotal defender has blocked a malicious url<br>You are safe</h3>
+    </center>
+</body>
+</html>'''
+            resppp = resppp.encode()
+            # self.send_response(200)
+            #self.send_header("Content-type", "text/html")
+            # self.end_headers()
+            self.send_response(302)
+            self.send_header(
+                'Location', 'https://www.google.com/logos/doodles/2020/thank-you-coronavirus-helpers-april-25-26-6753651837108777-s.png')
+            self.end_headers()
+            # self.send_response(200)
+            # self.send_resp_headers(r)
+            # self.send_resp_headers(''.encode())
+            # self._read_write(resp)
+            # self.wfile.write(resppp)
+            # self.wfile.write(resppp)             #YOU Can change to resppp to get what you wanted, the issue is that it kinda detects
+            # a new connect_to request while handling this one, and raise basehttp handle_http_one request flush on a closed file
+
+            self.flush_headers()
+            self.close_connection = 1
+            self.connection.sendall(''.encode())
+            # self.finish
+        except Exception as e:
+            print(e)
+>>>>>>> 35d752bb0fcb241552557f3600b71ccd346dc8d8
 
     def socket_connection(self, netloc, path, params, query):
         soc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
