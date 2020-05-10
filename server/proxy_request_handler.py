@@ -31,10 +31,8 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
     # Var
     conn = get_connection()  # Setting the SQL
 
-
     def do_HEAD(self):
         self.do_GET(body=False)
-
 
     def _connect_to(self, netloc, soc):
         i = netloc.find(':')
@@ -53,25 +51,6 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
             return 0
         return 1
 
-
-    def load_blocked_page(self):
-        try:
-            #print("hey")
-            response = requests.get('https://www.google.com')
-            print(response.text)
-
-            self.send_response(301)
-            self.send_header('Location', 'https://www.google.com')
-            self.end_headers()
-            self.do_GET()
-            #self.do_CONNECT()
-            respi = response.text.encode()
-            self.wfile.write(respi)            
-            #return
-        except Exception as e:
-            print(e)
-
-
     def do_GET(self):
         '''Function handles Http requests and calls checkUrl in order to detect risk
            In case the checkurl returns there is no risk (True), and record doesnt exist
@@ -85,14 +64,8 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
         # If function returns CHECK, we will check the link
         link_Status = isurlindb(self.conn, url)
         if(link_Status == 'CHECK'):
-<<<<<<< HEAD
-            status = self.checkUrl(url)
-            if(status):
-                print("[*] Harmless url forwarding")
-=======
             if(self.checkUrl(url)):
                 print("\n[*] Harmless url forwarding")
->>>>>>> 2a8bfbd6826e635d4354e8878723cb5feeb0629e
                 self.socket_connection(netloc, path, params, query)
                 inserturl(self.conn, self.path, 0, 0, 0,
                           0, 0)  # Insert to DB whitelist
@@ -106,19 +79,10 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
             print("\n[*] Whitelisted url forwarding")
             self.socket_connection(netloc, path, params, query)
         else:
-<<<<<<< HEAD
-            # Blacklist, Loading error page, returned error from DB that we BL
-            print("[!] Blacklisted url blocked")
-=======
             # Blacklist, Loading error page
             print("\n[!] Blacklisted url blocked")
->>>>>>> 2a8bfbd6826e635d4354e8878723cb5feeb0629e
             self.load_blocked_page()
 
-<<<<<<< HEAD
-
-
-=======
     def load_blocked_page(self):
         try:
             print("Loading stuff")
@@ -172,7 +136,6 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
             # self.finish
         except Exception as e:
             print(e)
->>>>>>> 35d752bb0fcb241552557f3600b71ccd346dc8d8
 
     def socket_connection(self, netloc, path, params, query):
         soc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -194,36 +157,6 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
         except Exception as e:
             self.logger_instance.write_log(172, 1, e)
         finally:
-<<<<<<< HEAD
-            #print("\t" "bye")
-            soc.close()
-            self.connection.close()
-
-
-    def _read_write(self, soc, max_idling=20):
-        iw = [self.connection, soc]
-        ow = []
-        count = 0
-        while 1:
-            count += 1
-            (ins, _, exs) = select.select(iw, ow, iw, 3)
-            if exs:
-                break
-            if ins:
-                for i in ins:
-                    if i is soc:
-                        out = self.connection
-                    else:
-                        out = soc
-                    data = i.recv(8192)
-                    if data:
-                        out.send(data)
-                        count = 0
-            else:
-                print("\t" "idle", count)
-            if count == max_idling:
-                break
-=======
             soc.close()
             self.connection.close()
 
@@ -257,12 +190,9 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
                     break
         except Exception as e:
             self.logger_instance.write_log(171, 1, e)
->>>>>>> 2a8bfbd6826e635d4354e8878723cb5feeb0629e
-
 
     def do_POST(self, body=True):
         self.do_GET()
-
 
     def do_CONNECT(self):
         address = self.path.split(':', 1)
@@ -285,14 +215,10 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
                 print("\n[*] Harmless url forwarding")
                 try:
                     s = socket.create_connection(address, timeout=self.timeout)
-<<<<<<< HEAD
-                    #print("socket created")
-=======
                     print("\n[*] Socket created")
->>>>>>> 2a8bfbd6826e635d4354e8878723cb5feeb0629e
                 except Exception as e:
                     self.send_error(502)
-                    #print(e)
+                    print(e)
                     return
                 self.send_response(200, 'Connection Established')
                 self.end_headers()
@@ -329,7 +255,7 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
                 print("\n[*] Socket created")
             except Exception as e:
                 self.send_error(502)
-                #print(e)
+                print(e)
                 return
             self.send_response(200, 'Connection Established')
             self.end_headers()
@@ -353,15 +279,9 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
                         break
                     other.sendall(data)
         else:
-<<<<<<< HEAD
-            # No need to enter to DB cause we got BL, means already in blacklist.
-            print("[!] Blacklisted url blocked")
-=======
             # TODO: Blacklisted url handling
             print("\n[!] Blacklisted url blocked")
->>>>>>> 2a8bfbd6826e635d4354e8878723cb5feeb0629e
             self.load_blocked_page()
-
 
     def send_resp_headers(self, resp):
         try:
@@ -374,44 +294,25 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
         except Exception as e:
             self.logger_instance.write_log(173, 1, e)
 
-
     def checkUrl(self, url):
         # Creating a web request to VirusTotal API
-        print("we are making url ceck via virus total")
-        rawurl = url
         url = base64.urlsafe_b64encode(url.encode()).decode().strip("=")
         vt_full_url = self.api_url + "urls/{}".format(url)
         parameters = {"x-apikey": self.api_key}
         response = requests.get(vt_full_url, headers=parameters)
-        print(response)
-        print(response.status_code)
         if(response.status_code == 200):
             # VT successfull request
             responseData = json.loads(response.text)
             harmless, malicious, suspicious, timeout, undetected = self.vt_response_parser_instance.last_analysis_stats(
                 responseData)
-            print(malicious)
-            print("we entered malicious section")
-            print(rawurl)
-            if ("cern" in rawurl):
-                print("test test test",url)
-                malicious = 6 #blocking cern
-
+            #malicious = 5
             if (malicious > 0):
-<<<<<<< HEAD
-                # Writing to log that malicious site detected malicious returns false
-=======
                 # Writing to log that malicious site detected
                 print('[!] {} Agents found this url malicious'.format(malicious))
->>>>>>> 2a8bfbd6826e635d4354e8878723cb5feeb0629e
                 self.logger_instance.write_log(90, 2)
                 return False
             else:
                 return True
         else:
-<<<<<<< HEAD
-=======
             print('[!] Bad VT request\n')
->>>>>>> 2a8bfbd6826e635d4354e8878723cb5feeb0629e
             return True
-

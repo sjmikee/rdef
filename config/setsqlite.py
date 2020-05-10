@@ -101,7 +101,8 @@ def repair_db(c):
 
 def testDb(conn):
     c = conn.cursor()
-    c.execute('''SELECT count(*) FROM sqlite_master where name in ("urls", "whitelist", "blacklist")''')
+    c.execute(
+        '''SELECT count(*) FROM sqlite_master where name in ("urls", "whitelist", "blacklist")''')
     flag = True
     if (c.fetchone()[-1] < 3):
         if(not repair_db(c)):
@@ -157,5 +158,3 @@ def isurlindb(conn, urltocheck):
     except Exception as e:
         logger_instance.write_log(146, 1, e)
         return False
-
-
