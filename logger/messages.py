@@ -63,7 +63,11 @@ class messages_handling():
             147: "[SQL] Test DB failed, creating repairDB.",
             149: "[SQL] Error inserting DB record.",
             150: "[SERVER] Server failed to start.",
-            169: "[SQL Repair] DB repair failed."
+            169: "[SQL Repair] DB repair failed.",
+            170: "[SOCKET] Data receiving failed.",
+            171: "[SOCKET] Data read write failed.",
+            172: "[SOCKET] Socket connection failed.",
+            173: "[SOCKET] Headers sending failed."
         }
         return "[{:<3s}]".format("ERR") + switcher.get(code, "No error code Exists for code: [{}].".format(code))
 
