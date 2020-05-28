@@ -14,6 +14,9 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+CURR_DIR = os.getcwd()
+PARENT_DIR = os.path.abspath(os.path.join(CURR_DIR, os.pardir))
+DB_DIR = os.path.join(PARENT_DIR, 'resources')
 TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 STATIC_DIR = os.path.join(BASE_DIR, 'static')
 MEDIA_DIR = os.path.join(BASE_DIR, 'media')
@@ -80,7 +83,7 @@ WSGI_APPLICATION = 'web_interface.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(DB_DIR, 'realdefdb.db'),
     }
 }
 
