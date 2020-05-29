@@ -7,9 +7,9 @@ from django.contrib.auth.models import User
 
 class LoginForm(AuthenticationForm):
     username = forms.CharField(label="Username", max_length=30,
-                               widget=forms.TextInput(attrs={'class': 'mdl-textfield__input', 'type': 'text', 'id': 'username'}))
+                               widget=forms.TextInput(attrs={'class': 'mdl-textfield__input', 'type': 'text', 'id': 'username', 'placeholder': 'username'}))
     password = forms.CharField(label="Password", max_length=30,
-                               widget=forms.TextInput(attrs={'class': 'mdl-textfield__input', 'type': 'password', 'id': 'password'}))
+                               widget=forms.TextInput(attrs={'class': 'mdl-textfield__input', 'type': 'password', 'id': 'password', 'placeholder': 'password'}))
 
 
 class UserForm(forms.ModelForm):

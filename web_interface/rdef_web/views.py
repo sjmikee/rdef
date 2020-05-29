@@ -51,6 +51,10 @@ def register(request):
 
 
 def user_login(request):
+    form = LoginForm(request.POST or None)
+
+    msg = None
+
     if request.method == 'POST':
         username = request.POST.get('username')
         password = request.POST.get('password')
@@ -60,10 +64,9 @@ def user_login(request):
                 login(request, user)
                 return HttpResponseRedirect(reverse('index'))
             else:
-                return HttpResponse("Your account was inactive.")
+                msg = 'Your account is not active'
         else:
-            print("Someone tried to login and failed.")
-            print(f"They used username: {username} and password: {password}")
-            return HttpResponse("Invalid login details given")
+            msg = 'Invalid credentials'
+            return render(request, 'rdef_web/login.html', {'form': form, 'msg': msg})
     else:
-        return render(request, 'rdef_web/login.html', {})
+        return render(request, 'rdef_web/login.html', {'form': form, 'msg': msg})
