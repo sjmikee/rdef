@@ -67,7 +67,7 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
             if(self.checkUrl(url)):
                 print("\n[*] Harmless url forwarding")
                 self.socket_connection(netloc, path, params, query)
-                inserturl(self.conn, self.path, 0, 0, 0,
+                inserturl(self.conn, 0, self.path, 0, 0,
                           0, 0)  # Insert to DB whitelist
                 insert_list_type(self.conn, url, 0, 'whitelist')
             else:  # Malicious, inserting to DB
@@ -210,7 +210,7 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
             status = self.checkUrl(url)
 
             if(status):
-                inserturl(self.conn, url, 0, 0, 0, 0, 0)
+                inserturl(self.conn, 0, url, 0, 0, 0, 0)
                 insert_list_type(self.conn, url, 0, 'whitelist')
                 print("\n[*] Harmless url forwarding")
                 try:

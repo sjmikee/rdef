@@ -21,7 +21,8 @@
         <a class="mdl-navigation__link" href="">About</a>
         <a class="mdl-navigation__link" href="">Help</a>
         {% if user.is_authenticated %}
-        <a class="mdl-navigation__link" href="rdef_web/user_logout">Logout</a>
+        <a class="mdl-navigation__link" href={% url 'rdef_web:user_logout' %}>Logout</a>
+        <a class="mdl-navigation__link" href={% url 'rdef_web:urls_table' %}>urls</a>
         {% else %}
         <a class="mdl-navigation__link" href={% url 'rdef_web:user_login' %}>Login</a>
         <a class="mdl-navigation__link" href={% url 'rdef_web:user_register' %}>Register</a>
@@ -36,7 +37,7 @@
         <a class="mdl-navigation__link" href="">About</a>
         <a class="mdl-navigation__link" href="">Help</a>
         {% if user.is_authenticated %}
-        <a class="mdl-navigation__link" href="rdef_web/user_logout">Logout</a>
+        <a class="mdl-navigation__link" href={% url 'rdef_web:user_login' %}>Logout</a>
         {% else %}
         <a class="mdl-navigation__link" href={% url 'rdef_web:user_login' %}>Login</a>
         <a class="mdl-navigation__link" href={% url 'rdef_web:user_register' %}>Register</a>

@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rdef_web',
+    'django_tables2'
 ]
 
 MIDDLEWARE = [

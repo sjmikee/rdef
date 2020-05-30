@@ -3,6 +3,7 @@ import os
 import logger.logger as logger
 import config.resources as resources
 from main import __working__directory__
+import datetime
 
 # Logger instance
 logger_instance = logger.logger()
@@ -122,11 +123,11 @@ def insert_list_type(conn, url, ip, list_type):
             149, 0, "DB table: {} {}".format(list_type, e))
 
 
-def inserturl(conn, date=0, url=0, user=0, time=0, typerequest=1, protocol=2):
+def inserturl(conn, date=0, url=0, user='a', time=0, typerequest=1, protocol='http'):
     c = conn.cursor()
     try:
-        c.execute("insert into urls values (?, ?, ?, ?, ?, ?)",
-                  (date, url, user, time, typerequest, protocol))
+        c.execute("insert into rdef_web_urls(url) values (?)",
+                  (url,))
         conn.commit()
     except Exception as e:
         logger_instance.write_log(149, 0, e)

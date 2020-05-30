@@ -1,0 +1,692 @@
+######################
+Logger File was created successfully by Hostname: sjmike,
+Version: 0.1,
+on: 2020-05-30
+######################
+[2020-05-30 19:32:39] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 19:32:39] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 19:32:39] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 19:32:39] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-05-30 19:32:39] [41 ][OK ][SQL] DB file exists.
+[2020-05-30 19:32:39] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-05-30 19:32:39] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-05-30 19:32:39] [42 ][OK ][SQL] Started DB Tests.
+[2020-05-30 19:32:39] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-05-30 19:32:39] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-05-30 19:32:39] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-05-30 19:32:39] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-05-30 19:32:39] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 19:32:39] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 19:32:39] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 19:32:39] [33 ][OK ][VT] set http request.
+[2020-05-30 19:32:40] [34 ][OK ][VT] get http response succeeded.
+[2020-05-30 19:32:40] [31 ][OK ][VT] website and API are alive.
+[2020-05-30 19:32:40] [32 ][OK ][VT] healthcheck success.
+[2020-05-30 19:32:40] [50 ][OK ][SERVER] Server started successfully.
+[2020-05-30 19:32:57] [149][ERR][SQL] Error inserting DB record. [Exception data]: table rdef_web_urls has 6 columns but 5 values were supplied.
+[2020-05-30 19:33:02] [149][ERR][SQL] Error inserting DB record. [Exception data]: table rdef_web_urls has 6 columns but 5 values were supplied.
+[2020-05-30 19:33:03] [149][ERR][SQL] Error inserting DB record. [Exception data]: table rdef_web_urls has 6 columns but 5 values were supplied.
+[2020-05-30 19:33:04] [149][ERR][SQL] Error inserting DB record. [Exception data]: table rdef_web_urls has 6 columns but 5 values were supplied.
+[2020-05-30 19:33:07] [149][ERR][SQL] Error inserting DB record. [Exception data]: table rdef_web_urls has 6 columns but 5 values were supplied.
+[2020-05-30 19:34:35] [149][ERR][SQL] Error inserting DB record. [Exception data]: table rdef_web_urls has 6 columns but 5 values were supplied.
+[2020-05-30 19:34:38] [149][ERR][SQL] Error inserting DB record. [Exception data]: table rdef_web_urls has 6 columns but 5 values were supplied.
+[2020-05-30 19:34:38] [149][ERR][SQL] Error inserting DB record. [Exception data]: table rdef_web_urls has 6 columns but 5 values were supplied.
+[2020-05-30 19:34:38] [149][ERR][SQL] Error inserting DB record. [Exception data]: table rdef_web_urls has 6 columns but 5 values were supplied.
+[2020-05-30 19:34:38] [149][ERR][SQL] Error inserting DB record. [Exception data]: table rdef_web_urls has 6 columns but 5 values were supplied.
+[2020-05-30 19:34:38] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist cannot commit - no transaction is active.
+[2020-05-30 19:34:38] [149][ERR][SQL] Error inserting DB record. [Exception data]: table rdef_web_urls has 6 columns but 5 values were supplied.
+[2020-05-30 19:34:38] [149][ERR][SQL] Error inserting DB record. [Exception data]: table rdef_web_urls has 6 columns but 5 values were supplied.
+[2020-05-30 19:34:38] [149][ERR][SQL] Error inserting DB record. [Exception data]: table rdef_web_urls has 6 columns but 5 values were supplied.
+[2020-05-30 19:34:39] [149][ERR][SQL] Error inserting DB record. [Exception data]: table rdef_web_urls has 6 columns but 5 values were supplied.
+[2020-05-30 19:34:40] [149][ERR][SQL] Error inserting DB record. [Exception data]: table rdef_web_urls has 6 columns but 5 values were supplied.
+[2020-05-30 19:34:40] [149][ERR][SQL] Error inserting DB record. [Exception data]: table rdef_web_urls has 6 columns but 5 values were supplied.
+[2020-05-30 19:34:40] [149][ERR][SQL] Error inserting DB record. [Exception data]: table rdef_web_urls has 6 columns but 5 values were supplied.
+[2020-05-30 19:34:43] [149][ERR][SQL] Error inserting DB record. [Exception data]: table rdef_web_urls has 6 columns but 5 values were supplied.
+[2020-05-30 19:34:45] [149][ERR][SQL] Error inserting DB record. [Exception data]: table rdef_web_urls has 6 columns but 5 values were supplied.
+[2020-05-30 19:35:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:35:26] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:35:51] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:35:56] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:35:56] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:35:56] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:35:56] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:35:57] [149][ERR][SQL] Error inserting DB record. [Exception data]: table rdef_web_urls has 6 columns but 5 values were supplied.
+[2020-05-30 19:35:57] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:08] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:08] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:08] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:09] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:36:14] [149][ERR][SQL] Error inserting DB record. [Exception data]: table rdef_web_urls has 6 columns but 5 values were supplied.
+[2020-05-30 19:36:16] [149][ERR][SQL] Error inserting DB record. [Exception data]: table rdef_web_urls has 6 columns but 5 values were supplied.
+[2020-05-30 19:36:16] [149][ERR][SQL] Error inserting DB record. [Exception data]: table rdef_web_urls has 6 columns but 5 values were supplied.
+[2020-05-30 19:36:16] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist not an error.
+[2020-05-30 19:36:16] [149][ERR][SQL] Error inserting DB record. [Exception data]: table rdef_web_urls has 6 columns but 5 values were supplied.
+[2020-05-30 19:36:16] [149][ERR][SQL] Error inserting DB record. [Exception data]: table rdef_web_urls has 6 columns but 5 values were supplied.
+[2020-05-30 19:36:17] [149][ERR][SQL] Error inserting DB record. [Exception data]: table rdef_web_urls has 6 columns but 5 values were supplied.
+[2020-05-30 19:36:39] [149][ERR][SQL] Error inserting DB record. [Exception data]: table rdef_web_urls has 6 columns but 5 values were supplied.
+[2020-05-30 19:37:26] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:38:14] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:43:26] [149][ERR][SQL] Error inserting DB record. [Exception data]: table rdef_web_urls has 6 columns but 5 values were supplied.
+[2020-05-30 19:48:22] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 19:48:22] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 19:48:22] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 19:48:22] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-05-30 19:48:22] [41 ][OK ][SQL] DB file exists.
+[2020-05-30 19:48:22] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-05-30 19:48:22] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-05-30 19:48:22] [42 ][OK ][SQL] Started DB Tests.
+[2020-05-30 19:48:22] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-05-30 19:48:22] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-05-30 19:48:22] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-05-30 19:48:22] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-05-30 19:48:22] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 19:48:22] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 19:48:22] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 19:48:22] [33 ][OK ][VT] set http request.
+[2020-05-30 19:48:23] [34 ][OK ][VT] get http response succeeded.
+[2020-05-30 19:48:23] [31 ][OK ][VT] website and API are alive.
+[2020-05-30 19:48:23] [32 ][OK ][VT] healthcheck success.
+[2020-05-30 19:48:23] [50 ][OK ][SERVER] Server started successfully.
+[2020-05-30 19:48:31] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:48:31] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:48:31] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:48:31] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:48:31] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:48:31] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:48:31] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:48:31] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:48:31] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:55:55] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 19:55:55] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 19:55:55] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 19:55:55] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-05-30 19:55:55] [41 ][OK ][SQL] DB file exists.
+[2020-05-30 19:55:55] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-05-30 19:55:55] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-05-30 19:55:55] [42 ][OK ][SQL] Started DB Tests.
+[2020-05-30 19:55:55] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-05-30 19:55:55] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-05-30 19:55:55] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-05-30 19:55:55] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-05-30 19:55:55] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 19:55:55] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 19:55:55] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 19:55:55] [33 ][OK ][VT] set http request.
+[2020-05-30 19:55:56] [34 ][OK ][VT] get http response succeeded.
+[2020-05-30 19:55:56] [31 ][OK ][VT] website and API are alive.
+[2020-05-30 19:55:56] [32 ][OK ][VT] healthcheck success.
+[2020-05-30 19:55:56] [50 ][OK ][SERVER] Server started successfully.
+[2020-05-30 19:56:00] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:56:00] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 19:56:00] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:00:00] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 20:00:00] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 20:00:00] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 20:00:00] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-05-30 20:00:00] [41 ][OK ][SQL] DB file exists.
+[2020-05-30 20:00:00] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-05-30 20:00:00] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-05-30 20:00:00] [42 ][OK ][SQL] Started DB Tests.
+[2020-05-30 20:00:00] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-05-30 20:00:00] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-05-30 20:00:00] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-05-30 20:00:00] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-05-30 20:00:00] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 20:00:00] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 20:00:00] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 20:00:00] [33 ][OK ][VT] set http request.
+[2020-05-30 20:00:01] [34 ][OK ][VT] get http response succeeded.
+[2020-05-30 20:00:01] [31 ][OK ][VT] website and API are alive.
+[2020-05-30 20:00:01] [32 ][OK ][VT] healthcheck success.
+[2020-05-30 20:00:01] [50 ][OK ][SERVER] Server started successfully.
+[2020-05-30 20:00:10] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:00:10] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:00:11] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:03:07] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 20:03:07] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 20:03:07] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 20:03:07] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-05-30 20:03:07] [41 ][OK ][SQL] DB file exists.
+[2020-05-30 20:03:07] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-05-30 20:03:07] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-05-30 20:03:07] [42 ][OK ][SQL] Started DB Tests.
+[2020-05-30 20:03:07] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-05-30 20:03:07] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-05-30 20:03:07] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-05-30 20:03:07] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-05-30 20:03:07] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 20:03:07] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 20:03:07] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 20:03:07] [33 ][OK ][VT] set http request.
+[2020-05-30 20:03:08] [34 ][OK ][VT] get http response succeeded.
+[2020-05-30 20:03:08] [31 ][OK ][VT] website and API are alive.
+[2020-05-30 20:03:08] [32 ][OK ][VT] healthcheck success.
+[2020-05-30 20:03:08] [50 ][OK ][SERVER] Server started successfully.
+[2020-05-30 20:03:13] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:03:13] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:03:13] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:11:43] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 20:11:43] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 20:11:43] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 20:11:43] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-05-30 20:11:43] [41 ][OK ][SQL] DB file exists.
+[2020-05-30 20:11:43] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-05-30 20:11:43] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-05-30 20:11:43] [42 ][OK ][SQL] Started DB Tests.
+[2020-05-30 20:11:43] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-05-30 20:11:43] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-05-30 20:11:43] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-05-30 20:11:43] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-05-30 20:11:43] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 20:11:43] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 20:11:43] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 20:11:43] [33 ][OK ][VT] set http request.
+[2020-05-30 20:11:44] [34 ][OK ][VT] get http response succeeded.
+[2020-05-30 20:11:44] [31 ][OK ][VT] website and API are alive.
+[2020-05-30 20:11:44] [32 ][OK ][VT] healthcheck success.
+[2020-05-30 20:11:44] [50 ][OK ][SERVER] Server started successfully.
+[2020-05-30 20:12:19] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:12:19] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:12:19] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:12:19] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:12:19] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:12:19] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:13:31] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 20:13:31] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 20:13:31] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 20:13:31] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-05-30 20:13:31] [41 ][OK ][SQL] DB file exists.
+[2020-05-30 20:13:31] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-05-30 20:13:31] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-05-30 20:13:31] [42 ][OK ][SQL] Started DB Tests.
+[2020-05-30 20:13:31] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-05-30 20:13:31] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-05-30 20:13:31] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-05-30 20:13:31] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-05-30 20:13:31] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 20:13:31] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 20:13:31] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 20:13:31] [33 ][OK ][VT] set http request.
+[2020-05-30 20:13:33] [34 ][OK ][VT] get http response succeeded.
+[2020-05-30 20:13:33] [31 ][OK ][VT] website and API are alive.
+[2020-05-30 20:13:33] [32 ][OK ][VT] healthcheck success.
+[2020-05-30 20:13:33] [50 ][OK ][SERVER] Server started successfully.
+[2020-05-30 20:13:39] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:13:39] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:13:39] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:14:27] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:14:27] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:14:27] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:14:27] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:14:27] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:14:27] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:14:27] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:14:27] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:14:27] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:14:29] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:14:30] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 30 supplied..
+[2020-05-30 20:14:31] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:14:31] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:14:31] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:14:31] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:14:31] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:14:31] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:14:31] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:15:05] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:15:05] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:15:07] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 35 supplied..
+[2020-05-30 20:16:20] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 20:16:20] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 20:16:20] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 20:16:20] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-05-30 20:16:20] [41 ][OK ][SQL] DB file exists.
+[2020-05-30 20:16:20] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-05-30 20:16:20] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-05-30 20:16:20] [42 ][OK ][SQL] Started DB Tests.
+[2020-05-30 20:16:20] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-05-30 20:16:20] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-05-30 20:16:20] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-05-30 20:16:20] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-05-30 20:16:20] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 20:16:20] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 20:16:20] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 20:16:20] [33 ][OK ][VT] set http request.
+[2020-05-30 20:16:21] [34 ][OK ][VT] get http response succeeded.
+[2020-05-30 20:16:21] [31 ][OK ][VT] website and API are alive.
+[2020-05-30 20:16:21] [32 ][OK ][VT] healthcheck success.
+[2020-05-30 20:16:21] [50 ][OK ][SERVER] Server started successfully.
+[2020-05-30 20:16:28] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 35 supplied..
+[2020-05-30 20:16:32] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 24 supplied..
+[2020-05-30 20:16:33] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 28 supplied..
+[2020-05-30 20:16:33] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 28 supplied..
+[2020-05-30 20:16:33] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 28 supplied..
+[2020-05-30 20:16:33] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 28 supplied..
+[2020-05-30 20:16:33] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 28 supplied..
+[2020-05-30 20:16:33] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist cannot commit - no transaction is active.
+[2020-05-30 20:16:34] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 27 supplied..
+[2020-05-30 20:17:29] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 20:17:29] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 20:17:29] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 20:17:29] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-05-30 20:17:30] [41 ][OK ][SQL] DB file exists.
+[2020-05-30 20:17:30] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-05-30 20:17:30] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-05-30 20:17:30] [42 ][OK ][SQL] Started DB Tests.
+[2020-05-30 20:17:30] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-05-30 20:17:30] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-05-30 20:17:30] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-05-30 20:17:30] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-05-30 20:17:30] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 20:17:30] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 20:17:30] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 20:17:30] [33 ][OK ][VT] set http request.
+[2020-05-30 20:17:30] [34 ][OK ][VT] get http response succeeded.
+[2020-05-30 20:17:30] [31 ][OK ][VT] website and API are alive.
+[2020-05-30 20:17:30] [32 ][OK ][VT] healthcheck success.
+[2020-05-30 20:17:30] [50 ][OK ][SERVER] Server started successfully.
+[2020-05-30 20:17:53] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:17:53] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:17:53] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:17:53] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:17:53] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:17:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:17:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:17:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:17:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:17:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:17:57] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:17:57] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:17:57] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:17:57] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:17:57] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:17:57] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:17:57] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:17:57] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:17:57] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:18:12] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 29 supplied..
+[2020-05-30 20:18:13] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 26 supplied..
+[2020-05-30 20:20:56] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 20:20:56] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 20:20:56] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 20:20:56] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-05-30 20:20:56] [41 ][OK ][SQL] DB file exists.
+[2020-05-30 20:20:56] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-05-30 20:20:56] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-05-30 20:20:56] [42 ][OK ][SQL] Started DB Tests.
+[2020-05-30 20:20:56] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-05-30 20:20:56] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-05-30 20:20:56] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-05-30 20:20:56] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-05-30 20:20:56] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 20:20:56] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 20:20:56] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 20:20:56] [33 ][OK ][VT] set http request.
+[2020-05-30 20:20:57] [34 ][OK ][VT] get http response succeeded.
+[2020-05-30 20:20:57] [31 ][OK ][VT] website and API are alive.
+[2020-05-30 20:20:57] [32 ][OK ][VT] healthcheck success.
+[2020-05-30 20:20:57] [50 ][OK ][SERVER] Server started successfully.
+[2020-05-30 20:21:40] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:21:45] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 26 supplied..
+[2020-05-30 20:21:52] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 47 supplied..
+[2020-05-30 20:21:52] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 47 supplied..
+[2020-05-30 20:21:52] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 25 supplied..
+[2020-05-30 20:21:52] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist cannot start a transaction within a transaction.
+[2020-05-30 20:21:52] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 25 supplied..
+[2020-05-30 20:21:52] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 25 supplied..
+[2020-05-30 20:21:52] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 25 supplied..
+[2020-05-30 20:21:52] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 25 supplied..
+[2020-05-30 20:21:52] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 24 supplied..
+[2020-05-30 20:21:52] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 47 supplied..
+[2020-05-30 20:21:52] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 25 supplied..
+[2020-05-30 20:21:53] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 47 supplied..
+[2020-05-30 20:21:53] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist cannot start a transaction within a transaction.
+[2020-05-30 20:21:53] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 23 supplied..
+[2020-05-30 20:21:53] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 47 supplied..
+[2020-05-30 20:21:53] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 47 supplied..
+[2020-05-30 20:21:54] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 22 supplied..
+[2020-05-30 20:21:54] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 22 supplied..
+[2020-05-30 20:21:54] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 22 supplied..
+[2020-05-30 20:21:54] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 22 supplied..
+[2020-05-30 20:21:56] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 28 supplied..
+[2020-05-30 20:21:56] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-05-30 20:21:56] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 32 supplied..
+[2020-05-30 20:21:56] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: blacklist cannot commit - no transaction is active.
+[2020-05-30 20:21:57] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 22 supplied..
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:22:54] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:23:28] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 20:23:28] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 20:23:28] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 20:23:28] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-05-30 20:23:28] [41 ][OK ][SQL] DB file exists.
+[2020-05-30 20:23:28] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-05-30 20:23:28] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-05-30 20:23:28] [42 ][OK ][SQL] Started DB Tests.
+[2020-05-30 20:23:28] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-05-30 20:23:28] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-05-30 20:23:28] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-05-30 20:23:28] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-05-30 20:23:28] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 20:23:28] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 20:23:28] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 20:23:28] [33 ][OK ][VT] set http request.
+[2020-05-30 20:23:28] [34 ][OK ][VT] get http response succeeded.
+[2020-05-30 20:23:28] [31 ][OK ][VT] website and API are alive.
+[2020-05-30 20:23:28] [32 ][OK ][VT] healthcheck success.
+[2020-05-30 20:23:28] [50 ][OK ][SERVER] Server started successfully.
+[2020-05-30 20:23:37] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:23:37] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:23:38] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:23:44] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 28 supplied..
+[2020-05-30 20:23:46] [149][ERR][SQL] Error inserting DB record. [Exception data]: Incorrect number of bindings supplied. The current statement uses 1, and there are 34 supplied..
+[2020-05-30 20:24:49] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 20:24:49] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 20:24:49] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 20:24:49] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-05-30 20:24:49] [41 ][OK ][SQL] DB file exists.
+[2020-05-30 20:24:49] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-05-30 20:24:49] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-05-30 20:24:49] [42 ][OK ][SQL] Started DB Tests.
+[2020-05-30 20:24:49] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-05-30 20:24:49] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-05-30 20:24:49] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-05-30 20:24:49] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-05-30 20:24:49] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 20:24:49] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 20:24:49] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 20:24:49] [33 ][OK ][VT] set http request.
+[2020-05-30 20:24:50] [34 ][OK ][VT] get http response succeeded.
+[2020-05-30 20:24:50] [31 ][OK ][VT] website and API are alive.
+[2020-05-30 20:24:50] [32 ][OK ][VT] healthcheck success.
+[2020-05-30 20:24:50] [50 ][OK ][SERVER] Server started successfully.
+[2020-05-30 20:24:56] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:24:57] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:25:02] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:25:03] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:25:03] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:25:03] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:25:03] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:25:03] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:25:03] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:25:03] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:25:03] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:25:03] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:25:03] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:25:03] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:25:03] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:25:28] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:25:28] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:25:36] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:39] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:39] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:39] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:39] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:40] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:43] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:43] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:43] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:43] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:43] [149][ERR][SQL] Error inserting DB record. [Exception data]: not an error.
+[2020-05-30 20:25:43] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot start a transaction within a transaction.
+[2020-05-30 20:25:43] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:43] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:43] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:43] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:43] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:43] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:43] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:45] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:45] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:46] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:46] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:47] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:47] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:48] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:48] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:49] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:49] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:52] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:52] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:53] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:53] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:54] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:57] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:57] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:57] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:57] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:57] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:58] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:58] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:58] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:25:58] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.date.
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:26:59] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:27:37] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 20:27:37] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 20:27:37] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 20:27:37] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-05-30 20:27:37] [41 ][OK ][SQL] DB file exists.
+[2020-05-30 20:27:37] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-05-30 20:27:37] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-05-30 20:27:37] [42 ][OK ][SQL] Started DB Tests.
+[2020-05-30 20:27:37] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-05-30 20:27:37] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-05-30 20:27:37] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-05-30 20:27:37] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-05-30 20:27:37] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 20:27:37] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 20:27:37] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 20:27:37] [33 ][OK ][VT] set http request.
+[2020-05-30 20:27:38] [34 ][OK ][VT] get http response succeeded.
+[2020-05-30 20:27:38] [31 ][OK ][VT] website and API are alive.
+[2020-05-30 20:27:38] [32 ][OK ][VT] healthcheck success.
+[2020-05-30 20:27:38] [50 ][OK ][SERVER] Server started successfully.
+[2020-05-30 20:27:44] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:27:45] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:27:45] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:27:45] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:27:49] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:27:50] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:27:50] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:27:54] [149][ERR][SQL] Error inserting DB record. [Exception data]: Error binding parameter 0 - probably unsupported type..
+[2020-05-30 20:28:17] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 20:28:17] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 20:28:17] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 20:28:17] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-05-30 20:28:17] [41 ][OK ][SQL] DB file exists.
+[2020-05-30 20:28:17] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-05-30 20:28:17] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-05-30 20:28:17] [42 ][OK ][SQL] Started DB Tests.
+[2020-05-30 20:28:17] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-05-30 20:28:17] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-05-30 20:28:17] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-05-30 20:28:17] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-05-30 20:28:17] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 20:28:17] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 20:28:17] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 20:28:17] [33 ][OK ][VT] set http request.
+[2020-05-30 20:28:17] [34 ][OK ][VT] get http response succeeded.
+[2020-05-30 20:28:17] [31 ][OK ][VT] website and API are alive.
+[2020-05-30 20:28:17] [32 ][OK ][VT] healthcheck success.
+[2020-05-30 20:28:17] [50 ][OK ][SERVER] Server started successfully.
+[2020-05-30 20:28:36] [149][ERR][SQL] Error inserting DB record. [Exception data]: NOT NULL constraint failed: rdef_web_urls.user.
+[2020-05-30 20:31:42] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 20:31:42] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 20:31:42] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 20:31:42] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-05-30 20:31:42] [41 ][OK ][SQL] DB file exists.
+[2020-05-30 20:31:42] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-05-30 20:31:42] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-05-30 20:31:42] [42 ][OK ][SQL] Started DB Tests.
+[2020-05-30 20:31:42] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-05-30 20:31:42] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-05-30 20:31:42] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-05-30 20:31:42] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-05-30 20:31:42] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 20:31:42] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 20:31:42] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 20:31:42] [33 ][OK ][VT] set http request.
+[2020-05-30 20:31:44] [34 ][OK ][VT] get http response succeeded.
+[2020-05-30 20:31:44] [31 ][OK ][VT] website and API are alive.
+[2020-05-30 20:31:44] [32 ][OK ][VT] healthcheck success.
+[2020-05-30 20:31:44] [50 ][OK ][SERVER] Server started successfully.
+[2020-05-30 20:31:50] [149][ERR][SQL] Error inserting DB record. [Exception data]: 'getset_descriptor' object is not callable.
+[2020-05-30 20:31:52] [149][ERR][SQL] Error inserting DB record. [Exception data]: 'getset_descriptor' object is not callable.
+[2020-05-30 20:31:53] [149][ERR][SQL] Error inserting DB record. [Exception data]: 'getset_descriptor' object is not callable.
+[2020-05-30 20:44:43] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 20:44:43] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 20:44:43] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 20:44:43] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-05-30 20:44:43] [41 ][OK ][SQL] DB file exists.
+[2020-05-30 20:44:43] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-05-30 20:44:43] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-05-30 20:44:44] [42 ][OK ][SQL] Started DB Tests.
+[2020-05-30 20:44:44] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-05-30 20:44:44] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-05-30 20:44:44] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-05-30 20:44:44] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-05-30 20:44:44] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-05-30 20:44:44] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-05-30 20:44:44] [30 ][OK ][VT] credentials successfully read.
+[2020-05-30 20:44:44] [33 ][OK ][VT] set http request.
+[2020-05-30 20:44:44] [34 ][OK ][VT] get http response succeeded.
+[2020-05-30 20:44:44] [31 ][OK ][VT] website and API are alive.
+[2020-05-30 20:44:44] [32 ][OK ][VT] healthcheck success.
+[2020-05-30 20:44:44] [50 ][OK ][SERVER] Server started successfully.
+[2020-05-30 20:45:06] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot commit - no transaction is active.
+[2020-05-30 20:45:28] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist not an error.
+[2020-05-30 20:45:29] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist cannot commit - no transaction is active.
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:23] [170][OK ]No success code Exists for code: [170].
+[2020-05-30 20:46:34] [170][OK ]No success code Exists for code: [170].

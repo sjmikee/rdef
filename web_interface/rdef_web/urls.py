@@ -1,6 +1,6 @@
 # rdef_web/urls.py
 from django.conf.urls import url
-from rdef_web.views import user_login, register, user_logout
+from rdef_web.views import user_login, register, user_logout, urls_table
 from rdef_web import forms
 # SET THE NAMESPACE!
 app_name = 'rdef_web'
@@ -8,5 +8,6 @@ app_name = 'rdef_web'
 urlpatterns = [
     url(r'^user_register/$', register, name='user_register'),
     url(r'^user_login/$', user_login, name='user_login'),
-    url(r'^user_logout/$', user_logout, name='user_logout')
+    url(r'^user_logout/$', user_logout, name='user_logout'),
+    url(r'^urls_table/$', urls_table, name='urls_table')
 ]

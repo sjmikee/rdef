@@ -4,6 +4,8 @@ from django.contrib.auth import authenticate, login, logout
 from django.http import HttpResponseRedirect, HttpResponse
 from django.urls import reverse
 from django.contrib.auth.decorators import login_required
+from rdef_web.tables import UrlsTable
+from rdef_web.models import urls
 
 # Create your views here.
 
@@ -77,3 +79,12 @@ def user_login(request):
             return render(request, 'rdef_web/login.html', {'form': form, 'msg': msg})
     else:
         return render(request, 'rdef_web/login.html', {'form': form, 'msg': msg})
+
+
+@login_required
+def urls_table(request):
+    table = UrlsTable(urls.objects.all())
+
+    return render(request, "rdef_web/urls_table.html", {
+        "table": table
+    })

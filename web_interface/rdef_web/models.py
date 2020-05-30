@@ -11,3 +11,11 @@ class UserProfileInfo(models.Model):
 
     def __str__(self):
         return self.user.username
+
+
+class urls(models.Model):
+    date = models.DateField(null=True, blank=True)
+    url = models.CharField(max_length=150, null=True,  blank=True)
+    user = models.CharField(max_length=30, null=True, blank=True)
+    time = models.TimeField(null=True, blank=True)
+    protocol = models.CharField(max_length=30, null=True, blank=True)
