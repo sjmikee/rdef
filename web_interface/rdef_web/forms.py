@@ -13,7 +13,17 @@ class LoginForm(AuthenticationForm):
 
 
 class UserForm(forms.ModelForm):
-    password = forms.CharField(widget=forms.PasswordInput())
+    username = forms.CharField(label="Username", max_length=30, widget=forms.TextInput(
+        attrs={'class': 'mdl-textfield__input', 'type': 'text', 'id': 'username', 'placeholder': 'username'}))
+
+    password = forms.CharField(label="Password", max_length=30,
+                               widget=forms.TextInput(attrs={'class': 'mdl-textfield__input', 'type': 'password', 'id': 'password', 'placeholder': 'password'}))
+
+    password_confirm = forms.CharField(label="Password", max_length=30,
+                                       widget=forms.TextInput(attrs={'class': 'mdl-textfield__input', 'type': 'password', 'id': 'password_confirm', 'placeholder': 'confirm password'}))
+
+    email = forms.EmailField(label="Email", max_length=60, widget=forms.TextInput(
+        attrs={'class': 'mdl-textfield__input', 'type': 'text', 'id': 'email', 'placeholder': 'email'}))
 
     class Meta():
         model = User
