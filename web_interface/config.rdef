@@ -1,0 +1,13 @@
+[DEFAULT]
+computername = sjmike
+ipaddress = 169.254.249.58
+time = 2020-06-05 11:20:41
+app_version = 0.1
+mac = e3:83:af:c7:9b:e0
+win_ver = Windows-10-10.0.18362-SP0
+cpu = Intel64 Family 6 Model 142 Stepping 9, GenuineIntel
+
+[API]
+api_key = 2a24732ab41b71b3a66db6e18595c189a37920067ce9e6f4095ebc5241062121
+api_url = https://www.virustotal.com/api/v3/
+

@@ -1,0 +1,100 @@
+######################
+Logger File was created successfully by Hostname: sjmike,
+Version: 0.1,
+on: 2020-06-05
+######################
+[2020-06-05 10:48:48] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-06-05 10:48:48] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-06-05 10:48:48] [122][ERR][SYSTEM] Error reading the Configuration file. [Exception data]: 'API'.
+[2020-06-05 10:48:48] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-06-05 10:48:48] [141][ERR][SQL] DB file does not exist. [Exception data]: .
+[2020-06-05 10:48:48] [44 ][OK ][SQL] Creating DB file.
+[2020-06-05 10:48:48] [141][ERR][SQL] DB file does not exist. [Exception data]: unable to open database file.
+[2020-06-05 10:48:48] [48 ][OK ][SQL] Launch DB create architecture.
+[2020-06-05 10:50:30] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-06-05 10:50:30] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-06-05 10:50:30] [122][ERR][SYSTEM] Error reading the Configuration file. [Exception data]: 'API'.
+[2020-06-05 10:50:30] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-06-05 10:50:30] [141][ERR][SQL] DB file does not exist. [Exception data]: .
+[2020-06-05 10:50:30] [44 ][OK ][SQL] Creating DB file.
+[2020-06-05 10:50:30] [141][ERR][SQL] DB file does not exist. [Exception data]: unable to open database file.
+[2020-06-05 10:50:30] [48 ][OK ][SQL] Launch DB create architecture.
+[2020-06-05 10:50:30] [140][ERR][SQL] SQL initialization failed. [Exception data]: 'NoneType' object has no attribute 'cursor'.
+[2020-06-05 10:51:20] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-06-05 10:51:20] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-06-05 10:51:20] [122][ERR][SYSTEM] Error reading the Configuration file. [Exception data]: 'API'.
+[2020-06-05 10:51:20] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-06-05 10:51:20] [141][ERR][SQL] DB file does not exist. [Exception data]: .
+[2020-06-05 10:51:20] [44 ][OK ][SQL] Creating DB file.
+[2020-06-05 10:51:20] [141][ERR][SQL] DB file does not exist. [Exception data]: unable to open database file.
+[2020-06-05 10:51:20] [48 ][OK ][SQL] Launch DB create architecture.
+[2020-06-05 10:51:20] [140][ERR][SQL] SQL initialization failed. [Exception data]: 'NoneType' object has no attribute 'cursor'.
+[2020-06-05 11:20:41] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-06-05 11:20:41] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-06-05 11:20:41] [122][ERR][SYSTEM] Error reading the Configuration file. [Exception data]: 'API'.
+[2020-06-05 11:20:41] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-06-05 11:20:41] [141][ERR][SQL] DB file does not exist. [Exception data]: .
+[2020-06-05 11:20:41] [44 ][OK ][SQL] Creating DB file.
+[2020-06-05 11:20:41] [141][ERR][SQL] DB file does not exist. [Exception data]: unable to open database file.
+[2020-06-05 11:20:41] [48 ][OK ][SQL] Launch DB create architecture.
+[2020-06-05 11:20:41] [140][ERR][SQL] SQL initialization failed. [Exception data]: 'NoneType' object has no attribute 'cursor'.
+[2020-06-05 11:20:41] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-06-05 11:20:41] [25 ][OK ][SYSTEM] Config file create section initialized.
+[2020-06-05 11:20:41] [26 ][OK ][SYSTEM] Writing Default config values.
+[2020-06-05 11:20:41] [27 ][OK ][SYSTEM] Writing Api config values.
+[2020-06-05 11:20:41] [21 ][OK ][SYSTEM] Config file was successfully created.
+[2020-06-05 11:20:41] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-06-05 11:20:41] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-06-05 11:20:41] [30 ][OK ][VT] credentials successfully read.
+[2020-06-05 11:20:41] [33 ][OK ][VT] set http request.
+[2020-06-05 11:20:42] [34 ][OK ][VT] get http response succeeded.
+[2020-06-05 11:20:42] [31 ][OK ][VT] website and API are alive.
+[2020-06-05 11:20:42] [32 ][OK ][VT] healthcheck success.
+[2020-06-05 11:20:42] [50 ][OK ][SERVER] Server started successfully.
+[2020-06-05 11:20:57] [146][OK ]No success code Exists for code: [146].
+[2020-06-05 11:20:57] [146][OK ]No success code Exists for code: [146].
+[2020-06-05 11:20:57] [146][OK ]No success code Exists for code: [146].
+[2020-06-05 11:20:57] [146][OK ]No success code Exists for code: [146].
+[2020-06-05 11:20:57] [146][OK ]No success code Exists for code: [146].
+[2020-06-05 11:20:57] [146][OK ]No success code Exists for code: [146].
+[2020-06-05 11:20:57] [146][OK ]No success code Exists for code: [146].
+[2020-06-05 11:20:57] [146][OK ]No success code Exists for code: [146].
+[2020-06-05 11:20:57] [146][OK ]No success code Exists for code: [146].
+[2020-06-05 11:20:57] [146][OK ]No success code Exists for code: [146].
+[2020-06-05 11:20:57] [146][OK ]No success code Exists for code: [146].
+[2020-06-05 11:20:57] [146][OK ]No success code Exists for code: [146].
+[2020-06-05 11:20:57] [146][OK ]No success code Exists for code: [146].
+[2020-06-05 11:26:33] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-06-05 11:26:33] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-06-05 11:26:33] [30 ][OK ][VT] credentials successfully read.
+[2020-06-05 11:26:33] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-06-05 11:26:33] [141][ERR][SQL] DB file does not exist. [Exception data]: .
+[2020-06-05 11:26:33] [44 ][OK ][SQL] Creating DB file.
+[2020-06-05 11:26:33] [48 ][OK ][SQL] Launch DB create architecture.
+[2020-06-05 11:26:33] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-06-05 11:26:33] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-06-05 11:26:33] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-06-05 11:26:33] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-06-05 11:26:33] [30 ][OK ][VT] credentials successfully read.
+[2020-06-05 11:26:33] [33 ][OK ][VT] set http request.
+[2020-06-05 11:26:34] [34 ][OK ][VT] get http response succeeded.
+[2020-06-05 11:26:34] [31 ][OK ][VT] website and API are alive.
+[2020-06-05 11:26:34] [32 ][OK ][VT] healthcheck success.
+[2020-06-05 11:26:34] [50 ][OK ][SERVER] Server started successfully.
+[2020-06-05 11:26:39] [146][OK ]No success code Exists for code: [146].
+[2020-06-05 11:42:25] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-06-05 11:42:25] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-06-05 11:42:25] [30 ][OK ][VT] credentials successfully read.
+[2020-06-05 11:42:25] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-06-05 11:42:25] [141][ERR][SQL] DB file does not exist. [Exception data]: .
+[2020-06-05 11:42:25] [44 ][OK ][SQL] Creating DB file.
+[2020-06-05 11:42:25] [141][ERR][SQL] DB file does not exist. [Exception data]: unable to open database file.
+[2020-06-05 11:42:25] [48 ][OK ][SQL] Launch DB create architecture.
+[2020-06-05 11:50:08] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-06-05 11:50:08] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-06-05 11:50:08] [30 ][OK ][VT] credentials successfully read.
+[2020-06-05 11:50:08] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-06-05 11:50:08] [141][ERR][SQL] DB file does not exist. [Exception data]: .
+[2020-06-05 11:50:08] [44 ][OK ][SQL] Creating DB file.
+[2020-06-05 11:50:08] [141][ERR][SQL] DB file does not exist. [Exception data]: unable to open database file.
+[2020-06-05 11:50:08] [48 ][OK ][SQL] Launch DB create architecture.

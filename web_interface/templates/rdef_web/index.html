@@ -1,13 +1,65 @@
 {% extends "rdef_web/base.html" %}
-{% block body_block %}
-<div class="container">
-  <div class="jumbotron">
-    <h1>Welcome to the Djungle !</h1>
-    {% if user.is_authenticated %}
-        <h2>Hello {{ user.username }}</h2>
+{% block content %}
+  {% if user.is_authenticated %}
+    <script>
+      window.setTimeout(function(){location.href = "{{ index.html }}";;}, 30000);
+    </script>
+
+    <style>
+      .server-status-card-wide.mdl-card {
+        width: 300px;
+      }
+    </style>
+    {% if msg == 'UP'%}
+      <style>
+        .server-status-card-wide > .mdl-card__title {
+          color: #fff;
+          height: 150px;
+          background-color: rgb(76,175,80);
+      }
+      </style>
     {% else %}
-        <h2>Register or Login if you'd like to</h2>
+      <style>
+        .server-status-card-wide > .mdl-card__title {
+          color: #fff;
+          height: 150px;
+          background-color: grey;
+        }
+      </style>
     {% endif %}
-  </div>
-</div>
-{% endblock %}
+    <style>
+      .server-status-card-wide > .mdl-card__menu {
+        color: #fff;
+      }
+    </style>
+    <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--4-col">
+        <div class="server-status-card-wide mdl-card mdl-shadow--2dp">
+          <div class="mdl-card__title">
+            <h2 class="mdl-card__title-text">
+              {% if msg == 'UP' %}
+                Proxy Server Up
+              {% else %}
+                Proxy Server Down
+              {% endif %}
+            </h2>
+          </div>
+          <div class="mdl-card__actions mdl-card--border">
+            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+              Turn On
+            </a>
+          </div>
+          <div class="mdl-card__menu">
+            {% if msg == 'UP' %}
+              <i class="material-icons">check_circle</i>
+            {% else %}
+              <i class="material-icons">highlight_off</i>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  {% else %}
+    <h2>You have to login</h2>
+  {% endif %}
+{% endblock content %}

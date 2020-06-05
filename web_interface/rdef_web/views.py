@@ -10,8 +10,56 @@ from rdef_web.models import urls
 # Create your views here.
 
 
+'''def index(request):
+    msg = ''
+    if request.method == 'POST' and 'start_server' in request.POST:
+        #from subprocess import call
+        #call(["python", "C:\\Users\\sjmike\\Desktop\\RealTimeProject\\rdef\\main.py"])
+        import socket
+        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        try:
+            s.connect(("localhost", 9998))
+            msg = 'UP'
+            s.close()
+        except socket.error as err:
+            msg = err
+            s.close()
+        return render(request, 'rdef_web/index.html', {'msg': msg})
+    return render(request, 'rdef_web/index.html', {'msg': msg})'''
+
+
 def index(request):
-    return render(request, 'rdef_web/index.html')
+    msg = ''
+    import asyncio
+
+    async def tcp_echo_client(message):
+        try:
+            reader, writer = await asyncio.open_connection(
+                '127.0.0.1', 8888)
+
+            print(f'Send: {message!r}')
+            writer.write(message.encode())
+
+            data = await reader.read(100)
+            returned_value = data.decode()
+            reversed_value = ''.join(chr(ord(a) ^ ord(b))
+                                     for a, b in zip(returned_value, 'admin_channel_rdef'))
+            print(reversed_value)
+            if reversed_value != message:
+                msg = 'WRONG ANSWER'
+            else:
+                msg = ('UP')
+
+            print('Close the connection')
+            writer.close()
+            return msg
+        except Exception as e:
+            msg = 'DOWN'
+            return msg
+
+    msg = asyncio.run(tcp_echo_client('D4f{gb]@67gd#(Gdl;'))
+    return render(request, 'rdef_web/index.html', {'msg': msg})
+    # return render(request, 'rdef_web/index.html', {'msg': msg})
 
 
 @login_required
