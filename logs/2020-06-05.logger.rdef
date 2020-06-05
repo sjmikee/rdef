@@ -431,3 +431,23 @@ on: 2020-06-05
 [2020-06-05 17:39:05] [31 ][OK ][VT] website and API are alive.
 [2020-06-05 17:39:05] [32 ][OK ][VT] healthcheck success.
 [2020-06-05 17:39:05] [50 ][OK ][SERVER] Server started successfully.
+[2020-06-05 20:39:42] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-06-05 20:39:43] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-06-05 20:39:43] [30 ][OK ][VT] credentials successfully read.
+[2020-06-05 20:39:43] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-06-05 20:39:43] [41 ][OK ][SQL] DB file exists.
+[2020-06-05 20:39:43] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-06-05 20:39:43] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-06-05 20:39:43] [42 ][OK ][SQL] Started DB Tests.
+[2020-06-05 20:39:43] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-06-05 20:39:43] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-06-05 20:39:43] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-06-05 20:39:43] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-06-05 20:39:43] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-06-05 20:39:43] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-06-05 20:39:43] [30 ][OK ][VT] credentials successfully read.
+[2020-06-05 20:39:43] [33 ][OK ][VT] set http request.
+[2020-06-05 20:39:44] [34 ][OK ][VT] get http response succeeded.
+[2020-06-05 20:39:44] [31 ][OK ][VT] website and API are alive.
+[2020-06-05 20:39:44] [32 ][OK ][VT] healthcheck success.
+[2020-06-05 20:39:44] [50 ][OK ][SERVER] Server started successfully.
