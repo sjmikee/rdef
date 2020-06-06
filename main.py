@@ -20,6 +20,7 @@ __Authors__ = 'Kobi, Michael, Aviv'
 __Version__ = '0.1'
 __config__file__ = 'config.rdef'
 __working__directory__ = os.getcwd()
+print(__working__directory__ + '##########')
 __config__path__ = os.path.join(__working__directory__, __config__file__)
 # -> Config data:
 api_url = ''

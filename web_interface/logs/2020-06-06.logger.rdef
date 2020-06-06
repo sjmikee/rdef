@@ -1,0 +1,21 @@
+######################
+Logger File was created successfully by Hostname: sjmike,
+Version: 0.1,
+on: 2020-06-06
+######################
+[2020-06-06 12:23:42] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-06-06 12:23:42] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-06-06 12:23:42] [30 ][OK ][VT] credentials successfully read.
+[2020-06-06 12:23:42] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-06-06 12:23:42] [141][ERR][SQL] DB file does not exist. [Exception data]: .
+[2020-06-06 12:23:42] [44 ][OK ][SQL] Creating DB file.
+[2020-06-06 12:23:42] [141][ERR][SQL] DB file does not exist. [Exception data]: unable to open database file.
+[2020-06-06 12:23:42] [48 ][OK ][SQL] Launch DB create architecture.
+[2020-06-06 12:24:22] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-06-06 12:24:22] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-06-06 12:24:22] [30 ][OK ][VT] credentials successfully read.
+[2020-06-06 12:24:22] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-06-06 12:24:22] [141][ERR][SQL] DB file does not exist. [Exception data]: .
+[2020-06-06 12:24:22] [44 ][OK ][SQL] Creating DB file.
+[2020-06-06 12:24:22] [141][ERR][SQL] DB file does not exist. [Exception data]: unable to open database file.
+[2020-06-06 12:24:22] [48 ][OK ][SQL] Launch DB create architecture.

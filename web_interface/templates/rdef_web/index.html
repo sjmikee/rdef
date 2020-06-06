@@ -45,9 +45,18 @@
             </h2>
           </div>
           <div class="mdl-card__actions mdl-card--border">
-            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-              Turn On
-            </a>
+            <form id="server_action" method="post" action="{% url 'index' %}">
+              {% csrf_token %}
+              {% if msg == 'UP' %}
+                <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" type="submit" name="turn_off" value="turn_off">
+                  Turn off
+                </button>
+              {% else %}
+                <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" type="submit" name="turn_on" value="turn_on">
+                  Turn On
+                </button>
+              {% endif %}
+            </form>
           </div>
           <div class="mdl-card__menu">
             {% if msg == 'UP' %}
@@ -60,6 +69,21 @@
       </div>
     </div>
   {% else %}
-    <h2>You have to login</h2>
+    <style>
+      .no-login-card-wide.mdl-card {
+        height: 20px;
+        width: 100%;
+        background-color: lightgrey;
+        text-align: center;
+        color: grey;
+      }
+    </style>
+    <div class="mdl-grid" style="align-items:center; justify-content: center; padding:24px; flex: none;">
+      <div class="mdl-cell--12-col">
+        <div class="no-login-card-wide mdl-card mdl-shadow--2dp">
+          <h2>You have to login</h2>
+        </div>
+      </div>
+    </div>
   {% endif %}
 {% endblock content %}

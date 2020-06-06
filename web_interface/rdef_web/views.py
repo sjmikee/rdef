@@ -6,9 +6,11 @@ from django.urls import reverse
 from django.contrib.auth.decorators import login_required
 from rdef_web.tables import UrlsTable
 from rdef_web.models import urls
+import signal
 
 # Create your views here.
-
+p = None
+TERM = signal.SIGTERM
 
 '''def index(request):
     msg = ''
@@ -31,6 +33,9 @@ from rdef_web.models import urls
 def index(request):
     msg = ''
     import asyncio
+    import subprocess
+    global p
+    global TERM
 
     async def tcp_echo_client(message):
         try:
@@ -56,6 +61,25 @@ def index(request):
         except Exception as e:
             msg = 'DOWN'
             return msg
+
+    @login_required
+    def start_proxy_server(request):
+        global p
+        p = subprocess.Popen('python C:\\Users\\sjmike\\Desktop\\RealTimeProject\\rdef\\main.py',
+                             cwd='C:\\Users\\sjmike\\Desktop\\RealTimeProject\\rdef', shell=False)
+
+    @login_required
+    def stop_proxy_server(request):
+        import os
+        global p
+        pid = p.pid
+        os.kill(pid, TERM)
+        print(f"########### KILLED {pid} ##########")
+
+    if request.method == 'POST' and 'turn_on' in request.POST:
+        start_proxy_server(request)
+    elif request.method == 'POST' and 'turn_off' in request.POST:
+        stop_proxy_server(request)
 
     msg = asyncio.run(tcp_echo_client('D4f{gb]@67gd#(Gdl;'))
     return render(request, 'rdef_web/index.html', {'msg': msg})
