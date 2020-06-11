@@ -133,21 +133,25 @@ def register(request):
 
 def user_login(request):
     form = LoginForm(request.POST or None)
-
+    user = None
     msg = None
 
     if request.method == 'POST':
         username = request.POST.get('username')
         password = request.POST.get('password')
-        user = authenticate(username=username, password=password)
-        if user:
-            if user.is_active:
-                login(request, user)
-                return HttpResponseRedirect(reverse('index'))
+        try:
+            user = authenticate(request, username=username, password=password)
+            if user:
+                if user.is_active:
+                    login(request, user)
+                    return HttpResponseRedirect(reverse('index'))
+                else:
+                    msg = 'Your account is not active'
             else:
-                msg = 'Your account is not active'
-        else:
-            msg = 'Invalid credentials'
+                msg = 'Invalid credentials'
+                return render(request, 'rdef_web/login.html', {'form': form, 'msg': msg})
+        except:
+            msg = 'Wrong login limit reached'
             return render(request, 'rdef_web/login.html', {'form': form, 'msg': msg})
     else:
         return render(request, 'rdef_web/login.html', {'form': form, 'msg': msg})
