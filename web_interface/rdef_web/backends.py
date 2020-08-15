@@ -1,5 +1,6 @@
 from datetime import datetime, timedelta
-from django.contrib.auth.backends import ModelBackend
+#from django.contrib.auth import authenticate as realauth
+import django.contrib.auth
 from django.core.cache import cache
 
 
@@ -13,31 +14,34 @@ class RateLimitMixin(object):
     username_key = 'username'
     no_username = False
 
-    def authenticate(self, request=None, **kwargs):
-        username = None
-        try:
-            username = kwargs[self.username_key]
-        except KeyError:
-            if not self.no_username:
-                raise
-
+    def limited_authenticate(self, request=None, username=None, password=None):
         if request is not None:
             counts = self.get_counters(request)
             print(counts)
-            if sum(counts.values()) >= self.requests:
+            if not counts:
+                pass
+            elif sum(counts.values()) >= self.requests:
                 print('Limit reached..')
                 raise
 
         else:
             print('No request')
 
-        user = ModelBackend.authenticate(self,
-                                         request=request, **kwargs
-                                         )
+        # user = ModelBackend.authenticate(self,
+        #                                 request=request, **kwargs
+        #                                 )
+        print(username)
+        print(password)
+        try:
+            user = self.authenticate(
+                username=username, password=password)
+        except Exception as e:
+            print(e)
         if user is None and request is not None:
             print('Login Failed')
             cache_key = self.get_cache_key(request)
             self.cache_incr(cache_key)
+        print(user)
         return user
 
     def get_counters(self, request):

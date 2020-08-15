@@ -109,7 +109,6 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 AUTHENTICATION_BACKENDS = [
-    'django.contrib.auth.backends.ModelBackend',
     'rdef_web.backends.RateLimitMixin',
 ]
 

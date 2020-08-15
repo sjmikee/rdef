@@ -1,4 +1,3 @@
-#! C:\Users\Kobi\AppData\Local\Programs\Python\Python38-32\python.exe
 from platform import architecture
 import sys
 import requests
@@ -15,7 +14,7 @@ import logger.logger as logger
 ###########################################
 # Globals and definistions
 # -> Code composers:
-__Authors__ = 'Kobi, Michael, Aviv'
+__Authors__ = 'Kobi, Michael'
 # -> Application:
 __Version__ = '0.1'
 __config__file__ = 'config.rdef'

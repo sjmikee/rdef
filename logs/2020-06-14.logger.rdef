@@ -1,0 +1,31 @@
+######################
+Logger File was created successfully by Hostname: sjmike,
+Version: 0.1,
+on: 2020-06-14
+######################
+[2020-06-14 18:19:38] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-06-14 18:19:38] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-06-14 18:19:38] [30 ][OK ][VT] credentials successfully read.
+[2020-06-14 18:19:38] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-06-14 18:19:38] [41 ][OK ][SQL] DB file exists.
+[2020-06-14 18:19:38] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-06-14 18:19:38] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-06-14 18:19:38] [42 ][OK ][SQL] Started DB Tests.
+[2020-06-14 18:19:38] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-06-14 18:19:38] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-06-14 18:19:39] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-06-14 18:19:39] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-06-14 18:19:39] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-06-14 18:19:39] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-06-14 18:19:39] [30 ][OK ][VT] credentials successfully read.
+[2020-06-14 18:19:39] [33 ][OK ][VT] set http request.
+[2020-06-14 18:19:40] [34 ][OK ][VT] get http response succeeded.
+[2020-06-14 18:19:40] [31 ][OK ][VT] website and API are alive.
+[2020-06-14 18:19:40] [32 ][OK ][VT] healthcheck success.
+[2020-06-14 18:19:40] [50 ][OK ][SERVER] Server started successfully.
+[2020-06-14 18:19:51] [170][OK ]No success code Exists for code: [170].
+[2020-06-14 18:19:51] [170][OK ]No success code Exists for code: [170].
+[2020-06-14 18:19:51] [170][OK ]No success code Exists for code: [170].
+[2020-06-14 18:19:52] [170][OK ]No success code Exists for code: [170].
+[2020-06-14 18:20:05] [170][OK ]No success code Exists for code: [170].
+[2020-06-14 18:20:16] [170][OK ]No success code Exists for code: [170].

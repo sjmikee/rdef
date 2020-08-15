@@ -1,16 +1,18 @@
 from django.shortcuts import render
 from rdef_web.forms import UserProfileInfoForm, LoginForm, UserForm
-from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth import login, logout
 from django.http import HttpResponseRedirect, HttpResponse
 from django.urls import reverse
 from django.contrib.auth.decorators import login_required
 from rdef_web.tables import UrlsTable
 from rdef_web.models import urls
+from rdef_web.backends import RateLimitMixin
 import signal
 
 # Create your views here.
 p = None
 TERM = signal.SIGTERM
+ratelimit = RateLimitMixin()
 
 '''def index(request):
     msg = ''
@@ -135,12 +137,16 @@ def user_login(request):
     form = LoginForm(request.POST or None)
     user = None
     msg = None
+    global ratelimit
 
     if request.method == 'POST':
         username = request.POST.get('username')
         password = request.POST.get('password')
         try:
-            user = authenticate(request, username=username, password=password)
+            #ratelimit = RateLimitMixin()
+            user = ratelimit.limited_authenticate(
+                request=request, username=username, password=password)
+            print('authenticated')
             if user:
                 if user.is_active:
                     login(request, user)
