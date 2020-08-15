@@ -66,9 +66,14 @@ def index(request):
 
     @login_required
     def start_proxy_server(request):
-        global p
-        p = subprocess.Popen('python C:\\Users\\sjmike\\Desktop\\RealTimeProject\\rdef\\main.py',
-                             cwd='C:\\Users\\sjmike\\Desktop\\RealTimeProject\\rdef', shell=False)
+        import os
+        global p  
+        
+        path = os.getcwd()
+        parent = os.path.join(path, os.pardir) 
+        fullpath = (os.path.join(os.path.abspath(parent), "main.py"))
+        p = subprocess.Popen('python {}'.format(fullpath),
+                             cwd=os.path.abspath(parent), shell=False)
 
     @login_required
     def stop_proxy_server(request):
