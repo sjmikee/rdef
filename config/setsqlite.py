@@ -116,7 +116,8 @@ def insert_list_type(conn, url, ip, list_type):
     #print(url, list_type)
     c = conn.cursor()
     try:
-        c.execute("insert into {} values (?, ?)".format(list_type), (url, ip))
+        c.execute("insert into {}(date, url) values (?, ?)".format(
+            list_type), (datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'), url))
         conn.commit()
     except Exception as e:
         logger_instance.write_log(
@@ -126,8 +127,8 @@ def insert_list_type(conn, url, ip, list_type):
 def inserturl(conn, date=0, url=0, user='a', time=0, typerequest=1, protocol='http'):
     c = conn.cursor()
     try:
-        c.execute("insert into rdef_web_urls(url) values (?)",
-                  (url,))
+        c.execute("insert into rdef_web_urls(date, url) values (?, ?)",
+                  (datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'), url))
         conn.commit()
     except Exception as e:
         logger_instance.write_log(149, 0, e)
@@ -137,9 +138,9 @@ def isurlindb(conn, urltocheck):
     try:
         # print(urltocheck)
         c = conn.cursor()
-        urltocheck = urltocheck.split('/')[2]
+        #urltocheck = urltocheck.split('/')[2]
         c.execute(
-            "SELECT count(url) FROM whitelist WHERE url LIKE '%{}%'".format(urltocheck))
+            "SELECT count(url) FROM rdef_web_whitelist WHERE url LIKE '%{}%'".format(urltocheck))
         if((c.fetchone()[0]) != 0):
             #already in db
             print("\n[*] Sqlite says url exists")
@@ -147,7 +148,7 @@ def isurlindb(conn, urltocheck):
             return 'WL'
         else:
             c.execute(
-                "SELECT count(url) FROM blacklist WHERE url LIKE '%{}%'".format(urltocheck))
+                "SELECT count(url) FROM rdef_web_blacklist WHERE url LIKE '%{}%'".format(urltocheck))
             if((c.fetchone()[0]) != 0):
                 #aalready in db
                 print("\n[*] Sqlite says url exists")

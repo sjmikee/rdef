@@ -1,0 +1,1334 @@
+######################
+Logger File was created successfully by Hostname: sjmike,
+Version: 0.1,
+on: 2020-08-16
+######################
+[2020-08-16 10:30:41] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 10:30:41] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 10:30:41] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 10:30:41] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 10:30:41] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 10:30:41] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 10:30:41] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 10:30:41] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 10:30:41] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 10:30:41] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 10:30:41] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 10:30:41] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 10:30:41] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 10:30:41] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 10:30:41] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 10:30:41] [33 ][OK ][VT] set http request.
+[2020-08-16 10:30:43] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 10:30:43] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 10:30:43] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 10:30:43] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 10:30:58] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist table whitelist has 2 columns but 1 values were supplied.
+[2020-08-16 10:30:58] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist table whitelist has 2 columns but 1 values were supplied.
+[2020-08-16 10:30:58] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 10:30:58] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 10:30:58] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-16 10:30:58] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: blacklist table blacklist has 2 columns but 1 values were supplied.
+[2020-08-16 10:30:58] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist table whitelist has 2 columns but 1 values were supplied.
+[2020-08-16 10:30:58] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 10:30:59] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-16 10:30:59] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: blacklist table blacklist has 2 columns but 1 values were supplied.
+[2020-08-16 10:31:00] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-16 10:31:00] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: blacklist table blacklist has 2 columns but 1 values were supplied.
+[2020-08-16 10:31:01] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist table whitelist has 2 columns but 1 values were supplied.
+[2020-08-16 10:31:01] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist table whitelist has 2 columns but 1 values were supplied.
+[2020-08-16 10:31:02] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist table whitelist has 2 columns but 1 values were supplied.
+[2020-08-16 10:31:05] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist table whitelist has 2 columns but 1 values were supplied.
+[2020-08-16 10:31:05] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist not an error.
+[2020-08-16 10:31:08] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist table whitelist has 2 columns but 1 values were supplied.
+[2020-08-16 10:31:08] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist table whitelist has 2 columns but 1 values were supplied.
+[2020-08-16 10:31:08] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 10:31:09] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist table whitelist has 2 columns but 1 values were supplied.
+[2020-08-16 10:31:09] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 10:31:15] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-16 10:31:15] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: blacklist table blacklist has 2 columns but 1 values were supplied.
+[2020-08-16 10:32:06] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist table rdef_web_whitelist has 3 columns but 1 values were supplied.
+[2020-08-16 10:32:06] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist table rdef_web_whitelist has 3 columns but 1 values were supplied.
+[2020-08-16 10:33:29] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist table whitelist has 2 columns but 1 values were supplied.
+[2020-08-16 10:33:29] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist table whitelist has 2 columns but 1 values were supplied.
+[2020-08-16 10:33:32] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist table whitelist has 2 columns but 1 values were supplied.
+[2020-08-16 10:33:32] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist table whitelist has 2 columns but 1 values were supplied.
+[2020-08-16 10:33:33] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist table whitelist has 2 columns but 1 values were supplied.
+[2020-08-16 10:34:33] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist table rdef_web_whitelist has 3 columns but 1 values were supplied.
+[2020-08-16 10:34:35] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist table rdef_web_whitelist has 3 columns but 1 values were supplied.
+[2020-08-16 10:37:24] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 10:37:24] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 10:37:24] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 10:37:25] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 10:37:25] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 10:37:25] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 10:37:25] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 10:37:25] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 10:37:25] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 10:37:25] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 10:37:25] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 10:37:25] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 10:37:25] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 10:37:25] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 10:37:25] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 10:37:25] [33 ][OK ][VT] set http request.
+[2020-08-16 10:37:26] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 10:37:26] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 10:37:26] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 10:37:26] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 10:37:40] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-16 10:44:57] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 10:44:57] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 10:44:57] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 10:44:57] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 10:44:57] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 10:44:57] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 10:44:57] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 10:44:57] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 10:44:57] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 10:44:57] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 10:44:57] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 10:44:57] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 10:44:57] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 10:44:57] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 10:44:57] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 10:44:57] [33 ][OK ][VT] set http request.
+[2020-08-16 10:44:58] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 10:44:58] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 10:44:58] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 10:44:58] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 10:45:04] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-16 10:45:55] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-16 10:49:52] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 10:49:52] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 10:49:52] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 10:49:52] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 10:49:52] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 10:49:52] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 10:49:52] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 10:49:52] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 10:49:52] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 10:49:52] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 10:49:52] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 10:49:52] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 10:49:52] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 10:49:52] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 10:49:52] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 10:49:52] [33 ][OK ][VT] set http request.
+[2020-08-16 10:49:53] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 10:49:53] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 10:49:53] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 10:49:53] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 10:49:59] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist table whitelist has no column named date.
+[2020-08-16 10:51:42] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist table whitelist has no column named date.
+[2020-08-16 10:51:42] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist table whitelist has no column named date.
+[2020-08-16 10:51:42] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist table whitelist has no column named date.
+[2020-08-16 10:51:42] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist <sqlite3.Connection object at 0x037E6680> returned NULL without setting an error.
+[2020-08-16 10:51:42] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: whitelist table whitelist has no column named date.
+[2020-08-16 11:22:03] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 11:22:03] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 11:22:03] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 11:22:03] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 11:22:03] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 11:22:03] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 11:22:03] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 11:22:03] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 11:22:03] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 11:22:03] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 11:22:03] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 11:22:03] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 11:22:03] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 11:22:03] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 11:22:03] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 11:22:03] [33 ][OK ][VT] set http request.
+[2020-08-16 11:22:05] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 11:22:05] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 11:22:05] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 11:22:05] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 11:22:15] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-16 11:39:01] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 11:39:01] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 11:39:01] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 11:39:01] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 11:39:01] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 11:39:01] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 11:39:01] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 11:39:01] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 11:39:01] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 11:39:01] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 11:39:01] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 11:39:01] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 11:39:01] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 11:39:01] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 11:39:01] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 11:39:01] [33 ][OK ][VT] set http request.
+[2020-08-16 11:39:02] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 11:39:02] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 11:39:02] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 11:39:03] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 11:39:08] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist not an error.
+[2020-08-16 11:52:19] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 11:52:19] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 11:52:19] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 11:52:19] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 11:52:19] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 11:52:19] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 11:52:19] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 11:52:19] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 11:52:19] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 11:52:19] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 11:52:19] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 11:52:19] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 11:52:19] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 11:52:19] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 11:52:20] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 11:52:20] [33 ][OK ][VT] set http request.
+[2020-08-16 11:52:21] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 11:52:21] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 11:52:21] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 11:52:21] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 11:54:16] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 11:54:16] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 11:54:16] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 11:54:16] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 11:54:16] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 11:54:16] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 11:54:16] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 11:54:16] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 11:54:16] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 11:54:16] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 11:54:16] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 11:54:16] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 11:54:16] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 11:54:16] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 11:54:16] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 11:54:16] [33 ][OK ][VT] set http request.
+[2020-08-16 11:54:17] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 11:54:17] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 11:54:17] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 11:54:17] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 11:56:41] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 11:56:41] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 11:56:41] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 11:56:41] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 11:56:41] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 11:56:41] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 11:56:41] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 11:56:41] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 11:56:41] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 11:56:41] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 11:56:41] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 11:56:41] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 11:56:41] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 11:56:41] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 11:56:41] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 11:56:41] [33 ][OK ][VT] set http request.
+[2020-08-16 11:56:43] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 11:56:43] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 11:56:43] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 11:56:43] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 11:57:08] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-16 11:57:40] [149][ERR][SQL] Error inserting DB record. [Exception data]: not an error.
+[2020-08-16 11:57:40] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist not an error.
+[2020-08-16 11:57:40] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot commit - no transaction is active.
+[2020-08-16 11:57:40] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot start a transaction within a transaction.
+[2020-08-16 12:00:20] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 12:00:20] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 12:00:20] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 12:00:20] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 12:00:20] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 12:00:20] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 12:00:20] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 12:00:20] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 12:00:20] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 12:00:20] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 12:00:20] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 12:00:20] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 12:00:20] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 12:00:20] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 12:00:20] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 12:00:20] [33 ][OK ][VT] set http request.
+[2020-08-16 12:00:21] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 12:00:21] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 12:00:21] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 12:00:21] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 12:00:49] [149][ERR][SQL] Error inserting DB record. [Exception data]: not an error.
+[2020-08-16 12:00:49] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot commit - no transaction is active.
+[2020-08-16 12:06:09] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 12:06:09] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 12:06:09] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 12:06:09] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 12:06:09] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 12:06:09] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 12:06:09] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 12:06:09] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 12:06:09] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 12:06:09] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 12:06:09] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 12:06:10] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 12:06:10] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 12:06:10] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 12:06:10] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 12:06:10] [33 ][OK ][VT] set http request.
+[2020-08-16 12:06:11] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 12:06:11] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 12:06:11] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 12:06:11] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 12:06:20] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:06:48] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:06:48] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:06:51] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:06:57] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot commit - no transaction is active.
+[2020-08-16 12:06:57] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot commit - no transaction is active.
+[2020-08-16 12:07:55] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 12:07:55] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 12:07:55] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 12:07:55] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 12:07:55] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 12:07:55] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 12:07:55] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 12:07:55] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 12:07:55] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 12:07:55] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 12:07:55] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 12:07:55] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 12:07:55] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 12:07:55] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 12:07:55] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 12:07:55] [33 ][OK ][VT] set http request.
+[2020-08-16 12:07:56] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 12:07:56] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 12:07:56] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 12:07:56] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 12:08:06] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:08:06] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:08:06] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:08:13] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot start a transaction within a transaction.
+[2020-08-16 12:08:13] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot commit - no transaction is active.
+[2020-08-16 12:08:16] [149][ERR][SQL] Error inserting DB record. [Exception data]: not an error.
+[2020-08-16 12:08:16] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot commit - no transaction is active.
+[2020-08-16 12:08:17] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot commit - no transaction is active.
+[2020-08-16 12:08:18] [149][ERR][SQL] Error inserting DB record. [Exception data]: not an error.
+[2020-08-16 12:08:20] [146][OK ]No success code Exists for code: [146].
+[2020-08-16 12:08:29] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-16 12:09:28] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 12:09:28] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 12:09:28] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 12:09:28] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 12:09:28] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 12:09:28] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 12:09:28] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 12:09:28] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 12:09:28] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 12:09:28] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 12:09:28] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 12:09:28] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 12:09:28] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 12:09:28] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 12:09:28] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 12:09:28] [33 ][OK ][VT] set http request.
+[2020-08-16 12:09:29] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 12:09:29] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 12:09:29] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 12:09:29] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 12:09:35] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:09:43] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:33] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot start a transaction within a transaction.
+[2020-08-16 12:10:33] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot commit - no transaction is active.
+[2020-08-16 12:10:35] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot start a transaction within a transaction.
+[2020-08-16 12:10:35] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot start a transaction within a transaction.
+[2020-08-16 12:10:35] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot commit - no transaction is active.
+[2020-08-16 12:10:51] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot start a transaction within a transaction.
+[2020-08-16 12:10:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:57] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:57] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:57] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:57] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:57] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:57] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:57] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:57] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:57] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:57] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:57] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:57] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:57] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:57] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:57] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:57] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:57] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:57] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:57] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:57] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:57] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:10:57] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:11:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:22] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 12:20:22] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 12:20:22] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 12:20:22] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 12:20:22] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 12:20:22] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 12:20:22] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 12:20:22] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 12:20:22] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 12:20:22] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 12:20:22] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 12:20:22] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 12:20:22] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 12:20:22] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 12:20:22] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 12:20:22] [33 ][OK ][VT] set http request.
+[2020-08-16 12:20:23] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 12:20:23] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 12:20:23] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 12:20:23] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 12:20:44] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:44] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:45] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:45] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:45] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:45] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:51] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:20:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:21:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:23:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:23:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:23:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:23:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:23:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:23:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:23:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:23:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:23:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:23:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:23:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:23:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:23:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:23:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:23:14] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:23:14] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:23:14] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:23:14] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:23:14] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:23:15] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 12:41:40] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 12:41:40] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 12:41:40] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 12:41:40] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 12:41:40] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 12:41:40] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 12:41:40] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 12:41:40] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 12:41:40] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 12:41:40] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 12:41:40] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 12:41:40] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 12:41:40] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 12:41:40] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 12:41:40] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 12:41:40] [33 ][OK ][VT] set http request.
+[2020-08-16 12:41:42] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 12:41:42] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 12:41:42] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 12:41:42] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 12:42:35] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 12:42:35] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 12:42:35] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 12:42:35] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 12:42:35] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 12:42:35] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 12:42:35] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 12:42:35] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 12:42:35] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 12:42:35] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 12:42:36] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 12:42:36] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 12:42:36] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 12:42:36] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 12:42:36] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 12:42:36] [33 ][OK ][VT] set http request.
+[2020-08-16 12:42:36] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 12:42:36] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 12:42:36] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 12:42:36] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 12:43:26] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 12:43:26] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 12:43:26] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 12:43:26] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 12:43:26] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 12:43:26] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 12:43:26] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 12:43:26] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 12:43:26] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 12:43:26] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 12:43:26] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 12:43:26] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 12:43:26] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 12:43:26] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 12:43:26] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 12:43:26] [33 ][OK ][VT] set http request.
+[2020-08-16 12:43:27] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 12:43:27] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 12:43:27] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 12:43:27] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 12:44:59] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 12:44:59] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 12:44:59] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 12:44:59] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 12:44:59] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 12:44:59] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 12:44:59] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 12:44:59] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 12:44:59] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 12:44:59] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 12:45:00] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 12:45:00] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 12:45:00] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 12:45:00] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 12:45:00] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 12:45:00] [33 ][OK ][VT] set http request.
+[2020-08-16 12:45:01] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 12:45:01] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 12:45:01] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 12:45:01] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 12:46:00] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 12:46:00] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 12:46:00] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 12:46:00] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 12:46:00] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 12:46:00] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 12:46:00] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 12:46:00] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 12:46:00] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 12:46:00] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 12:46:00] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 12:46:00] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 12:46:00] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 12:46:00] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 12:46:00] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 12:46:00] [33 ][OK ][VT] set http request.
+[2020-08-16 12:46:02] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 12:46:02] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 12:46:02] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 12:46:02] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 12:46:36] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 12:46:36] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 12:46:36] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 12:46:36] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 12:46:36] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 12:46:36] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 12:46:36] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 12:46:36] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 12:46:36] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 12:46:36] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 12:46:36] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 12:46:36] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 12:46:36] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 12:46:36] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 12:46:36] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 12:46:36] [33 ][OK ][VT] set http request.
+[2020-08-16 12:46:36] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 12:46:36] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 12:46:36] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 12:46:36] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 12:48:51] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 12:48:51] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 12:48:51] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 12:48:51] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 12:48:51] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 12:48:51] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 12:48:51] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 12:48:51] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 12:48:51] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 12:48:51] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 12:48:51] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 12:48:51] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 12:48:51] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 12:48:51] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 12:48:51] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 12:48:51] [33 ][OK ][VT] set http request.
+[2020-08-16 12:48:53] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 12:48:53] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 12:48:53] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 12:48:53] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 12:54:14] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 12:54:14] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 12:54:14] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 12:54:14] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 12:54:14] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 12:54:14] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 12:54:14] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 12:54:14] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 12:54:14] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 12:54:14] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 12:54:14] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 12:54:14] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 12:54:15] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 12:54:15] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 12:54:15] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 12:54:15] [33 ][OK ][VT] set http request.
+[2020-08-16 12:54:15] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 12:54:15] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 12:54:15] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 12:54:15] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 12:55:16] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist not an error.
+[2020-08-16 12:58:35] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 12:58:35] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 12:58:35] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 12:58:35] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 12:58:35] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 12:58:35] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 12:58:35] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 12:58:35] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 12:58:35] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 12:58:35] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 12:58:35] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 12:58:35] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 12:58:35] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 12:58:35] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 12:58:35] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 12:58:35] [33 ][OK ][VT] set http request.
+[2020-08-16 12:58:36] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 12:58:36] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 12:58:36] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 12:58:36] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 13:04:21] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 13:04:21] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 13:04:21] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 13:04:21] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 13:04:21] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 13:04:21] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 13:04:21] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 13:04:21] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 13:04:21] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 13:04:21] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 13:04:21] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 13:04:21] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 13:04:21] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 13:04:21] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 13:04:21] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 13:04:21] [33 ][OK ][VT] set http request.
+[2020-08-16 13:04:22] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 13:04:22] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 13:04:22] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 13:04:22] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 13:05:16] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 13:05:16] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 13:05:16] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 13:05:16] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 13:05:16] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 13:05:16] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 13:05:16] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 13:05:16] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 13:05:16] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 13:05:16] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 13:05:16] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 13:05:16] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 13:05:16] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 13:05:16] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 13:05:16] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 13:05:16] [33 ][OK ][VT] set http request.
+[2020-08-16 13:05:17] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 13:05:17] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 13:05:17] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 13:05:17] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 13:05:49] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 13:05:49] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 13:05:49] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 13:05:49] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 13:05:49] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 13:05:49] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 13:05:49] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 13:05:49] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 13:05:49] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 13:05:49] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 13:05:49] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 13:05:49] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 13:05:49] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 13:05:49] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 13:05:49] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 13:05:49] [33 ][OK ][VT] set http request.
+[2020-08-16 13:05:50] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 13:05:50] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 13:05:50] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 13:05:50] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 13:10:31] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 13:10:31] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 13:10:31] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 13:10:31] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 13:10:31] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 13:10:31] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 13:10:31] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 13:10:31] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 13:10:31] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 13:10:31] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 13:10:31] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 13:10:31] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 13:10:31] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 13:10:31] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 13:10:31] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 13:10:31] [33 ][OK ][VT] set http request.
+[2020-08-16 13:10:32] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 13:10:32] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 13:10:32] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 13:10:32] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 13:13:54] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 13:13:54] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 13:13:54] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 13:13:54] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 13:13:54] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 13:13:54] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 13:13:54] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 13:13:54] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 13:13:54] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 13:13:54] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 13:13:54] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 13:13:54] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 13:13:54] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 13:13:54] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 13:13:54] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 13:13:54] [33 ][OK ][VT] set http request.
+[2020-08-16 13:13:55] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 13:13:55] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 13:13:55] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 13:13:55] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 13:14:26] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 13:14:26] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 13:14:26] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 13:14:26] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 13:14:26] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 13:14:26] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 13:14:26] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 13:14:26] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 13:14:26] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 13:14:26] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 13:14:26] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 13:14:26] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 13:14:26] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 13:14:26] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 13:14:26] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 13:14:26] [33 ][OK ][VT] set http request.
+[2020-08-16 13:14:27] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 13:14:27] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 13:14:27] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 13:14:27] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 13:35:08] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 13:35:08] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 13:35:08] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 13:35:08] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 13:35:08] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 13:35:08] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 13:35:08] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 13:35:08] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 13:35:08] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 13:35:08] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 13:35:08] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 13:35:08] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 13:35:08] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 13:35:08] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 13:35:08] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 13:35:08] [33 ][OK ][VT] set http request.
+[2020-08-16 13:35:09] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 13:35:09] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 13:35:09] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 13:35:09] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 14:05:21] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 14:05:21] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 14:05:21] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 14:05:21] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 14:05:21] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 14:05:21] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 14:05:21] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 14:05:21] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 14:05:21] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 14:05:21] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 14:05:21] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 14:05:21] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 14:05:21] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 14:05:21] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 14:05:21] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 14:05:21] [33 ][OK ][VT] set http request.
+[2020-08-16 14:05:22] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 14:05:22] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 14:05:22] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 14:05:22] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 14:06:55] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 14:06:55] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 14:06:55] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 14:06:55] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 14:06:55] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 14:06:55] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 14:06:55] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 14:06:55] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 14:06:55] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 14:06:55] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 14:06:55] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 14:06:55] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 14:06:55] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 14:06:55] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 14:06:55] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 14:06:55] [33 ][OK ][VT] set http request.
+[2020-08-16 14:06:56] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 14:06:56] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 14:06:56] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 14:06:56] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 14:07:39] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:48] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:07:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:00] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:00] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:00] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:00] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:00] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:00] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:00] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:00] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:00] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:00] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:00] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:00] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:00] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:00] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:42] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:42] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:42] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:42] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:42] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:42] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:42] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:42] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:42] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:42] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:43] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:43] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:43] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:43] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:45] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:45] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:46] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:47] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:58] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:58] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:08:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:09:00] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:09:00] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:09:02] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:09:05] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:09:06] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:09:06] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:09:06] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:09:07] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:09:07] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:09:07] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:09:09] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:09:09] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:09:09] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:09:17] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-16 14:09:18] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:11:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:16:36] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 14:16:36] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 14:16:36] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 14:16:36] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 14:16:36] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 14:16:36] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 14:16:36] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 14:16:36] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 14:16:36] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 14:16:36] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 14:16:37] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 14:16:37] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 14:16:37] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 14:16:37] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 14:16:37] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 14:16:37] [33 ][OK ][VT] set http request.
+[2020-08-16 14:16:38] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 14:16:38] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 14:16:38] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 14:16:38] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 14:35:40] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 14:35:40] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 14:35:40] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 14:35:40] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 14:35:40] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 14:35:40] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 14:35:40] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 14:35:40] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 14:35:40] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 14:35:40] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 14:35:40] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 14:35:40] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 14:35:40] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 14:35:40] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 14:35:40] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 14:35:40] [33 ][OK ][VT] set http request.
+[2020-08-16 14:35:41] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 14:35:41] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 14:35:41] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 14:35:41] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 14:35:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:35:58] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-16 14:35:58] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-16 14:35:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:35:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:35:59] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:36:00] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:37:22] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:37:23] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:37:30] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:37:31] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot start a transaction within a transaction.
+[2020-08-16 14:37:31] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot commit - no transaction is active.
+[2020-08-16 14:37:32] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot start a transaction within a transaction.
+[2020-08-16 14:37:34] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-16 14:37:41] [149][ERR][SQL] Error inserting DB record. [Exception data]: not an error.
+[2020-08-16 14:37:41] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot commit - no transaction is active.
+[2020-08-16 14:37:43] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot start a transaction within a transaction.
+[2020-08-16 14:37:43] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist not an error.
+[2020-08-16 14:37:43] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist not an error.
+[2020-08-16 14:37:43] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot start a transaction within a transaction.
+[2020-08-16 14:37:43] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot start a transaction within a transaction.
+[2020-08-16 14:37:43] [149][ERR][SQL] Error inserting DB record. [Exception data]: another row available.
+[2020-08-16 14:37:43] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot start a transaction within a transaction.
+[2020-08-16 14:37:43] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-16 14:37:43] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-16 14:37:43] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot commit - no transaction is active.
+[2020-08-16 14:37:43] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist no more rows available.
+[2020-08-16 14:37:43] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist cannot commit - no transaction is active.
+[2020-08-16 14:37:44] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot commit - no transaction is active.
+[2020-08-16 14:37:44] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot commit - no transaction is active.
+[2020-08-16 14:37:44] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-16 14:37:45] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:37:58] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-16 14:38:03] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot commit - no transaction is active.
+[2020-08-16 14:38:08] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:08] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:08] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:09] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:09] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:13] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist not an error.
+[2020-08-16 14:38:18] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist not an error.
+[2020-08-16 14:38:23] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:23] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:23] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:23] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:29] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:29] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:29] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:29] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:29] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot commit - no transaction is active.
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:38:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:40:27] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 14:40:27] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 14:40:27] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 14:40:27] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 14:40:27] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 14:40:27] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 14:40:27] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 14:40:27] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 14:40:27] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 14:40:27] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 14:40:27] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 14:40:27] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 14:40:27] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 14:40:27] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 14:40:27] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 14:40:27] [33 ][OK ][VT] set http request.
+[2020-08-16 14:40:28] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 14:40:28] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 14:40:28] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 14:40:28] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 14:41:03] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:03] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:03] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:03] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:03] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:03] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:03] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:03] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:03] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:04] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:04] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:04] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:05] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:05] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:05] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:05] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:06] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:06] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:06] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:06] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:06] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:06] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:07] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:07] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:07] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:08] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:08] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:08] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:09] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:09] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:09] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:10] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:10] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:25] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 14:41:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:33:41] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 15:33:41] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 15:33:41] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 15:33:41] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-16 15:33:41] [41 ][OK ][SQL] DB file exists.
+[2020-08-16 15:33:41] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-16 15:33:41] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-16 15:33:41] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-16 15:33:41] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-16 15:33:41] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-16 15:33:41] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-16 15:33:41] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-16 15:33:41] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-16 15:33:41] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-16 15:33:41] [30 ][OK ][VT] credentials successfully read.
+[2020-08-16 15:33:41] [33 ][OK ][VT] set http request.
+[2020-08-16 15:33:42] [34 ][OK ][VT] get http response succeeded.
+[2020-08-16 15:33:42] [31 ][OK ][VT] website and API are alive.
+[2020-08-16 15:33:42] [32 ][OK ][VT] healthcheck success.
+[2020-08-16 15:33:42] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-16 15:33:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:34:03] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:34:03] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:34:08] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:34:08] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:34:08] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:34:08] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:34:08] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:34:08] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:34:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:34:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:34:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:34:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:34:14] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:34:14] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:34:15] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:34:17] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:34:17] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:34:18] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:34:20] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:34:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:34:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-16 15:35:18] [170][OK ]No success code Exists for code: [170].

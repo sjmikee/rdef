@@ -69,73 +69,47 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
                 self.socket_connection(netloc, path, params, query)
                 inserturl(self.conn, 0, self.path, 0, 0,
                           0, 0)  # Insert to DB whitelist
-                insert_list_type(self.conn, url, 0, 'whitelist')
+                insert_list_type(self.conn, url, 0, 'rdef_web_whitelist')
             else:  # Malicious, inserting to DB
                 print("\n[!] Malicious url blocked")
                 # Insert checked and malicious link to blacklist
-                insert_list_type(self.conn, url, 0, 'blacklist')
-                self.load_blocked_page()
+
+                if self.load_blocked_page(url, alert=True):
+                    self.socket_connection(netloc, path, params, query)
+                else:
+                    insert_list_type(self.conn, url, 0, 'rdef_web_blacklist')
         elif(link_Status == 'WL'):  # Whitelist, forwarding connection
             print("\n[*] Whitelisted url forwarding")
             self.socket_connection(netloc, path, params, query)
         else:
             # Blacklist, Loading error page
             print("\n[!] Blacklisted url blocked")
-            self.load_blocked_page()
+            if self.load_blocked_page(url, alert=True):
+                self.socket_connection(netloc, path, params, query)
 
-    def load_blocked_page(self):
-        try:
-            print("Loading stuff")
-            #requests_session = requests.session()
-            #requests_session.mount('file:///', LocalFileAdapter)
-            # print(resources_instance.url_blocked_file())
-            #resp = requests_session.get(resources_instance.url_blocked_file())
-            # resp.status_code
-            # resp.text
-            #s = TestSession()
-            #s.mount('http://github.com/about/', TestAdapter(b'github.com/about'))
-            #r = s.get('http://github.com/about/')
-            # print(r.text)
-            # r.text
-            # self.send_response(r.status_code)
-
-            #requests_session = requests.session()
-            #requests_session.mount('file://', LocalFileAdapter())
-            #resp = requests_session.get('file://C:/Users/Kobi/Desktop/Dev/rdef/resources/url_blocked.html')
-            # print(resp)
-            resppp = '''<html>
-<head>
-    <title>MALICIOUS URL BLOCKED</title>
-</head>
-<body>
-    <center>
-        <h1>********* BLOCKED *********<br></h1>
-        <h3>Realtime VirusTotal defender has blocked a malicious url<br>You are safe</h3>
-    </center>
-</body>
-</html>'''
-            resppp = resppp.encode()
-            # self.send_response(200)
-            #self.send_header("Content-type", "text/html")
-            # self.end_headers()
-            self.send_response(302)
-            self.send_header(
-                'Location', 'https://www.google.com/logos/doodles/2020/thank-you-coronavirus-helpers-april-25-26-6753651837108777-s.png')
-            self.end_headers()
-            # self.send_response(200)
-            # self.send_resp_headers(r)
-            # self.send_resp_headers(''.encode())
-            # self._read_write(resp)
-            # self.wfile.write(resppp)
-            # self.wfile.write(resppp)             #YOU Can change to resppp to get what you wanted, the issue is that it kinda detects
-            # a new connect_to request while handling this one, and raise basehttp handle_http_one request flush on a closed file
-
-            self.flush_headers()
-            self.close_connection = 1
-            self.connection.sendall(''.encode())
-            # self.finish
-        except Exception as e:
-            print(e)
+    def load_blocked_page(self, url, alert=False):
+        if alert:
+            import ctypes
+            text = f'Suspisious activity detected on:{url}\nDo you trust this web site?'
+            title = 'WARNING'
+            IDYES = 6
+            IDNO = 7
+            action = ctypes.windll.user32.MessageBoxW(0, text, title, 4+4096)
+            if action == IDNO:
+                try:
+                    self.send_error(403)
+                    self.close_connection = 1
+                    return False
+                except Exception as e:
+                    print(e)
+            elif action == IDYES:
+                return True
+        else:
+            try:
+                self.send_error(403)
+                self.close_connection = 1
+            except Exception as e:
+                print(e)
 
     def socket_connection(self, netloc, path, params, query):
         soc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -191,6 +165,36 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
         except Exception as e:
             self.logger_instance.write_log(171, 1, e)
 
+    def do_CONNECT_read_write(self, address):
+        try:
+            s = socket.create_connection(address, timeout=self.timeout)
+            print("\n[*] Socket created")
+        except Exception as e:
+            self.send_error(502)
+            print(e)
+            return
+        self.send_response(200, 'Connection Established')
+        self.end_headers()
+
+        conns = [self.connection, s]
+        self.close_connection = 0
+        while not self.close_connection:
+            rlist, wlist, xlist = select.select(
+                conns, [], conns, self.timeout)
+            if xlist or not rlist:
+                break
+            for r in rlist:
+                other = conns[1] if r is conns[0] else conns[0]
+                data = None
+                try:
+                    data = r.recv(8192)
+                except Exception as e:
+                    self.logger_instance.write_log(170, 1, e)
+                if not data:
+                    self.close_connection = 1
+                    break
+                other.sendall(data)
+
     def do_POST(self, body=True):
         self.do_GET()
 
@@ -211,77 +215,25 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
 
             if(status):
                 inserturl(self.conn, 0, url, 0, 0, 0, 0)
-                insert_list_type(self.conn, url, 0, 'whitelist')
+                insert_list_type(self.conn, url, 0, 'rdef_web_whitelist')
                 print("\n[*] Harmless url forwarding")
-                try:
-                    s = socket.create_connection(address, timeout=self.timeout)
-                    print("\n[*] Socket created")
-                except Exception as e:
-                    self.send_error(502)
-                    print(e)
-                    return
-                self.send_response(200, 'Connection Established')
-                self.end_headers()
-
-                conns = [self.connection, s]
-                self.close_connection = 0
-                while not self.close_connection:
-                    rlist, wlist, xlist = select.select(
-                        conns, [], conns, self.timeout)
-                    if xlist or not rlist:
-                        break
-                    for r in rlist:
-                        other = conns[1] if r is conns[0] else conns[0]
-                        data = None
-                        try:
-                            data = r.recv(8192)
-                        except Exception as e:
-                            self.logger_instance.write_log(170, 1, e)
-                        if not data:
-                            self.close_connection = 1
-                            break
-                        other.sendall(data)
+                self.do_CONNECT_read_write(address)
             else:
                 # print("Malicious")
                 print("\n[!] Malicious url blocked")
                 # Insert checked and malicious link to blacklist
-                insert_list_type(self.conn, url, 0, 'blacklist')
-                self.load_blocked_page()
+                insert_list_type(self.conn, url, 0, 'rdef_web_blacklist')
+                if self.load_blocked_page(url, alert=True):
+                    self.do_CONNECT_read_write(address)
 
         elif(link_Status == 'WL'):
             print("\n[*] Whitelisted url forwarding")
-            try:
-                s = socket.create_connection(address, timeout=self.timeout)
-                print("\n[*] Socket created")
-            except Exception as e:
-                self.send_error(502)
-                print(e)
-                return
-            self.send_response(200, 'Connection Established')
-            self.end_headers()
-
-            conns = [self.connection, s]
-            self.close_connection = 0
-            while not self.close_connection:
-                rlist, wlist, xlist = select.select(
-                    conns, [], conns, self.timeout)
-                if xlist or not rlist:
-                    break
-                for r in rlist:
-                    other = conns[1] if r is conns[0] else conns[0]
-                    data = None
-                    try:
-                        data = r.recv(8192)
-                    except Exception as e:
-                        self.logger_instance.write_log(170, 1, e)
-                    if not data:
-                        self.close_connection = 1
-                        break
-                    other.sendall(data)
+            self.do_CONNECT_read_write(address)
         else:
             # TODO: Blacklisted url handling
             print("\n[!] Blacklisted url blocked")
-            self.load_blocked_page()
+            if self.load_blocked_page(url, alert=True):
+                self.do_CONNECT_read_write(address)
 
     def send_resp_headers(self, resp):
         try:

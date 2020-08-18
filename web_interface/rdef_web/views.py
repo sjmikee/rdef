@@ -4,8 +4,8 @@ from django.contrib.auth import login, logout
 from django.http import HttpResponseRedirect, HttpResponse
 from django.urls import reverse
 from django.contrib.auth.decorators import login_required
-from rdef_web.tables import UrlsTable
-from rdef_web.models import urls
+from rdef_web.tables import UrlsTable, WLTable, BLTable
+from rdef_web.models import urls, whitelist, blacklist
 from django.contrib.auth import authenticate
 import signal
 
@@ -13,23 +13,6 @@ import signal
 p = None
 TERM = signal.SIGTERM
 #ratelimit = RateLimitMixin()
-
-'''def index(request):
-    msg = ''
-    if request.method == 'POST' and 'start_server' in request.POST:
-        #from subprocess import call
-        #call(["python", "C:\\Users\\sjmike\\Desktop\\RealTimeProject\\rdef\\main.py"])
-        import socket
-        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        try:
-            s.connect(("localhost", 9998))
-            msg = 'UP'
-            s.close()
-        except socket.error as err:
-            msg = err
-            s.close()
-        return render(request, 'rdef_web/index.html', {'msg': msg})
-    return render(request, 'rdef_web/index.html', {'msg': msg})'''
 
 
 def index(request):
@@ -67,10 +50,10 @@ def index(request):
     @login_required
     def start_proxy_server(request):
         import os
-        global p  
-        
+        global p
+
         path = os.getcwd()
-        parent = os.path.join(path, os.pardir) 
+        parent = os.path.join(path, os.pardir)
         fullpath = (os.path.join(os.path.abspath(parent), "main.py"))
         p = subprocess.Popen('python {}'.format(fullpath),
                              cwd=os.path.abspath(parent), shell=False)
@@ -90,7 +73,6 @@ def index(request):
 
     msg = asyncio.run(tcp_echo_client('D4f{gb]@67gd#(Gdl;'))
     return render(request, 'rdef_web/index.html', {'msg': msg})
-    # return render(request, 'rdef_web/index.html', {'msg': msg})
 
 
 @login_required
@@ -140,7 +122,6 @@ def register(request):
 
 def user_login(request):
     form = LoginForm(request.POST or None)
-
     msg = None
 
     if request.method == 'POST':
@@ -160,43 +141,27 @@ def user_login(request):
         return render(request, 'rdef_web/login.html', {'form': form, 'msg': msg})
 
 
-'''
-def user_login(request):
-    form = LoginForm(request.POST or None)
-    user = None
-    msg = None
-    #global ratelimit
-
-    if request.method == 'POST':
-        username = request.POST.get('username')
-        password = request.POST.get('password')
-        try:
-            #ratelimit = RateLimitMixin()
-            # user = ratelimit.limited_authenticate(
-            #    request=request, username=username, password=password)
-            #user = authenticate(username=username, password=password)
-            user = authenticate(request, username=username, password=password)
-            print('authenticated')
-            if user:
-                if user.is_active:
-                    login(request, user)
-                    return HttpResponseRedirect(reverse('index'))
-                else:
-                    msg = 'Your account is not active'
-            else:
-                msg = 'Invalid credentials'
-                return render(request, 'rdef_web/login.html', {'form': form, 'msg': msg})
-        except:
-            msg = 'Wrong login limit reached'
-            return render(request, 'rdef_web/login.html', {'form': form, 'msg': msg})
-    else:
-        return render(request, 'rdef_web/login.html', {'form': form, 'msg': msg})
-'''
-
-
 @login_required
 def urls_table(request):
     table = UrlsTable(urls.objects.all())
+
+    return render(request, "rdef_web/urls_table.html", {
+        "table": table
+    })
+
+
+@login_required
+def whitelist_table(request):
+    table = WLTable(whitelist.objects.all())
+
+    return render(request, "rdef_web/urls_table.html", {
+        "table": table
+    })
+
+
+@login_required
+def blacklist_table(request):
+    table = BLTable(blacklist.objects.all())
 
     return render(request, "rdef_web/urls_table.html", {
         "table": table
