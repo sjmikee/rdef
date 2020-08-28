@@ -85,7 +85,7 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
         else:
             # Blacklist, Loading error page
             print("\n[!] Blacklisted url blocked")
-            if self.load_blocked_page(url, alert=True):
+            if self.load_blocked_page(url):
                 self.socket_connection(netloc, path, params, query)
 
     def load_blocked_page(self, url, alert=False):
@@ -237,7 +237,7 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
         else:
             # TODO: Blacklisted url handling
             print("\n[!] Blacklisted url blocked")
-            if self.load_blocked_page(url, alert=True):
+            if self.load_blocked_page(url):
                 self.do_CONNECT_read_write(address)
 
     def send_resp_headers(self, resp):
