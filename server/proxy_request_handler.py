@@ -68,8 +68,8 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
                 print("\n[*] Harmless url forwarding")
                 self.socket_connection(netloc, path, params, query)
                 inserturl(self.conn, 0, self.path, 0, 0,
-                          0, 0)  # Insert to DB whitelist
-                insert_list_type(self.conn, url, 0, 'rdef_web_whitelist')
+                          0, scm)  # Insert to DB whitelist
+                insert_list_type(self.conn, url, 0, 'rdef_web_whitelist', scm)
             else:  # Malicious, inserting to DB
                 print("\n[!] Malicious url blocked")
                 # Insert checked and malicious link to blacklist
@@ -77,7 +77,8 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
                 if self.load_blocked_page(url, alert=True):
                     self.socket_connection(netloc, path, params, query)
                 else:
-                    insert_list_type(self.conn, url, 0, 'rdef_web_blacklist')
+                    insert_list_type(self.conn, url, 0,
+                                     'rdef_web_blacklist', scm)
         elif(link_Status == 'WL'):  # Whitelist, forwarding connection
             print("\n[*] Whitelisted url forwarding")
             self.socket_connection(netloc, path, params, query)
@@ -205,24 +206,28 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
             address = [self.path.split('://')[1], 80]
             # print(address)
             url = 'http://' + address[0]
+            protocol = 'http'
         else:
             address[1] = int(address[1]) or 443
             url = address[0]
             url = "https://" + url
+            protocol = 'https'
         link_Status = isurlindb(self.conn, url)
         if(link_Status == 'CHECK'):
             status = self.checkUrl(url)
 
             if(status):
-                inserturl(self.conn, 0, url, 0, 0, 0, 0)
-                insert_list_type(self.conn, url, 0, 'rdef_web_whitelist')
+                inserturl(self.conn, 0, url, 0, 0, 0, protocol)
+                insert_list_type(self.conn, url, 0,
+                                 'rdef_web_whitelist', protocol)
                 print("\n[*] Harmless url forwarding")
                 self.do_CONNECT_read_write(address)
             else:
                 # print("Malicious")
                 print("\n[!] Malicious url blocked")
                 # Insert checked and malicious link to blacklist
-                insert_list_type(self.conn, url, 0, 'rdef_web_blacklist')
+                insert_list_type(self.conn, url, 0,
+                                 'rdef_web_blacklist', protocol)
                 if self.load_blocked_page(url, alert=True):
                     self.do_CONNECT_read_write(address)
 

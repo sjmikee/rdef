@@ -7,6 +7,8 @@ from django.contrib.auth.decorators import login_required
 from rdef_web.tables import UrlsTable, WLTable, BLTable
 from rdef_web.models import urls, whitelist, blacklist
 from django.contrib.auth import authenticate
+from django.db.models import Count
+from chartit import DataPool, Chart
 import signal
 
 # Create your views here.
@@ -166,3 +168,66 @@ def blacklist_table(request):
     return render(request, "rdef_web/urls_table.html", {
         "table": table
     })
+
+
+@login_required
+def charts(request):
+    # Blacklist charts datasources
+    blacklist_data_by_protocol = DataPool(
+        series=[{'options': {'source': blacklist.objects.extra({'protocol': "protocol"}).values('protocol').annotate(url=Count('url'))}, 'terms': ['protocol', 'url']}])
+
+    blacklist_data_by_date = DataPool(
+        series=[{'options': {'source': blacklist.objects.extra({'date': "date(date)"}).values('date').annotate(url=Count('url'))}, 'terms': ['date', 'url']}])
+
+    blacklist_data_by_time = DataPool(
+        series=[{'options': {'source': blacklist.objects.extra({'time': "time(time)"}).values('time').annotate(url=Count('url'))}, 'terms': ['time', 'url']}])
+
+    # Whitelist charts datasources
+    whitelist_data_by_protocol = DataPool(
+        series=[{'options': {'source': whitelist.objects.extra({'protocol': "protocol"}).values('protocol').annotate(url=Count('url'))}, 'terms': ['protocol', 'url']}])
+
+    whitelist_data_by_date = DataPool(
+        series=[{'options': {'source': whitelist.objects.extra({'date': "date(date)"}).values('date').annotate(url=Count('url'))}, 'terms': ['date', 'url']}])
+
+    whitelist_data_by_time = DataPool(
+        series=[{'options': {'source': whitelist.objects.extra({'time': "time(time)"}).values('time').annotate(url=Count('url'))}, 'terms': ['time', 'url']}])
+
+    # Blacklist charts
+    bl_cht_pt = Chart(
+        datasource=blacklist_data_by_protocol,
+        series_options=[{'options': {'type': 'column',
+                                     'stacking': 'True'}, 'terms': {'protocol': ['url', ]}}],
+        chart_options={'title': {'text': 'Blacklist by protocol'}, 'xAxis': {'title': {'text': 'protocol'}}})
+
+    bl_cht_date = Chart(
+        datasource=blacklist_data_by_date,
+        series_options=[{'options': {'type': 'line',
+                                     'stacking': 'False'}, 'terms': {'date': ['url', ]}}],
+        chart_options={'title': {'text': 'Blacklist by date'}, 'xAxis': {'title': {'text': 'date'}}})
+
+    bl_cht_time = Chart(
+        datasource=blacklist_data_by_time,
+        series_options=[{'options': {'type': 'line',
+                                     'stacking': 'False'}, 'terms': {'time': ['url', ]}}],
+        chart_options={'title': {'text': 'Blacklist by time'}, 'xAxis': {'title': {'text': 'time'}}})
+
+    # Whitelist charts
+    wl_cht_pt = Chart(
+        datasource=whitelist_data_by_protocol,
+        series_options=[{'options': {'type': 'column',
+                                     'stacking': 'True'}, 'terms': {'protocol': ['url', ]}}],
+        chart_options={'title': {'text': 'Whitelist by protocol'}, 'xAxis': {'title': {'text': 'protocol'}}})
+
+    wl_cht_date = Chart(
+        datasource=whitelist_data_by_date,
+        series_options=[{'options': {'type': 'line',
+                                     'stacking': 'True'}, 'terms': {'date': ['url', ]}}],
+        chart_options={'title': {'text': 'Whitelist by date'}, 'xAxis': {'title': {'text': 'date'}}})
+
+    wl_cht_time = Chart(
+        datasource=whitelist_data_by_time,
+        series_options=[{'options': {'type': 'line',
+                                     'stacking': 'True'}, 'terms': {'time': ['url', ]}}],
+        chart_options={'title': {'text': 'Whitelist by time'}, 'xAxis': {'title': {'text': 'time'}}})
+
+    return render(request, "rdef_web/charts.html", {"charts": [bl_cht_pt, bl_cht_date, bl_cht_time, wl_cht_pt, wl_cht_date, wl_cht_time]})

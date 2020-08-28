@@ -112,12 +112,13 @@ def testDb(conn):
     return False if flag == False else True  # Amount of db queries.
 
 
-def insert_list_type(conn, url, ip, list_type):
+def insert_list_type(conn, url, ip, list_type, protocol='http'):
     #print(url, list_type)
     c = conn.cursor()
+    now_time_stamp = datetime.datetime.now()
     try:
-        c.execute("insert into {}(date, url) values (?, ?)".format(
-            list_type), (datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'), url))
+        c.execute("insert into {}(date, time, url, protocol) values (?, ?, ?, ?)".format(
+            list_type), (now_time_stamp.strftime('%Y-%m-%d'), now_time_stamp.strftime('%H:%M'), url, protocol))
         conn.commit()
     except Exception as e:
         logger_instance.write_log(
@@ -126,9 +127,10 @@ def insert_list_type(conn, url, ip, list_type):
 
 def inserturl(conn, date=0, url=0, user='a', time=0, typerequest=1, protocol='http'):
     c = conn.cursor()
+    now_time_stamp = datetime.datetime.now()
     try:
-        c.execute("insert into rdef_web_urls(date, url) values (?, ?)",
-                  (datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'), url))
+        c.execute("insert into rdef_web_urls(date, time, url, protocol) values (?, ?, ?, ?)",
+                  (now_time_stamp.strftime('%Y-%m-%d'), now_time_stamp.strftime('%H:%M'), url, protocol))
         conn.commit()
     except Exception as e:
         logger_instance.write_log(149, 0, e)

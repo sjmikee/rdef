@@ -1,0 +1,1035 @@
+######################
+Logger File was created successfully by Hostname: sjmike,
+Version: 0.1,
+on: 2020-08-22
+######################
+[2020-08-22 14:19:58] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-22 14:19:58] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-22 14:19:58] [30 ][OK ][VT] credentials successfully read.
+[2020-08-22 14:19:58] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-22 14:19:58] [41 ][OK ][SQL] DB file exists.
+[2020-08-22 14:19:58] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-22 14:19:58] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-22 14:19:58] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-22 14:19:58] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-22 14:19:58] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-22 14:19:59] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-22 14:19:59] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-22 14:19:59] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-22 14:19:59] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-22 14:19:59] [30 ][OK ][VT] credentials successfully read.
+[2020-08-22 14:19:59] [33 ][OK ][VT] set http request.
+[2020-08-22 14:20:00] [34 ][OK ][VT] get http response succeeded.
+[2020-08-22 14:20:00] [31 ][OK ][VT] website and API are alive.
+[2020-08-22 14:20:00] [32 ][OK ][VT] healthcheck success.
+[2020-08-22 14:20:00] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-22 14:20:09] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:09] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:09] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:09] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:09] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:09] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:09] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:09] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:09] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:09] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:09] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:09] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:09] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:09] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:09] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:09] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:09] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:09] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:09] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:09] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:09] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:09] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:09] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:09] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:09] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:10] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:10] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:10] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:10] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:10] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:10] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:10] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:10] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:10] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:10] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:10] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:10] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:10] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:10] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:10] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:10] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:10] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:10] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:10] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:10] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:10] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:10] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:10] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:10] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:10] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:10] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:10] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:10] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:10] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:10] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:10] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:10] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:10] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:10] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:10] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:10] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:10] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:10] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:10] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:10] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:11] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:11] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:11] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:11] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:11] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:11] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:11] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:11] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:11] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:11] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:11] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:11] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:11] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:11] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:11] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:11] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:11] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:12] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:12] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:12] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:12] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:12] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:12] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:12] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:12] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:12] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:12] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:12] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:12] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:12] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:13] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:13] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:13] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:13] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:13] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:13] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:13] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:13] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:13] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:13] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:13] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:13] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:13] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:13] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:13] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:13] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:14] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:14] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:14] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:14] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:14] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:14] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:14] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:14] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:14] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:14] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:14] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:14] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:14] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:14] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:14] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:14] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:15] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:15] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:15] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:15] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:16] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:16] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:16] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:16] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:16] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:16] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:16] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:16] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:16] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:16] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:16] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:16] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:16] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:17] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:17] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:17] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:17] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:17] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:17] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:17] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:17] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:17] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:18] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:18] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:18] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:18] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:18] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:18] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:18] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:18] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:18] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:18] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:18] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:18] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:18] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:18] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:18] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:18] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:18] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:18] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:19] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:19] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:19] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:19] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:19] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:19] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:19] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:19] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:19] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:19] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:19] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:19] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:19] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:19] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:19] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:20:19] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:20:19] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:20:19] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:19] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:19] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:19] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:19] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:19] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:19] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:19] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:19] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:19] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:19] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:19] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:19] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:19] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:19] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:19] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:20] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:20] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:20:20] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:20] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:20] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:20] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:20] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:20] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:20] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:20] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:20] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:20] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:20] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:20:20] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:20:20] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:20] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:21] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:20:21] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:21] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:21] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:21] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:21] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:21] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:21] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:21] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:22] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:20:26] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:20:29] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:29] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:30] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:30] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:32] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:32] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:32] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:32] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:33] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:33] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:33] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:33] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:34] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:34] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:35] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:35] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:36] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:36] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:36] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:36] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:37] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:37] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:37] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:37] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:38] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:38] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:44] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:20:45] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:20:45] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:20:48] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:20:48] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:20:49] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:20:49] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:49] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:49] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:49] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:49] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:49] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:49] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:49] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:49] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:49] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:49] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:49] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:49] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:50] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:50] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:20:53] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:53] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:54] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:54] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:55] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:55] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:55] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:55] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:56] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:56] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:56] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:20:56] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:56] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:20:57] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:20:57] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:02] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:21:02] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:03] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:21:03] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:04] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:21:04] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:04] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:21:04] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:05] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:21:05] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:06] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:21:06] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:07] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:21:07] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:08] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:08] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:10] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:10] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:12] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:12] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:12] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:13] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:13] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:13] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:13] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:13] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:13] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:13] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:13] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:13] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:13] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:13] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:13] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:13] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:13] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:13] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:13] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:13] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:13] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:13] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:13] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:13] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:13] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:13] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:21:14] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:21:15] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:15] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:16] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:21:16] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:21:17] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:21:17] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:17] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:17] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:17] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:17] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:21:17] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:21:17] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:21:18] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:18] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:18] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:19] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:19] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:21:19] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:19] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:20] [149][ERR][SQL] Error inserting DB record. [Exception data]: type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:20] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist type object 'datetime.date' has no attribute 'now'.
+[2020-08-22 14:21:20] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:21:20] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:21:38] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:21:38] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:21:38] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:21:38] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:21:38] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:21:39] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 14:29:58] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-22 14:29:58] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-22 14:29:58] [30 ][OK ][VT] credentials successfully read.
+[2020-08-22 14:29:58] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-22 14:29:58] [41 ][OK ][SQL] DB file exists.
+[2020-08-22 14:29:58] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-22 14:29:58] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-22 14:29:58] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-22 14:29:58] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-22 14:29:58] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-22 14:29:58] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-22 14:29:58] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-22 14:29:58] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-22 14:29:58] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-22 14:29:58] [30 ][OK ][VT] credentials successfully read.
+[2020-08-22 14:29:58] [33 ][OK ][VT] set http request.
+[2020-08-22 14:29:59] [34 ][OK ][VT] get http response succeeded.
+[2020-08-22 14:29:59] [31 ][OK ][VT] website and API are alive.
+[2020-08-22 14:29:59] [32 ][OK ][VT] healthcheck success.
+[2020-08-22 14:29:59] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-22 14:30:06] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:30:06] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:30:06] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:30:06] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot start a transaction within a transaction.
+[2020-08-22 14:30:06] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:30:06] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:30:06] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_blacklist cannot start a transaction within a transaction.
+[2020-08-22 14:30:07] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:30:07] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:30:07] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:30:07] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:30:08] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:30:09] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot start a transaction within a transaction.
+[2020-08-22 14:30:09] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot start a transaction within a transaction.
+[2020-08-22 14:30:10] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot commit - no transaction is active.
+[2020-08-22 14:30:23] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:30:25] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:30:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:30:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:54:02] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-22 14:54:02] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-22 14:54:02] [30 ][OK ][VT] credentials successfully read.
+[2020-08-22 14:54:02] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-22 14:54:02] [41 ][OK ][SQL] DB file exists.
+[2020-08-22 14:54:02] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-22 14:54:02] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-22 14:54:02] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-22 14:54:02] [60 ][OK ][SQL Repair] DB repair started.
+[2020-08-22 14:54:02] [61 ][OK ][SQL Repair] DB repair for urls initiated after found missing.
+[2020-08-22 14:54:02] [62 ][OK ][SQL Repair] DB repair for whitelist initiated after found missing.
+[2020-08-22 14:54:02] [63 ][OK ][SQL Repair] DB repair for blacklist initiated after found missing.
+[2020-08-22 14:54:02] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-22 14:54:02] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-22 14:54:02] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-22 14:54:02] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-22 14:54:02] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-22 14:54:02] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-22 14:54:02] [30 ][OK ][VT] credentials successfully read.
+[2020-08-22 14:54:02] [33 ][OK ][VT] set http request.
+[2020-08-22 14:54:04] [34 ][OK ][VT] get http response succeeded.
+[2020-08-22 14:54:04] [31 ][OK ][VT] website and API are alive.
+[2020-08-22 14:54:04] [32 ][OK ][VT] healthcheck success.
+[2020-08-22 14:54:04] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-22 14:54:08] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 14:54:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:54:29] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist not an error.
+[2020-08-22 14:54:29] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot start a transaction within a transaction.
+[2020-08-22 14:54:29] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:54:29] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot commit - no transaction is active.
+[2020-08-22 14:54:29] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 14:54:29] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist not an error.
+[2020-08-22 15:10:12] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-22 15:10:12] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-22 15:10:12] [30 ][OK ][VT] credentials successfully read.
+[2020-08-22 15:10:12] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-22 15:10:12] [41 ][OK ][SQL] DB file exists.
+[2020-08-22 15:10:12] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-22 15:10:12] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-22 15:10:12] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-22 15:10:12] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-22 15:10:12] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-22 15:10:12] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-22 15:10:12] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-22 15:10:12] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-22 15:10:12] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-22 15:10:12] [30 ][OK ][VT] credentials successfully read.
+[2020-08-22 15:10:12] [33 ][OK ][VT] set http request.
+[2020-08-22 15:10:13] [34 ][OK ][VT] get http response succeeded.
+[2020-08-22 15:10:14] [31 ][OK ][VT] website and API are alive.
+[2020-08-22 15:10:14] [32 ][OK ][VT] healthcheck success.
+[2020-08-22 15:10:14] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-22 15:10:21] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:21] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:22] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot start a transaction within a transaction.
+[2020-08-22 15:10:22] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot start a transaction within a transaction.
+[2020-08-22 15:10:22] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:22] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:22] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:22] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:22] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:22] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:22] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:22] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot start a transaction within a transaction.
+[2020-08-22 15:10:23] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot start a transaction within a transaction.
+[2020-08-22 15:10:23] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:23] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:23] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot start a transaction within a transaction.
+[2020-08-22 15:10:23] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:24] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot start a transaction within a transaction.
+[2020-08-22 15:10:24] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:24] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:24] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:24] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:28] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:29] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:29] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:30] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:30] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:30] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:30] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:32] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist not an error.
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:37] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:39] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot start a transaction within a transaction.
+[2020-08-22 15:10:53] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 15:10:53] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 15:10:53] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 15:10:53] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 15:10:53] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 15:10:53] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 15:10:54] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:10:55] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot start a transaction within a transaction.
+[2020-08-22 15:10:55] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot start a transaction within a transaction.
+[2020-08-22 15:10:55] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot start a transaction within a transaction.
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:49] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:11:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:12:13] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot commit - no transaction is active.
+[2020-08-22 15:12:13] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot commit - no transaction is active.
+[2020-08-22 15:12:13] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot commit - no transaction is active.
+[2020-08-22 15:12:15] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 15:12:15] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 15:12:15] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:12:17] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot commit - no transaction is active.
+[2020-08-22 15:12:23] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 15:12:24] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 15:12:24] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 15:12:24] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 15:12:24] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 15:12:24] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 15:12:24] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 15:12:27] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 15:12:33] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 15:12:57] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 15:13:00] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot start a transaction within a transaction.
+[2020-08-22 15:13:00] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot commit - no transaction is active.
+[2020-08-22 15:13:02] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist not an error.
+[2020-08-22 15:13:15] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot commit - no transaction is active.
+[2020-08-22 15:13:17] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:00] [146][OK ]No success code Exists for code: [146].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot commit - no transaction is active.
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:01] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:48] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 15:14:50] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot start a transaction within a transaction.
+[2020-08-22 15:14:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:52] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:14:57] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 15:14:58] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 15:54:41] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-22 15:54:41] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-22 15:54:41] [30 ][OK ][VT] credentials successfully read.
+[2020-08-22 15:54:41] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-22 15:54:41] [41 ][OK ][SQL] DB file exists.
+[2020-08-22 15:54:41] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-22 15:54:41] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-22 15:54:41] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-22 15:54:41] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-22 15:54:41] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-22 15:54:41] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-22 15:54:41] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-22 15:54:41] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-22 15:54:41] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-22 15:54:41] [30 ][OK ][VT] credentials successfully read.
+[2020-08-22 15:54:41] [33 ][OK ][VT] set http request.
+[2020-08-22 15:54:43] [34 ][OK ][VT] get http response succeeded.
+[2020-08-22 15:54:43] [31 ][OK ][VT] website and API are alive.
+[2020-08-22 15:54:43] [32 ][OK ][VT] healthcheck success.
+[2020-08-22 15:54:43] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-22 15:54:53] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:54:53] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:54:53] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:54:53] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:54:57] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:54:57] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:54:57] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:54:58] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:06] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:06] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:06] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:06] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:23] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:26] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:55:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:57:29] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-22 15:57:29] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-22 15:57:29] [30 ][OK ][VT] credentials successfully read.
+[2020-08-22 15:57:29] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-22 15:57:29] [41 ][OK ][SQL] DB file exists.
+[2020-08-22 15:57:29] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-22 15:57:29] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-22 15:57:29] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-22 15:57:29] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-22 15:57:29] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-22 15:57:29] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-22 15:57:29] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-22 15:57:29] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-22 15:57:29] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-22 15:57:29] [30 ][OK ][VT] credentials successfully read.
+[2020-08-22 15:57:29] [33 ][OK ][VT] set http request.
+[2020-08-22 15:57:30] [34 ][OK ][VT] get http response succeeded.
+[2020-08-22 15:57:30] [31 ][OK ][VT] website and API are alive.
+[2020-08-22 15:57:30] [32 ][OK ][VT] healthcheck success.
+[2020-08-22 15:57:30] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-22 15:58:23] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-22 15:58:23] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-22 15:58:23] [30 ][OK ][VT] credentials successfully read.
+[2020-08-22 15:58:23] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-22 15:58:23] [41 ][OK ][SQL] DB file exists.
+[2020-08-22 15:58:23] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-22 15:58:23] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-22 15:58:23] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-22 15:58:23] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-22 15:58:23] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-22 15:58:24] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-22 15:58:24] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-22 15:58:24] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-22 15:58:24] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-22 15:58:24] [30 ][OK ][VT] credentials successfully read.
+[2020-08-22 15:58:24] [33 ][OK ][VT] set http request.
+[2020-08-22 15:58:25] [34 ][OK ][VT] get http response succeeded.
+[2020-08-22 15:58:25] [31 ][OK ][VT] website and API are alive.
+[2020-08-22 15:58:25] [32 ][OK ][VT] healthcheck success.
+[2020-08-22 15:58:25] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-22 15:58:39] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:58:39] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:58:39] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:58:42] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:58:42] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:58:42] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:58:42] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:58:42] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:58:43] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:58:45] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:58:48] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:59:27] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-22 15:59:27] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-22 15:59:28] [30 ][OK ][VT] credentials successfully read.
+[2020-08-22 15:59:28] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-22 15:59:28] [41 ][OK ][SQL] DB file exists.
+[2020-08-22 15:59:28] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-22 15:59:28] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-22 15:59:28] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-22 15:59:28] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-22 15:59:28] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-22 15:59:28] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-22 15:59:28] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-22 15:59:28] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-22 15:59:28] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-22 15:59:28] [30 ][OK ][VT] credentials successfully read.
+[2020-08-22 15:59:28] [33 ][OK ][VT] set http request.
+[2020-08-22 15:59:29] [34 ][OK ][VT] get http response succeeded.
+[2020-08-22 15:59:29] [31 ][OK ][VT] website and API are alive.
+[2020-08-22 15:59:29] [32 ][OK ][VT] healthcheck success.
+[2020-08-22 15:59:29] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-22 15:59:41] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:59:48] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:59:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:59:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:59:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:59:50] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:59:54] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 15:59:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 15:59:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:00:03] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:00:03] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:00:27] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot start a transaction within a transaction.
+[2020-08-22 16:00:44] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot start a transaction within a transaction.
+[2020-08-22 16:00:44] [149][ERR][SQL] Error inserting DB record. [Exception data]: not an error.
+[2020-08-22 16:00:45] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot start a transaction within a transaction.
+[2020-08-22 16:00:48] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:00:51] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 16:00:51] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 16:00:51] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 16:00:51] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 16:00:51] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot commit - no transaction is active.
+[2020-08-22 16:00:51] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 16:00:51] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 16:00:51] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 16:00:53] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot start a transaction within a transaction.
+[2020-08-22 16:00:53] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot commit - no transaction is active.
+[2020-08-22 16:01:01] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot start a transaction within a transaction.
+[2020-08-22 16:01:01] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot start a transaction within a transaction.
+[2020-08-22 16:01:29] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 16:01:46] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:46] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:46] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:46] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:46] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:46] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:46] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:46] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:46] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:46] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:46] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:46] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:46] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:46] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:46] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:46] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:46] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:46] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:46] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:47] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:47] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:47] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:47] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:47] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:47] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:47] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:47] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:47] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:47] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:47] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:01:47] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:02:04] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:19:21] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-22 16:19:21] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-22 16:19:21] [30 ][OK ][VT] credentials successfully read.
+[2020-08-22 16:19:21] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-22 16:19:21] [41 ][OK ][SQL] DB file exists.
+[2020-08-22 16:19:21] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-22 16:19:21] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-22 16:19:21] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-22 16:19:21] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-22 16:19:21] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-22 16:19:22] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-22 16:19:22] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-22 16:19:22] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-22 16:19:22] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-22 16:19:22] [30 ][OK ][VT] credentials successfully read.
+[2020-08-22 16:19:22] [33 ][OK ][VT] set http request.
+[2020-08-22 16:19:23] [34 ][OK ][VT] get http response succeeded.
+[2020-08-22 16:19:23] [31 ][OK ][VT] website and API are alive.
+[2020-08-22 16:19:23] [32 ][OK ][VT] healthcheck success.
+[2020-08-22 16:19:23] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-22 16:19:32] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 16:19:40] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:19:42] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:19:42] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:19:42] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:19:43] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:19:45] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 16:19:47] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:19:47] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:19:48] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:19:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:19:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:19:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:19:56] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:19:57] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:19:57] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:28:22] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-22 16:28:22] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-22 16:28:22] [30 ][OK ][VT] credentials successfully read.
+[2020-08-22 16:28:22] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-22 16:28:22] [41 ][OK ][SQL] DB file exists.
+[2020-08-22 16:28:22] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-22 16:28:22] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-22 16:28:22] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-22 16:28:22] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-22 16:28:22] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-22 16:28:22] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-22 16:28:22] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-22 16:28:22] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-22 16:28:22] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-22 16:28:22] [30 ][OK ][VT] credentials successfully read.
+[2020-08-22 16:28:22] [33 ][OK ][VT] set http request.
+[2020-08-22 16:28:24] [34 ][OK ][VT] get http response succeeded.
+[2020-08-22 16:28:24] [31 ][OK ][VT] website and API are alive.
+[2020-08-22 16:28:24] [32 ][OK ][VT] healthcheck success.
+[2020-08-22 16:28:24] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-22 16:28:33] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot start a transaction within a transaction.
+[2020-08-22 16:28:36] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot commit - no transaction is active.
+[2020-08-22 16:28:36] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:28:40] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot commit - no transaction is active.
+[2020-08-22 16:28:40] [149][ERR][SQL] Error inserting DB record. [Exception data]: cannot start a transaction within a transaction.
+[2020-08-22 16:28:40] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:28:40] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:28:43] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot start a transaction within a transaction.
+[2020-08-22 16:28:43] [149][ERR][SQL] Error inserting DB record. [Exception data]: not an error.
+[2020-08-22 16:28:44] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:28:44] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:28:45] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:28:45] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:28:45] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:28:45] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:28:47] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:28:47] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:28:47] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:28:47] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:28:48] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 16:28:49] [90 ][VT ][DETECTED] Detected malicious URL request *********
+[2020-08-22 16:28:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:28:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 16:28:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 18:56:42] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-22 18:56:42] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-22 18:56:42] [30 ][OK ][VT] credentials successfully read.
+[2020-08-22 18:56:42] [40 ][OK ][SQL] SQL Initialization Started.
+[2020-08-22 18:56:42] [41 ][OK ][SQL] DB file exists.
+[2020-08-22 18:56:42] [45 ][OK ][SQL] Trying to create First DB connection.
+[2020-08-22 18:56:42] [46 ][OK ][SQL] Connection to DB was successfully made.
+[2020-08-22 18:56:42] [42 ][OK ][SQL] Started DB Tests.
+[2020-08-22 18:56:42] [47 ][OK ][SQL] Test DB was successfully passed.
+[2020-08-22 18:56:42] [69 ][OK ][SQL Repair] DB repair finished successfully.
+[2020-08-22 18:56:42] [1  ][OK ][OS] Windows OS version detected successfully.
+[2020-08-22 18:56:42] [22 ][OK ][SYSTEM] Config file already exists.
+[2020-08-22 18:56:42] [23 ][OK ][SYSTEM] Creating Read Configuration file attempt.
+[2020-08-22 18:56:42] [24 ][OK ][SYSTEM] Configuration successfully read.
+[2020-08-22 18:56:42] [30 ][OK ][VT] credentials successfully read.
+[2020-08-22 18:56:42] [33 ][OK ][VT] set http request.
+[2020-08-22 18:56:43] [34 ][OK ][VT] get http response succeeded.
+[2020-08-22 18:56:43] [31 ][OK ][VT] website and API are alive.
+[2020-08-22 18:56:43] [32 ][OK ][VT] healthcheck success.
+[2020-08-22 18:56:43] [50 ][OK ][SERVER] Server started successfully.
+[2020-08-22 18:56:54] [149][ERR][SQL] Error inserting DB record. [Exception data]: DB table: rdef_web_whitelist cannot commit - no transaction is active.
+[2020-08-22 18:56:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 18:56:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 18:56:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 18:56:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 18:56:55] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 18:57:15] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 18:57:16] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 18:57:16] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 18:57:27] [170][OK ]No success code Exists for code: [170].
+[2020-08-22 18:57:44] [90 ][VT ][DETECTED] Detected malicious URL request *********

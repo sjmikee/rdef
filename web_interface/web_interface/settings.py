@@ -45,7 +45,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rdef_web',
     'django_tables2',
-    'sslserver'
+    'sslserver',
+    'chartit'
 ]
 
 MIDDLEWARE = [

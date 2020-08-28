@@ -14,18 +14,22 @@ class UserProfileInfo(models.Model):
 
 
 class urls(models.Model):
-    date = models.DateTimeField(null=True, blank=True)
+    date = models.DateField(null=True, blank=True)
+    time = models.TimeField(null=True, blank=True)
     url = models.CharField(max_length=150, null=True,  blank=True)
     user = models.CharField(max_length=30, null=True, blank=True)
-    time = models.TimeField(null=True, blank=True)
     protocol = models.CharField(max_length=30, null=True, blank=True)
 
 
 class whitelist(models.Model):
-    date = models.DateTimeField(null=True, blank=True)
+    date = models.DateField(null=True, blank=True)
+    time = models.TimeField(null=True, blank=True)
     url = models.CharField(max_length=150, null=True, blank=True)
+    protocol = models.CharField(max_length=30, null=True, blank=True)
 
 
 class blacklist(models.Model):
-    date = models.DateTimeField(null=True, blank=True)
+    date = models.DateField(null=True, blank=True)
+    time = models.TimeField(null=True, blank=True)
     url = models.CharField(max_length=150, null=True, blank=True)
+    protocol = models.CharField(max_length=30, null=True, blank=True)

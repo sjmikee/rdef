@@ -1,0 +1,49 @@
+{% extends "rdef_web/base.html" %}
+{% load chartit %}
+{% block content %}
+{% if user.is_authenticated %}
+    {% block javascript %}
+        <!--jQuery CDN -->
+        <script
+        src="http://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+        crossorigin="anonymous"></script>
+        <!--HighCharts CDN-->
+        <script src="https://code.highcharts.com/highcharts.src.js"></script>
+    {% endblock %}
+
+    {{ charts|load_charts:"bl_cht_pt, bl_cht_date, bl_cht_time, wl_cht_pt, wl_cht_date, wl_cht_time" }}
+    <div class="mdl-grid">
+        <div class="mdl-card mdl-cell mdl-cell--4-col mdl-shadow--3dp">
+            <div class="mdl-card__supporting-text">
+                <div id='bl_cht_pt'></div>
+            </div>
+        </div>
+        <div class="mdl-card mdl-cell mdl-cell--4-col mdl-shadow--3dp">
+            <div class="mdl-card__supporting-text">
+                <div id='bl_cht_date'></div>
+            </div>
+        </div>
+        <div class="mdl-card mdl-cell mdl-cell--4-col mdl-shadow--3dp">
+            <div class="mdl-card__supporting-text">
+                <div id='bl_cht_time'></div>
+            </div>
+        </div>
+        <div class="mdl-card mdl-cell mdl-cell--4-col mdl-shadow--3dp">
+            <div class="mdl-card__supporting-text">
+                <div id='wl_cht_pt'></div>
+            </div>
+        </div>
+        <div class="mdl-card mdl-cell mdl-cell--4-col mdl-shadow--3dp">
+            <div class="mdl-card__supporting-text">
+                <div id='wl_cht_date'></div>
+            </div>
+        </div>
+        <div class="mdl-card mdl-cell mdl-cell--4-col mdl-shadow--3dp">
+            <div class="mdl-card__supporting-text">
+                <div id='wl_cht_time'></div>
+            </div>
+        </div>
+    </div>
+{% endif %}
+{% endblock content %}
