@@ -4,6 +4,7 @@ import requests
 import json
 import base64
 import os
+from time import sleep
 from urllib.parse import urlparse, urlunparse
 from http.server import BaseHTTPRequestHandler
 from config.setsqlite import get_connection, isurlindb, insert_list_type, inserturl
@@ -12,6 +13,8 @@ import config.resources as resources
 from server.local_file_adapter import LocalFileAdapter
 import server.vt_response_parser as vt_response_parser
 import logger.logger as logger
+from server.icon import systrayIcon
+
 
 from requests_testadapter import TestAdapter, TestSession
 
@@ -30,6 +33,8 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
     protocol_version = 'HTTP/1.1'
     # Var
     conn = get_connection()  # Setting the SQL
+    icon = systrayIcon()
+    icon.start_icon_thread()
 
     def do_HEAD(self):
         self.do_GET(body=False)
@@ -90,27 +95,19 @@ class ProxyRequestHandler(BaseHTTPRequestHandler):
 
     def load_blocked_page(self, url, alert=False):
         if alert:
-            import ctypes
-            text = f'Suspisious activity detected on:{url}\nDo you trust this web site?'
-            title = 'WARNING'
-            IDYES = 6
-            IDNO = 7
-            action = ctypes.windll.user32.MessageBoxW(0, text, title, 4+4096)
-            if action == IDNO:
-                try:
-                    self.send_error(403)
-                    self.close_connection = 1
-                    return False
-                except Exception as e:
-                    print(e)
-            elif action == IDYES:
-                return True
-        else:
-            try:
+            self.icon.icon_notify(f'Detected suspicious activity in {url}')
+            if self.icon.defend_state():
                 self.send_error(403)
                 self.close_connection = 1
-            except Exception as e:
-                print(e)
+                return False
+            else:
+                return True
+        else:
+            if self.icon.defend_state():
+                self.send_error(403)
+                self.close_connection = 1
+            else:
+                return True
 
     def socket_connection(self, netloc, path, params, query):
         soc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
