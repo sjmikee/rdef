@@ -153,6 +153,11 @@ def urls_table(request):
 
 
 @login_required
+def item_remove(request):
+    return render(request, "rdef_web/urls_tables.html")
+
+
+@login_required
 def whitelist_table(request):
     table = WLTable(whitelist.objects.all())
 
