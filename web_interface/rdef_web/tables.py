@@ -12,8 +12,8 @@ class UrlsTable(tables.Table):
 
 
 class WLTable(tables.Table):
-    edit = tables.LinkColumn('rdef_web:item_remove', text='Remove', args=[
-                             A('pk')], orderable=False, empty_values=())
+    Remove = tables.LinkColumn('rdef_web:WLitem_remove', text='Remove', args=[
+        A('pk')], orderable=False, empty_values=())
 
     class Meta:
         model = whitelist
@@ -22,8 +22,11 @@ class WLTable(tables.Table):
 
 
 class BLTable(tables.Table):
-    edit = tables.LinkColumn('rdef_web:item_remove', text='Remove', args=[
-                             A('pk')], orderable=False, empty_values=())
+    edit = tables.LinkColumn('rdef_web:BLitem_remove', text='Remove', args=[
+                             A('pk')], attrs={'a': {'class': 'btn'}}, orderable=False, empty_values=())
+
+    Move = tables.LinkColumn('rdef_web:BLitem_move_to_WL', text='Move To Whitelist', args=[
+                             A('pk')], attrs={'a': {'class': 'btn'}}, orderable=False, empty_values=())
 
     class Meta:
         model = blacklist

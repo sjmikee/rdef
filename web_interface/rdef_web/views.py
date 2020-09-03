@@ -153,8 +153,29 @@ def urls_table(request):
 
 
 @login_required
-def item_remove(request):
-    return render(request, "rdef_web/urls_tables.html")
+def BLitem_remove(request, pk):
+    blacklist.objects.filter(id=pk).delete()
+    table = BLTable(blacklist.objects.all())
+
+    return render(request, "rdef_web/urls_table.html", {"table": table})
+
+
+@login_required
+def BLitem_move_to_WL(request, pk):
+    item = blacklist.objects.get(id=pk)
+    whitelist.objects.create(item)
+    blacklist.objects.filter(id=pk).delete()
+    table = BLTable(blacklist.objects.all())
+
+    return render(request, "rdef_web/urls_table/html", {"table": table})
+
+
+@login_required
+def WLitem_remove(request, pk):
+    whitelist.objects.filter(id=pk).delete()
+    table = WLTable(whitelist.objects.all())
+
+    return render(request, "rdef_web/urls_table.html", {"table": table})
 
 
 @login_required

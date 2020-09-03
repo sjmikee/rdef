@@ -1,6 +1,6 @@
 # rdef_web/urls.py
 from django.conf.urls import url
-from rdef_web.views import user_login, register, user_logout, urls_table, whitelist_table, blacklist_table, charts, item_remove
+from rdef_web.views import user_login, register, user_logout, urls_table, whitelist_table, blacklist_table, charts, BLitem_remove, WLitem_remove, BLitem_move_to_WL
 from rdef_web import forms
 # SET THE NAMESPACE!
 app_name = 'rdef_web'
@@ -13,5 +13,8 @@ urlpatterns = [
     url(r'^whitelist_table/$', whitelist_table, name='whitelist_table'),
     url(r'^blacklist_table/$', blacklist_table, name='blacklist_table'),
     url(r'^charts/$', charts, name='charts'),
-    url(r'^item_remove/([0-9]+)/$', item_remove, name='item_remove')
+    url(r'^BLitem_remove/([0-9]+)/$', BLitem_remove, name='BLitem_remove'),
+    url(r'^WLitem_remove/([0-9]+)/$', WLitem_remove, name='WLitem_remove'),
+    url(r'^BLitem_move_to_WL/([0-9]+)/$',
+        BLitem_move_to_WL, name='BLitem_move_to_WL')
 ]
