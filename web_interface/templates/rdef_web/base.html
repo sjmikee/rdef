@@ -18,33 +18,49 @@
       <!-- Navigation. We hide it in small screens. -->
       <nav class="mdl-navigation mdl-layout--large-screen-only">
         <a class="mdl-navigation__link" href="{% url 'index' %}">Home</a>
-        <a class="mdl-navigation__link" href="">About</a>
-        <a class="mdl-navigation__link" href="">Help</a>
         {% if user.is_authenticated %}
-        <a class="mdl-navigation__link" href={% url 'rdef_web:user_logout' %}>Logout</a>
         <a class="mdl-navigation__link" href={% url 'rdef_web:urls_table' %}>urls</a>
         <a class="mdl-navigation__link" href={% url 'rdef_web:whitelist_table' %}>whitelist</a>
         <a class="mdl-navigation__link" href={% url 'rdef_web:blacklist_table' %}>blacklist</a>
         <a class="mdl-navigation__link" href={% url 'rdef_web:charts' %}>charts</a>
+        <a class="mdl-navigation__link" href={% url 'rdef_web:user_logout' %}>Logout</a>
         {% else %}
         <a class="mdl-navigation__link" href={% url 'rdef_web:user_login' %}>Login</a>
         <a class="mdl-navigation__link" href={% url 'rdef_web:user_register' %}>Register</a>
         {% endif %}
+        <a class="mdl-navigation__link" href="">About</a>
+        <a class="mdl-navigation__link" href="">Help</a>
+        <!-- Right aligned menu below button -->
+        <button id="demo-menu-lower-right" class="mdl-button mdl-js-button">
+            tables
+        </button>
+
+        <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right">
+          <li class="mdl-menu__item"><a href={% url 'rdef_web:urls_table' %}>urls</a></li>
+          <li class="mdl-menu__item"><a href={% url 'rdef_web:whitelist_table' %}>whitelist</a></li>
+          <li class="mdl-menu__item"><a href={% url 'rdef_web:blacklist_table' %}>blacklist</a></li>
+        </ul>
+        <!-- Right end-->
       </nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
     <span class="mdl-layout-title">RealTime Defender</span>
     <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="{% url 'index' %}">Home</a>
-        <a class="mdl-navigation__link" href="">About</a>
-        <a class="mdl-navigation__link" href="">Help</a>
+        <a class="mdl-navigation__link" href="{% url 'index' %}">Home</a>
         {% if user.is_authenticated %}
+        <a class="mdl-navigation__link" href={% url 'rdef_web:urls_table' %}>urls</a>
+        <a class="mdl-navigation__link" href={% url 'rdef_web:whitelist_table' %}>whitelist</a>
+        <a class="mdl-navigation__link" href={% url 'rdef_web:blacklist_table' %}>blacklist</a>
+        <a class="mdl-navigation__link" href={% url 'rdef_web:charts' %}>charts</a>
         <a class="mdl-navigation__link" href={% url 'rdef_web:user_logout' %}>Logout</a>
         {% else %}
         <a class="mdl-navigation__link" href={% url 'rdef_web:user_login' %}>Login</a>
         <a class="mdl-navigation__link" href={% url 'rdef_web:user_register' %}>Register</a>
         {% endif %}
+        <a class="mdl-navigation__link" href="">About</a>
+        <a class="mdl-navigation__link" href="">Help</a>
+        
     </nav>
   </div>
   <main class="mdl-layout__content">
