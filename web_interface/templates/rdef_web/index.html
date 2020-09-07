@@ -6,15 +6,19 @@
     </script>
 
     <style>
-      .server-status-card-wide.mdl-card {
+      .server-status-card-widee.mdl-card {
         width: 300px;
       }
+      .logo-card {
+        background: url('/static/images/transparent_shield_logo.png') center / cover;
+      }
+      
     </style>
     {% if msg == 'UP'%}
       <style>
         .server-status-card-wide > .mdl-card__title {
           color: #fff;
-          height: 150px;
+          height: 400px;
           background-color: rgb(76,175,80);
       }
       </style>
@@ -22,7 +26,7 @@
       <style>
         .server-status-card-wide > .mdl-card__title {
           color: #fff;
-          height: 150px;
+          height: 400px;
           background-color: grey;
         }
       </style>
@@ -33,8 +37,8 @@
       }
     </style>
     <div class="mdl-grid">
-      <div class="mdl-cell mdl-cell--4-col">
-        <div class="server-status-card-wide mdl-card mdl-shadow--2dp">
+      <!--<div class="mdl-cell mdl-cell--4-col">-->
+        <div class="server-status-card-wide mdl-card mdl-cell mdl-cell--4-col mdl-shadow--3dp">
           <div class="mdl-card__title">
             <h2 class="mdl-card__title-text">
               {% if msg == 'UP' %}
@@ -65,6 +69,35 @@
               <i class="material-icons">highlight_off</i>
             {% endif %}
           </div>
+        </div>
+      <!--</div>-->
+      <div class="logo-card mdl-card mdl-cell mdl-cell--4-col mdl-shadow--3dp">
+        
+      </div>
+      <div class="mdl-card mdl-cell mdl-cell--4-col mdl-shadow--3dp">
+        <div class="mdl-card__supporting-text">
+            <ul class="mdl-list">
+              <li class="mdl-list__item">
+                <span class="mdl-list__item-primary-content">
+                  To activate the proxy server press TURN ON button, if the server started successfully the server status card background will turn green after page refresh
+                </span>
+              </li>
+              <li class="mdl-list__item">
+                <span class="mdl-list__item-primary-content">
+                  When the proxy is up there is systray icon active, you can edit your preferences by clicking it with the right mouse button
+                </span>
+              </li>
+              <li class="mdl-list__item">
+                <span class="mdl-list__item-primary-content">
+                  To view and edit tables go to Tables > table, you can view all urls, view and edit the whitelist and the blacklist
+                </span>
+              </li>
+              <li class="mdl-list__item">
+                <span class="mdl-list__item-primary-content">
+                  To view the graphs go to Charts, there are 3 graphs for each table - by protocol, by date and by time
+                </span>
+              </li>
+            </ul>
         </div>
       </div>
     </div>

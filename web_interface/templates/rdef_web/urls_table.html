@@ -6,10 +6,22 @@
 <html>
     <head>
         <title>Urls Table</title>
+        <!--
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+        -->
+        <style>
+        .mdl-data-table.mdl-data-table-default-non-numeric th{
+            text-align: left;
+        }
+        .mdl-data-table.mdl-data-table-default-non-numeric td {
+            text-align: left;
+        }
+        </style>
     </head>
     <body>
+        <center>
         {% render_table table %}
+        </center>
     </body>
 </html>
 

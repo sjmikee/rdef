@@ -14,7 +14,6 @@ import signal
 # Create your views here.
 p = None
 TERM = signal.SIGTERM
-#ratelimit = RateLimitMixin()
 
 
 def index(request):
