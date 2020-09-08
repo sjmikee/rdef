@@ -77,7 +77,7 @@ class RegistrationViewTestCase(TestCase):
                                           'email1': 'bobe@example.com',
                                           'email2': 'mark@example.com'})
         self.assertEqual(response.status_code, 200)
-        self.failIf(response.context['user_form'].is_valid())
+        self.failIf(response.context['msg'] == 'SUCCESS')
         self.assertEqual(len(mail.outbox), 0)
 
     def test_registration_complete_view_get(self):
@@ -90,11 +90,11 @@ class RegistrationViewTestCase(TestCase):
         response = self.client.post(reverse('rdef_web:user_register'),
                                     data={'username': 'alice',
                                           'password': '123123',
-                                          'confirm_password': '123123',
+                                          'password_confirm': '123123',
                                           'email': 'a@b.com'})
-        self.assertEqual(response.context['registered'], True)
+        self.assertEqual(response.context['msg'], 'SUCCESS')
         self.assertEqual(response.status_code, 200)
-        self.assertTemplateUsed(response, 'rdef_web/registration.html')
+        self.assertTemplateUsed(response, 'rdef_web/reg_complited.html')
 
 
 class LogInTest(TestCase):
@@ -105,7 +105,6 @@ class LogInTest(TestCase):
         User.objects.create_user(**self.credentials)
 
     def test_login(self):
-        # login
         response = self.client.post(
-            reverse('rdef_web:user_login'), self.credentials,  follow=True)
+            reverse('rdef_web:user_login'), self.credentials, follow=True)
         self.assertTrue(response.context['user'].is_active)

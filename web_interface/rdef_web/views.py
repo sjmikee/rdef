@@ -100,6 +100,7 @@ def register(request):
                 user.set_password(user.password)
                 user.save()
                 registered = True
+                msg = 'SUCCESS'
                 return render(request, 'rdef_web/reg_complited.html', {'user_form': user_form, 'registered': registered, 'msg': msg})
             else:
                 msg = 'Not valid'
