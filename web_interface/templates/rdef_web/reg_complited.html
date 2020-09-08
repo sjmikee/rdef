@@ -3,6 +3,24 @@
 
 {% block content %}
 <!DOCTYPE html>
-{{ msg }}
+
+    <style>
+      .no-login-card-wide.mdl-card {
+        height: 20px;
+        width: 100%;
+        background-color: white;
+        text-align: center;
+        color: grey;
+      }
+    </style>
+    <div class="mdl-grid" style="align-items:center; justify-content: center; padding:24px; flex: none;">
+      <div class="mdl-cell--4-col">
+        <div class="no-login-card-wide mdl-card mdl-shadow--3dp">
+          <h2>{{ msg }}</h2>
+        </div>
+      </div>
+    </div>
+
+
 
 {% endblock %}
