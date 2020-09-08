@@ -100,7 +100,7 @@ def register(request):
                 user.set_password(user.password)
                 user.save()
                 registered = True
-                return HttpResponseRedirect(reverse('index'))
+                return render(request, 'rdef_web/reg_complited.html', {'user_form': user_form, 'registered': registered, 'msg': msg})
             else:
                 msg = 'Not valid'
                 return render(request, 'rdef_web/registration.html',
@@ -119,6 +119,10 @@ def register(request):
                   {'user_form': user_form,
                            'registered': registered,
                            'msg': msg})
+
+
+def reg_success(request):
+    return HttpResponseRedirect(reverse('index'))
 
 
 def user_login(request):

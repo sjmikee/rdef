@@ -2,12 +2,14 @@ from __future__ import unicode_literals
 from django.test import TestCase
 from rdef_web.models import urls, whitelist, blacklist
 import datetime
-from django.test import TestCase
 from django.conf import settings
 from django.core import mail
 from django.urls import reverse
 
 from rdef_web import forms
+
+from django.contrib.auth.models import User
+from django.contrib.auth import SESSION_KEY
 
 
 # Create your tests here.
@@ -61,23 +63,8 @@ class RegistrationViewTestCase(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response,
                                 'rdef_web/registration.html')
-        self.failUnless(isinstance(response.context['form'],
-                                   forms.RegistrationForm))
-
-    def test_registration_view_post_success(self):
-        """
-        A ``POST`` to the ``register`` view with valid data properly
-        creates a new user and issues a redirect.
-
-        """
-        response = self.client.post(reverse('rdef_web:user_register'),
-                                    data={'username': 'alice',
-                                          'email1': 'alice@example.com',
-                                          'email2': 'alice@example.com'})
-        self.assertRedirects(response,
-                             'http://testserver%s' % reverse('index'))
-
-        self.assertEqual(len(mail.outbox), 1)
+        self.failUnless(isinstance(response.context['user_form'],
+                                   forms.UserForm))
 
     def test_registration_view_post_failure(self):
         """
@@ -85,27 +72,40 @@ class RegistrationViewTestCase(TestCase):
         create a user, and displays appropriate error messages.
 
         """
-        response = self.client.post(reverse('user_register'),
+        response = self.client.post(reverse('rdef_web:user_register'),
                                     data={'username': 'bob',
                                           'email1': 'bobe@example.com',
                                           'email2': 'mark@example.com'})
         self.assertEqual(response.status_code, 200)
-        self.failIf(response.context['form'].is_valid())
-        self.assertFormError(response, 'form', field=None,
-                             errors="The two email fields didn't match.")
+        self.failIf(response.context['user_form'].is_valid())
         self.assertEqual(len(mail.outbox), 0)
 
     def test_registration_complete_view_get(self):
         """
-        A ``GET`` to the ``complete`` view uses the appropriate
+        A ``GET`` to the ``register`` view uses the appropriate
         template and populates the registration form into the context.
 
         """
         # register save registration_profile in the session
         response = self.client.post(reverse('rdef_web:user_register'),
                                     data={'username': 'alice',
-                                          'email1': 'alice@example.com',
-                                          'email2': 'alice@example.com'})
+                                          'password': '123123',
+                                          'confirm_password': '123123',
+                                          'email': 'a@b.com'})
+        self.assertEqual(response.context['registered'], True)
         self.assertEqual(response.status_code, 200)
-        self.assertTemplateUsed(response,
-                                'rdef_web/registration.html')
+        self.assertTemplateUsed(response, 'rdef_web/registration.html')
+
+
+class LogInTest(TestCase):
+    def setUp(self):
+        self.credentials = {
+            'username': 'testuser',
+            'password': 'secret'}
+        User.objects.create_user(**self.credentials)
+
+    def test_login(self):
+        # login
+        response = self.client.post(
+            reverse('rdef_web:user_login'), self.credentials,  follow=True)
+        self.assertTrue(response.context['user'].is_active)
