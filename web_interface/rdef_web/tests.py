@@ -86,7 +86,6 @@ class RegistrationViewTestCase(TestCase):
         template and populates the registration form into the context.
 
         """
-        # register save registration_profile in the session
         response = self.client.post(reverse('rdef_web:user_register'),
                                     data={'username': 'alice',
                                           'password': '123123',
@@ -108,3 +107,112 @@ class LogInTest(TestCase):
         response = self.client.post(
             reverse('rdef_web:user_login'), self.credentials, follow=True)
         self.assertTrue(response.context['user'].is_active)
+
+
+class TablesTest(TestCase):
+    def setUp(self):
+        self.credentials = {
+            'username': 'testuser',
+            'password': 'secret'}
+        User.objects.create_user(**self.credentials)
+        blacklist.objects.create(url="https://google.com", protocol="https")
+        whitelist.objects.create(url="https://google.com", protocol="https")
+        urls.objects.create(url="https://google.com", protocol="https")
+
+    def test_urls(self):
+        self.client.login(username="testuser", password='secret')
+        response = self.client.get(reverse('rdef_web:urls_table'))
+
+        self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, 'rdef_web/urls_table.html')
+
+    def test_urls_nologin(self):
+        response = self.client.get(reverse('rdef_web:urls_table'))
+
+        self.assertEqual(response.status_code, 302)
+
+    def test_whitelist(self):
+        self.client.login(username="testuser", password='secret')
+        response = self.client.get(reverse('rdef_web:whitelist_table'))
+
+        self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, 'rdef_web/urls_table.html')
+
+    def test_whitelist_nologin(self):
+        response = self.client.get(reverse('rdef_web:whitelist_table'))
+
+        self.assertEqual(response.status_code, 302)
+
+    def test_whitelist_remove(self):
+        self.client.login(username="testuser", password='secret')
+        response = self.client.get(
+            reverse('rdef_web:WLitem_remove', args=('1')), data={'pk': '1'})
+
+        self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, 'rdef_web/urls_table.html')
+
+    def test_whitelist_remove_nologin(self):
+        response = self.client.get(
+            reverse('rdef_web:WLitem_remove', args=('1')), data={'pk': '1'})
+
+        self.assertEqual(response.status_code, 302)
+
+    def test_blacklist(self):
+        self.client.login(username="testuser", password='secret')
+        response = self.client.get(reverse('rdef_web:blacklist_table'))
+
+        self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, 'rdef_web/urls_table.html')
+
+    def test_blacklist_nologin(self):
+        response = self.client.get(reverse('rdef_web:blacklist_table'))
+
+        self.assertEqual(response.status_code, 302)
+
+    def test_blacklist_remove(self):
+        self.client.login(username="testuser", password='secret')
+        response = self.client.get(
+            reverse('rdef_web:BLitem_remove', args=('1')), data={'pk': '1'})
+
+        self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, 'rdef_web/urls_table.html')
+
+    def test_blacklist_remove_nologin(self):
+        response = self.client.get(
+            reverse('rdef_web:BLitem_remove', args=('1')), data={'pk': '1'})
+
+        self.assertEqual(response.status_code, 302)
+
+    def test_blacklist_move_to_whitelist(self):
+        self.client.login(username="testuser", password='secret')
+        response = self.client.get(
+            reverse('rdef_web:BLitem_move_to_WL', args=('1')), data={'pk': '1'})
+
+        self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, 'rdef_web/urls_table.html')
+
+    def test_blacklist_move_to_whitelist_nologin(self):
+        response = self.client.get(
+            reverse('rdef_web:BLitem_move_to_WL', args=('1')), data={'pk': '1'})
+
+        self.assertEqual(response.status_code, 302)
+
+
+class ChartsTest(TestCase):
+    def setUp(self):
+        self.credentials = {
+            'username': 'testuser',
+            'password': 'secret'}
+        User.objects.create_user(**self.credentials)
+
+    def test_charts(self):
+        self.client.login(username="testuser", password='secret')
+        response = self.client.get(reverse('rdef_web:charts'))
+
+        self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, 'rdef_web/charts.html')
+
+    def test_charts_nologin(self):
+        response = self.client.get(reverse('rdef_web:charts'))
+
+        self.assertEqual(response.status_code, 302)
