@@ -1,0 +1,5 @@
+django
+django_chartit2
+django_tables2
+django_sslserver
+Pillow
