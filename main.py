@@ -14,7 +14,7 @@ import logger.logger as logger
 ###########################################
 # Globals and definistions
 # -> Code composers:
-__Authors__ = 'Kobi, Michael'
+__Authors__ = 'Kobi, Michael, Aviv'
 # -> Application:
 __Version__ = '0.1'
 __config__file__ = 'config.rdef'
