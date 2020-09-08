@@ -158,27 +158,39 @@ def urls_table(request):
 
 @login_required
 def BLitem_remove(request, pk):
-    blacklist.objects.filter(id=pk).delete()
-    table = BLTable(blacklist.objects.all())
+    table = None
+    try:
+        blacklist.objects.filter(id=pk).delete()
+        table = BLTable(blacklist.objects.all())
+    except:
+        table = BLTable(blacklist.objects.all())
 
     return render(request, "rdef_web/urls_table.html", {"table": table})
 
 
 @login_required
 def BLitem_move_to_WL(request, pk):
-    item = blacklist.objects.get(id=pk)
-    whitelist.objects.create(
-        date=item.date, time=item.time, url=item.url, protocol=item.protocol)
-    blacklist.objects.filter(id=pk).delete()
-    table = BLTable(blacklist.objects.all())
+    table = None
+    try:
+        item = blacklist.objects.get(id=pk)
+        whitelist.objects.create(
+            date=item.date, time=item.time, url=item.url, protocol=item.protocol)
+        blacklist.objects.filter(id=pk).delete()
+        table = BLTable(blacklist.objects.all())
+    except:
+        table = BLTable(blacklist.objects.all())
 
     return render(request, "rdef_web/urls_table.html", {"table": table})
 
 
 @login_required
 def WLitem_remove(request, pk):
-    whitelist.objects.filter(id=pk).delete()
-    table = WLTable(whitelist.objects.all())
+    table = None
+    try:
+        whitelist.objects.filter(id=pk).delete()
+        table = WLTable(whitelist.objects.all())
+    except:
+        table = WLTable(whitelist.objects.all())
 
     return render(request, "rdef_web/urls_table.html", {"table": table})
 
